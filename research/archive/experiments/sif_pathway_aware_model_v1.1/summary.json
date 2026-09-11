@@ -1,0 +1,133 @@
+{
+  "experiment": "RAKSHAK Pathway-Aware SIF Model v1.1",
+  "dataset_records": 70,
+  "train_validation_test": [
+    30,
+    20,
+    20
+  ],
+  "representations": [
+    "precursor_structured",
+    "pathway_aware_structured",
+    "transformer_plus_pathway"
+  ],
+  "locked_results": [
+    {
+      "representation": "precursor_structured",
+      "C": 0.5,
+      "validation_f2": 0.7272727272727273,
+      "validation_pr_auc": 0.7787353197042193,
+      "validation_recall": 0.7272727272727273,
+      "locked_test": {
+        "accuracy": 0.6,
+        "precision": 0.7777777777777778,
+        "recall": 0.5384615384615384,
+        "f2": 0.5737704918032787,
+        "pr_auc": 0.7904702753386963,
+        "tn": 5,
+        "fp": 2,
+        "fn": 6,
+        "tp": 7
+      },
+      "features_used": 64
+    },
+    {
+      "representation": "pathway_aware_structured",
+      "C": 1.0,
+      "validation_f2": 0.7272727272727273,
+      "validation_pr_auc": 0.7957807742496739,
+      "validation_recall": 0.7272727272727273,
+      "locked_test": {
+        "accuracy": 0.65,
+        "precision": 0.8,
+        "recall": 0.6153846153846154,
+        "f2": 0.6451612903225806,
+        "pr_auc": 0.8689083917590703,
+        "tn": 5,
+        "fp": 2,
+        "fn": 5,
+        "tp": 8
+      },
+      "features_used": 102
+    },
+    {
+      "representation": "transformer_plus_pathway",
+      "C": 0.1,
+      "validation_f2": 0.6896551724137931,
+      "validation_pr_auc": 0.7474288337924702,
+      "validation_recall": 0.7272727272727273,
+      "locked_test": {
+        "accuracy": 0.6,
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f2": 0.6923076923076923,
+        "pr_auc": 0.8130615729299939,
+        "tn": 3,
+        "fp": 4,
+        "fn": 4,
+        "tp": 9
+      },
+      "features_used": 487
+    }
+  ],
+  "repeated_group_cv_summary": [
+    {
+      "representation": "pathway_aware_structured",
+      "C": 1.0,
+      "folds": 50,
+      "accuracy_mean": 0.5971428571428572,
+      "accuracy_std": 0.1077581941424007,
+      "precision_mean": 0.6925317460317459,
+      "precision_std": 0.1544403870372814,
+      "recall_mean": 0.57,
+      "recall_std": 0.1620185174601965,
+      "f2_mean": 0.582792299455631,
+      "f2_std": 0.14616480340919222,
+      "pr_auc_mean": 0.7840098235098235,
+      "pr_auc_std": 0.0955620902016238,
+      "fp_mean": 2.2,
+      "fp_std": 1.1952286093343938,
+      "fn_mean": 3.44,
+      "fn_std": 1.2961481396815722
+    },
+    {
+      "representation": "precursor_structured",
+      "C": 0.5,
+      "folds": 50,
+      "accuracy_mean": 0.6185714285714285,
+      "accuracy_std": 0.11865728038102807,
+      "precision_mean": 0.7184761904761905,
+      "precision_std": 0.16296978482335428,
+      "recall_mean": 0.5775,
+      "recall_std": 0.14701537473394838,
+      "f2_mean": 0.59502668625677,
+      "f2_std": 0.1400129545957405,
+      "pr_auc_mean": 0.8072666430791432,
+      "pr_auc_std": 0.1013755951581841,
+      "fp_mean": 1.96,
+      "fp_std": 1.2115094312636678,
+      "fn_mean": 3.38,
+      "fn_std": 1.176122997871587
+    },
+    {
+      "representation": "transformer_plus_pathway",
+      "C": 0.1,
+      "folds": 50,
+      "accuracy_mean": 0.66,
+      "accuracy_std": 0.10948366188572782,
+      "precision_mean": 0.7209603174603173,
+      "precision_std": 0.11345390616955173,
+      "recall_mean": 0.6775,
+      "recall_std": 0.1676860830509783,
+      "f2_mean": 0.6792274277222929,
+      "f2_std": 0.14646552070890648,
+      "pr_auc_mean": 0.8260170246420248,
+      "pr_auc_std": 0.08346921695343112,
+      "fp_mean": 2.18,
+      "fp_std": 1.0437373975775903,
+      "fn_mean": 2.58,
+      "fn_std": 1.3414886644078263
+    }
+  ],
+  "interpretation_note": "Pathway features are narrative-only heuristic signals. They do not establish SIF status and do not replace human adjudication."
+}

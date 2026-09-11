@@ -1,0 +1,49 @@
+{
+  "records": 411,
+  "predicted_yes_at_0_50": 222,
+  "predicted_no_at_0_50": 189,
+  "score_distribution": {
+    "high_ge_0_75": 154,
+    "high_ge_0_80": 133,
+    "moderate_0_50_to_0_75": 68,
+    "low_lt_0_50": 189,
+    "mean_probability": 0.531069,
+    "median_probability": 0.579367
+  },
+  "priority_distribution": {
+    "P1": 148,
+    "P2": 25,
+    "P3": 72,
+    "P4": 67,
+    "P5": 99
+  },
+  "evidence_coverage": {
+    "hazard_signal_pct": 61.56,
+    "exposure_signal_pct": 18.0,
+    "pathway_signal_pct": 15.82,
+    "complete_pathway_pct": 15.09,
+    "no_hazard_evidence_pct": 38.44,
+    "no_exposure_evidence_pct": 82.0,
+    "no_pathway_evidence_pct": 84.18
+  },
+  "context_distribution": {
+    "UNKNOWN": 340,
+    "CONTEXT_LIMITED": 15,
+    "SUFFICIENT_CONTEXT": 55
+  },
+  "conflicts": {
+    "any_conflict": 148,
+    "any_conflict_pct": 36.01,
+    "high_score_and_unknown_or_limited": 125,
+    "high_score_and_no_pathway": 123,
+    "high_score_and_complete_pathway": 30
+  },
+  "queue_sanity": {
+    "p1_pct": 36.01,
+    "p2_pct": 6.08,
+    "p3_pct": 17.52,
+    "p4_pct": 16.3,
+    "p5_pct": 24.09
+  },
+  "interpretation": "Descriptive batch audit only. Do not infer true SIF prevalence from model predictions on unlabeled records."
+}

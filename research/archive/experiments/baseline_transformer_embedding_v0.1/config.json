@@ -1,0 +1,21 @@
+{
+  "experiment": "baseline_transformer_embedding_v0.1",
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "device": "cuda",
+  "batch_size": 8,
+  "max_seq_length": 256,
+  "embedding_dimension": 384,
+  "normalization": "L2-normalized sentence embeddings",
+  "classifier": "LogisticRegression",
+  "classifier_parameters": {
+    "class_weight": "balanced",
+    "max_iter": 2000,
+    "solver": "liblinear",
+    "random_state": 42
+  },
+  "splits": {
+    "train": "data\\processed\\sif_splits_v0.1\\train.csv",
+    "validation": "data\\processed\\sif_splits_v0.1\\validation.csv",
+    "test": "data\\processed\\sif_splits_v0.1\\test.csv"
+  }
+}

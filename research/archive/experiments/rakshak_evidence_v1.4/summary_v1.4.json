@@ -1,0 +1,24 @@
+{
+  "records": 20,
+  "hazard_signal_rate": 0.85,
+  "exposure_signal_rate": 0.25,
+  "mechanism_pathway_signal_rate": 0.2,
+  "complete_pathway_rate": 0.2,
+  "priority_counts": {
+    "P1": 1,
+    "P2": 4,
+    "P3": 8,
+    "P4": 3,
+    "P5": 4
+  },
+  "assessment_counts": {
+    "WEAK": 12,
+    "SUPPORTED": 4,
+    "NONE": 3,
+    "PARTIAL": 1
+  },
+  "false_positive_count": 4,
+  "false_negative_count": 4,
+  "high_score_no_count": 2,
+  "low_score_yes_with_supported_path_count": 1
+}

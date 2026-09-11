@@ -1,0 +1,21 @@
+{
+  "version": "0.5",
+  "records": 70,
+  "coverage_percent": {
+    "hazards": 74.29,
+    "exposures": 64.29,
+    "actual_consequences": 45.71,
+    "potential_consequences": 18.57,
+    "observed_barriers_or_gaps": 35.71,
+    "activities": 64.29
+  },
+  "mean_items_per_record": {
+    "hazards": 1.7,
+    "exposures": 1.229,
+    "actual_consequences": 0.586,
+    "potential_consequences": 0.2,
+    "barriers": 0.457,
+    "activities": 0.943
+  },
+  "design_note": "Human annotation notes can contain counterfactual or recommended controls that are not explicit in the narrative. v0.5 therefore separates actual observed consequence, potential consequence signal, observed barrier, and explicit barrier gap."
+}

@@ -1,0 +1,18 @@
+{
+  "version": "safety_information_extraction_v0.3",
+  "records_processed": 70,
+  "total_evidence": {
+    "hazards": 19,
+    "exposures": 19,
+    "consequences": 21,
+    "barriers": 5,
+    "activities": 21
+  },
+  "design_goal": "Improve precision over v0.2 by requiring contextual evidence for hazards and barriers and explicitly handling caught-between mechanisms.",
+  "limitations": [
+    "Still rule-based; paraphrases can be missed.",
+    "A detected evidence span can still require human review.",
+    "Does not infer missing consequence severity.",
+    "Does not decide SIF potential."
+  ]
+}

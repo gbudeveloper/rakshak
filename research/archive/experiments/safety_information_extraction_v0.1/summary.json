@@ -1,0 +1,21 @@
+{
+  "version": "safety_information_extraction_v0.1",
+  "input": "data\\annotations\\resolved_annotations_v0.2.csv",
+  "records_processed": 5,
+  "category_evidence_counts": {
+    "hazard_evidence": 4,
+    "exposure_evidence": 1,
+    "consequence_evidence": 2,
+    "barrier_evidence": 0,
+    "activity_evidence": 2
+  },
+  "records_with_direct_exposure_signal": 1,
+  "records_with_fatality_wording": 0,
+  "records_with_barrier_signal": 0,
+  "limitations": [
+    "Lexical extraction can miss paraphrases.",
+    "Broad words such as 'fall', 'rock', 'face', or 'worker' can be ambiguous.",
+    "Evidence extraction must be reviewed before being treated as a structured safety fact.",
+    "This layer does not decide SIF potential and does not infer an unmentioned consequence."
+  ]
+}

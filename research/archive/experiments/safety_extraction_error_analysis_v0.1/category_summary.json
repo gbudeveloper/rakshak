@@ -1,0 +1,1300 @@
+{
+  "hazards": {
+    "missed_count": 16,
+    "records": [
+      {
+        "report_id": "industrial_safety_000034",
+        "category": "hazards",
+        "description": "The employee was clearing the pipe when he tapped his right thumb against the flange causing little trauma.",
+        "human_note": "Mechanical contact / minor impact energy from the pipe flange.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000074",
+        "category": "hazards",
+        "description": "During the placement of the last support mesh cloth of the work, in moments that from the ground the injured collaborator reached the electrowelded mesh to the operator of the scissor bolter positioned in the basket, when pressing on the mesh, one of the protruding ends of the mesh, crosses the leather glove causing an injury in his right hand.",
+        "human_note": "Sharp-edge / puncture hazard from the protruding end of the electrowelded mesh.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000082",
+        "category": "hazards",
+        "description": "After having carried out the mechanized support with the Scissor # 200, the heavy equipment operator picks up the water supply hose towards the drum of the equipment and, while He was heading towards the cabin of the Scissor on the way on a piece of rock - 10 cm high approx. - which displaces by sliding his right foot causing the injury described.",
+        "human_note": "Trip/slip hazard and low-level mechanical energy from loose rock on the walking surface.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000115",
+        "category": "hazards",
+        "description": "The employee performed the return of the load at the entrance of the debarking machine, while trying to align a cathode was pressed in his right hand.",
+        "human_note": "Mechanical crushing/pinch-point energy from the debarking machine and load.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000135",
+        "category": "hazards",
+        "description": "In circumstances that the collaborator Juveni performed the washing of the tabolas in the pot washing area, she suffers a feeling of dizziness and faintness causing the fall the same level and producing a slight concussion in the head.",
+        "human_note": "Same-level fall / low gravitational energy.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000145",
+        "category": "hazards",
+        "description": "During the process of washing the material (Becker), the tip of the material was broken which caused a cut of the 5th finger of the right hand",
+        "human_note": "harp/broken glass edge (low kinetic energy, contact-type hazard)",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000210",
+        "category": "hazards",
+        "description": "The servant would remove the dishes from the bowl of the sink and when picking up a set of plates, there was one of them with the broken / broken edge, causing injury to his 3rd chiropactyl from his right hand.",
+        "human_note": "Mechanical — sharp/broken ceramic edge (low kinetic energy, contact-type hazard)",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000222",
+        "category": "hazards",
+        "description": "the check list of the area of ​​the survey the operator slipped in the foliage of the leucenas and fell.",
+        "human_note": "Same-level slip/fall hazard caused by vegetation/ground conditions.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000232",
+        "category": "hazards",
+        "description": "The employee was performing maintenance of the blower, when the residual water projection occurred on his face. In an attempt to remove PPE, the injured person has had contact with contaminated gloves with the right eye causing irritation.",
+        "human_note": "Residual process energy/material and contaminated substances, including residual water and contaminants associated with the blower.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000239",
+        "category": "hazards",
+        "description": "Being 05:30 am. Approximately Marco and Isidro TORRES they were performing the pipe standardization of the CX 771 / CX-983 Nv. 1940; in moments that Marco lifts the air pipe over the spike, this seat and the pipe impacts on the worker's safety guard.",
+        "human_note": "Mechanical/kinetic — struck-by hazard from a heavy air pipe shifting/settling unexpectedly during manual handling/positioning",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000272",
+        "category": "hazards",
+        "description": "in Level 2900 dining room, the collaborator finished washing tabolas (food containers) of dimensions 52 cm x 30 cm x 20 cm, proceed to order them by pinking the thumb of the right hand in the corner of the aluminum tabola, generating the lesion. The employee at the time of the accident did not have safety gloves.",
+        "human_note": "Sharp edge / low-energy cutting or puncture hazard.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000289",
+        "category": "hazards",
+        "description": "The maid while walking in the electrolysis area, stumbled and fell next to the bathroom in room B.",
+        "human_note": "Same-level fall / walking-surface hazard.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000298",
+        "category": "hazards",
+        "description": "Being approximately 8:10 p.m. Alpha operator Mr. Ronald was heading to mine when he decides to stop the equipment to accommodate the lights (left side), manipulating the support of the lighthouse, catching his fifth finger of the right hand with the protection grid and support.",
+        "human_note": "Mechanical pinch/crush hazard with localized low-energy exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000346",
+        "category": "hazards",
+        "description": "Once the painting of the pumping pipe has been completed, the person involved involuntarily touches his face, with his hand (with gloves) full of paint, and to clean himself he makes use of a dry industrial cloth and begins to rub his face, for a period of time from 30 to 40 seconds continuously, until finally the paint on the face is cleaned, this friction generates the described injury.",
+        "human_note": "Mechanical (friction/abrasion) — secondary to a chemical hazard (paint) that was mishandled; the injury-causing mechanism is friction from dry cloth on skin, not the chemical itself",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000374",
+        "category": "hazards",
+        "description": "The technician was doing the magnetometric survey when he stepped on a thorn. His reaction was to immediately retreat, losing his balance and so the magnetometer's antenna broke.",
+        "human_note": "Sharp thorn / low-energy puncture hazard and same-level loss of balance.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000401",
+        "category": "hazards",
+        "description": "The employees Márcio and Sérgio performed the pump pipe clearing activity FZ1.031.4 and during the removal of the suction spool flange bolts, there was projection of pulp over them causing injuries.",
+        "human_note": "Stored pressure/process energy in the pump piping, with uncontrolled release of pulp.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      }
+    ]
+  },
+  "exposures": {
+    "missed_count": 27,
+    "records": [
+      {
+        "report_id": "industrial_safety_000034",
+        "category": "exposures",
+        "description": "The employee was clearing the pipe when he tapped his right thumb against the flange causing little trauma.",
+        "human_note": "The employee's right thumb was exposed to the flange during the pipe-clearing activity.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000076",
+        "category": "exposures",
+        "description": "The employee was clearing the liquid zinc pump from oven 04, when he stepped on the platform and became unbalanced with a twist in his left foot.",
+        "human_note": "Employee was exposed while walking/working on the platform.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000103",
+        "category": "exposures",
+        "description": "Being 2:40 am. Approximately, Luna - master loader of the company Incimet was carrying out the loading activity of the front in the Cruiser 771 of the 1970 level; in moments that was tying the pentacord of the crown and trying to reach the fanel on the left side, loses balance by a movement of the ladder and falls to the floor resulting in the accident.",
+        "human_note": "Worker was exposed to a fall while positioned on a moving/unstable ladder at the crown.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000112",
+        "category": "exposures",
+        "description": "The injured woman performed cleaning and when cleaning the sink of the collection room pierced the finger with a fragment of glass.",
+        "human_note": "Direct hand/finger contact with broken glass while cleaning by touch/feel inside a sink, without visual awareness of the hazard (glass fragment hidden from view)",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000115",
+        "category": "exposures",
+        "description": "The employee performed the return of the load at the entrance of the debarking machine, while trying to align a cathode was pressed in his right hand.",
+        "human_note": "Direct hand exposure to the machine/load during manual alignment.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000135",
+        "category": "exposures",
+        "description": "In circumstances that the collaborator Juveni performed the washing of the tabolas in the pot washing area, she suffers a feeling of dizziness and faintness causing the fall the same level and producing a slight concussion in the head.",
+        "human_note": "Worker was exposed to a same-level fall after becoming dizzy and faint.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000140",
+        "category": "exposures",
+        "description": "When checking voltage at the power outlet of the the plug and socket to make sure the connection was correct, when there was a small electrical arc in the power cord, causing a slight burn in the right hand wrist. The protection system acted immediately.",
+        "human_note": "Worker directly exposed to energized plug/socket and power cord while checking voltage.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000145",
+        "category": "exposures",
+        "description": "During the process of washing the material (Becker), the tip of the material was broken which caused a cut of the 5th finger of the right hand",
+        "human_note": "direct hand contact with glass labware during a manual washing task; the glassware broke while in-hand or in-contact, exposing the finger to the fractured edge",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000166",
+        "category": "exposures",
+        "description": "At approximately 5:45 pm, the operator Paulo (operator of the filters) informed the autoclave operator via radio of a leak on the side of the scruber. The autoclave III feed was stopped by the control and officials Georli and Renato initiated the procedures for closing the autoclave transfer valve for flash TQs. Soon after, there was a break in the chicken, projecting pulp hot and reaching three employees who were inside the room near the equipment.",
+        "human_note": "Three employees were inside the room near the equipment when the rupture/release occurred and were directly reached by hot pulp.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000210",
+        "category": "exposures",
+        "description": "The servant would remove the dishes from the bowl of the sink and when picking up a set of plates, there was one of them with the broken / broken edge, causing injury to his 3rd chiropactyl from his right hand.",
+        "human_note": "Direct hand contact with a damaged plate while handling a stack of dishware during routine cleaning/kitchen duties; the sharp edge was not visually obvious within the stacked set",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000222",
+        "category": "exposures",
+        "description": "the check list of the area of ​​the survey the operator slipped in the foliage of the leucenas and fell.",
+        "human_note": "The operator was walking through an area containing leucena foliage while conducting the inspection.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000239",
+        "category": "exposures",
+        "description": "Being 05:30 am. Approximately Marco and Isidro TORRES they were performing the pipe standardization of the CX 771 / CX-983 Nv. 1940; in moments that Marco lifts the air pipe over the spike, this seat and the pipe impacts on the worker's safety guard.",
+        "human_note": "Worker (Marco) in direct physical proximity to and manually handling the pipe at the moment it moved/settled; positioned such that the pipe's impact trajectory intersected his body, specifically striking the safety guard he was wearing/using",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000259",
+        "category": "exposures",
+        "description": "At a time when the heavy equipment operator got on the equipment to check the right front headlight (defective) of the scooptram # 181, position on the rim position # 2 his left leg which slides, causing the heavy equipment operator to fall from a height of 0.60 cm",
+        "human_note": "Operator's foot/leg in contact with the equipment's rim while climbing to access the front headlight for inspection; direct exposure to a fall when the foothold slipped",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000272",
+        "category": "exposures",
+        "description": "in Level 2900 dining room, the collaborator finished washing tabolas (food containers) of dimensions 52 cm x 30 cm x 20 cm, proceed to order them by pinking the thumb of the right hand in the corner of the aluminum tabola, generating the lesion. The employee at the time of the accident did not have safety gloves.",
+        "human_note": "Direct thumb contact with the sharp corner while handling the aluminum container.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000289",
+        "category": "exposures",
+        "description": "The maid while walking in the electrolysis area, stumbled and fell next to the bathroom in room B.",
+        "human_note": "The worker was walking through the electrolysis area and stumbled near the bathroom.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000297",
+        "category": "exposures",
+        "description": "At 13:40 hours, Mr. Hidalgo, wanting to climb on the starter board to remove the fans, stands on an unstable reel and, when driving, fell frontally at a height of 2.98m.",
+        "human_note": "Worker was directly exposed to a fall while standing on an unstable reel at approximately 3 m elevation.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000298",
+        "category": "exposures",
+        "description": "Being approximately 8:10 p.m. Alpha operator Mr. Ronald was heading to mine when he decides to stop the equipment to accommodate the lights (left side), manipulating the support of the lighthouse, catching his fifth finger of the right hand with the protection grid and support.",
+        "human_note": "Right fifth finger directly exposed to the pinch point between the protection grid and light support.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000314",
+        "category": "exposures",
+        "description": "At 15:05 hours, Mr. Cesar Tello-MOINSAC, was carrying out the work of assembling the water line, for that he climbs up the cat ladder and at an approximate height of 2.5 meters he vanishes and falls, hitting himself on the way, being transferred to the medical center for his attention.",
+        "human_note": "Worker was directly exposed to a fall while working approximately 2.5 m above ground on a ladder.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000323",
+        "category": "exposures",
+        "description": "In circumstances that the tipper MV-01 of the EE Mceisa, moved of the Nv. 3120 to Nv. 3300, the operator sees a congestion of equipment in front of his unit in the Ramp 990 - at a distance of 80 meters. of access to the Nv. 3300, which is why he decides to get off the cab by turning off his vehicle, when suddenly he slides off the second rung that is 0.70 m from the ground, hitting the right forearm region against the fender and the same rung.",
+        "human_note": "Operator's foot/hand in contact with the vehicle's access rung while dismounting the cab; direct exposure to a fall and subsequent contact with the vehicle's fender and rung structure",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000364",
+        "category": "exposures",
+        "description": "At Level 3970 (Before -100) When the F6M 801 license plate went from level 3570 to surface, when the pilot trying to locate his radio to answer a call from the concrete plant is distracted and crashes his vehicle against the left gable and the vehicle turns to the right side. When this happens, the copilot hits his right hand against a fragment of broken glass in the window on the right side of the vehicle.",
+        "human_note": "Two vehicle occupants (pilot/driver and copilot) present in the cabin during an uncontrolled collision and subsequent vehicle turn/rotation; copilot's hand exposed to broken glass generated by the impact",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000374",
+        "category": "exposures",
+        "description": "The technician was doing the magnetometric survey when he stepped on a thorn. His reaction was to immediately retreat, losing his balance and so the magnetometer's antenna broke.",
+        "human_note": "Technician's foot was directly exposed to the thorn while performing the survey.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000384",
+        "category": "exposures",
+        "description": "In the tower N ° 6 of the old 50 KV LT (disabled and de-energized and 90% dismantled) located in the city of Pasco, the last profiles of the base of the tower previously disassembled were cut, using oxyfuel equipment , at 11:45 am, the Proingcom security supervisor and the foreman, who were on the outside of the fenced area supervising the activity, indicate the stoppage of activities and evacuation to the refuge due to the orange alert indicated on the detector of storms. During the evacuation of the last 02 employees who were inside the fenced area, a loud sound was heard, provoking a fright, which caused the staff to throw themselves to the floor inside the area, then proceeded to leave the work area by his own means through the ladder. Apparently the loud sound would correspond to an electrical discharge in the cable guard that passes over the old towers.",
+        "human_note": "Two employees were inside the fenced area near the electrical infrastructure when the suspected discharge occurred.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000385",
+        "category": "exposures",
+        "description": "In tower N ° 6 of the old 50 KV LT (disabled and de-energized and 90% disassembled) located in the city of Pasco, the cutting of the last profiles of the base of the tower previously disassembled was carried out, using oxyfuel equipment, at 11:45 a.m., the safety supervisor of Proingcom and the foreman, who were in the external part of the fenced area supervising the activity, indicate the paralysis of activities and evacuation to the refuge due to the orange alert indicated on the detector of storms. During the evacuation of the last 02 employees who were inside the fenced area, a loud sound was heard, provoking a scare, which caused the staff to throw themselves to the floor within the area, then proceeded to leave the work area by their own means through the staircase. Apparently the loud sound would correspond to an electrical discharge in the cable guard that passes over the old towers.",
+        "human_note": "Two workers were inside the fenced work area near the old electrical infrastructure during the suspected discharge.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000389",
+        "category": "exposures",
+        "description": "In moments that Mr. William carried out the inspection of the cut of the Block 781 Level 1850 OB6A, so that the loading platform could be realized, in instants that observed the drills positive radial ones that were covered and shotcreteados, he hears a noise from the upper part of the pit (detachments of banks at the center of the pit), to which Mr. William goes back to leave work, but his metatarsal boots makes contact with a rock that was on the floor which causes it to lose balance and stumble on the gable.",
+        "human_note": "Worker was directly exposed to unstable ground and falling-rock hazards while inspecting the pit.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000403",
+        "category": "exposures",
+        "description": "When performing shotcrete casting for resane on Cruise 791 Nv. 1940 at 02:50 p.m. approximately, the operator was placed on the left side of the equipment and started the release of 02 cubic meters, at that time decided to paralyze the task for a few minutes due to a leak of water in the roof box that did not allow the adhesion of the shotcrete to the rock (setting). When restarting the shotcrete launch the operator that was on the left side moved to the right side of the equipment, while the assistant and the operator mixkret to see that there was no pumping went to verify what happened and when they returned they realized that the operator was not, so they assume that he had fallen down the chimney, they left the job to ask for help immediately. The emergency response brigade and the medical service are activated, who verify the death of the collaborator. The accident investigation begins.",
+        "human_note": "The operator was working and moving adjacent to the chimney/vertical opening during the shotcrete activity.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000420",
+        "category": "exposures",
+        "description": "In circumstances that the driver of the plate truck W5K-915 of the E.E. IMPROMEC, went from the garit plant chicrin to Nv.3420, after entering an internal mine in the area of ​​Santa where 200 m. approx. from the old dining room, stops the vehicle and informs the co-pilot that he can no longer drive, for which he turns off the vehicle and when trying to get off the van loses his balance and falls on his own seat, complaining intense pain in the lumbar area, citing pain due to overexertion due to routine activity (evacuation of residual oil and solid waste cylinders) that they previously performed. The collaborator at the time of the event used their corresponding EPPS.",
+        "human_note": "Cumulative physical exertion from manual handling of residual oil and solid waste cylinders during routine duties, followed by a minor balance loss while attempting to exit the vehicle cab",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000426",
+        "category": "exposures",
+        "description": "In circumstance, the AHK-903 license plate (Empresa which serves the supervision of CMA, carried out the field inspections in the upper bank 4288, when unexpectedly when climbing through the operational access (positive ramp), It slides in an excavated area of ​​approximately 3 meters high, remaining in position with the front part on the floor. The occupants of the vehicle made use of the safety belt and all the complete epps.",
+        "human_note": "Vehicle occupant(s) inside the cabin throughout the loss-of-control event, the slide, and the impact/settling at the bottom of the excavation; direct exposure to deceleration forces, potential cabin intrusion, and the vehicle's final unstable resting position (front-down)",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      }
+    ]
+  },
+  "consequences": {
+    "missed_count": 44,
+    "records": [
+      {
+        "report_id": "industrial_safety_000013",
+        "category": "consequences",
+        "description": "In moments that the operator of the Jumbo 2, tried energize your equipment to proceed to the installation of 4 split set at intersection 544 of Nv 3300, remove the lock and opening the electric board of 440V and 400A, and when lifting the thermomagnetic key This makes phase to ground - phase contact with the panel shell - producing a flash which reaches the operator causing the injury described.",
+        "human_note": "Fatality or life-altering injury, including severe thermal burns, electric shock/electrocution, cardiac arrest, or secondary injuries.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000074",
+        "category": "consequences",
+        "description": "During the placement of the last support mesh cloth of the work, in moments that from the ground the injured collaborator reached the electrowelded mesh to the operator of the scissor bolter positioned in the basket, when pressing on the mesh, one of the protruding ends of the mesh, crosses the leather glove causing an injury in his right hand.",
+        "human_note": "Minor to moderate hand injury, such as puncture wounds, lacerations, or localized tissue damage. A SIF-level consequence is not reasonably evident from the narrative.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000076",
+        "category": "consequences",
+        "description": "The employee was clearing the liquid zinc pump from oven 04, when he stepped on the platform and became unbalanced with a twist in his left foot.",
+        "human_note": "Sprain, strain, or other minor-to-moderate musculoskeletal injury.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000082",
+        "category": "consequences",
+        "description": "After having carried out the mechanized support with the Scissor # 200, the heavy equipment operator picks up the water supply hose towards the drum of the equipment and, while He was heading towards the cabin of the Scissor on the way on a piece of rock - 10 cm high approx. - which displaces by sliding his right foot causing the injury described.",
+        "human_note": "Minor to moderate injury, such as a sprain, strain, or fracture. A SIF-level consequence is not reasonably evident from the narrative.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000095",
+        "category": "consequences",
+        "description": "The worker carried out the disassembly of 03 scaffolding bodies in the pulpomatic of the thickener D2251. the dismantling of the base of the scaffold, located approximately one meter high from the floor of the sump, the rivets of the anchor support of the platform were broken, causing the fall of the worker and impacting the right knee with the support that I am anchored in one of the horizontals of the scaffolding structure.",
+        "human_note": "Serious impact injury, fracture, crush injury, or potentially more severe injury from scaffold collapse.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000100",
+        "category": "consequences",
+        "description": "When positioning the scissor bolter N ° 09 in the East of stope 175 (40 meters from the top), the operator and his assistant verify that the ventilation sleeve will obstruct the support of the left gable, so they decide to section the sleeve and direct it towards the main corridor; the injured person decides to climb to the roof of the equipment cabin (surface: 1.5 square meters) to carry out the reinstallation of the sectioned sleeve and, without noticing, he steps on empty and falls from the equipment from a height of 2.50 meters. At the time of the accident, the operator was on the scissor bolter platform, the equipment was positioned and blocked to perform the maintenance and the assistant was wearing a safety helmet and chin strap.",
+        "human_note": "Severe head or spinal injury, fractures, permanent disability, or fatality.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000103",
+        "category": "consequences",
+        "description": "Being 2:40 am. Approximately, Luna - master loader of the company Incimet was carrying out the loading activity of the front in the Cruiser 771 of the 1970 level; in moments that was tying the pentacord of the crown and trying to reach the fanel on the left side, loses balance by a movement of the ladder and falls to the floor resulting in the accident.",
+        "human_note": "Severe head or spinal injury, fractures, permanent disability, or fatality.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000112",
+        "category": "consequences",
+        "description": "The injured woman performed cleaning and when cleaning the sink of the collection room pierced the finger with a fragment of glass.",
+        "human_note": "Under a worse-case variation (larger/deeper glass shard, damage to tendons, nerves, or blood vessels in the hand, or subsequent infection), this could escalate to a more serious hand injury; however, life-threatening or permanently disabling outcomes are unlikely from this specific mechanism",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000115",
+        "category": "consequences",
+        "description": "The employee performed the return of the load at the entrance of the debarking machine, while trying to align a cathode was pressed in his right hand.",
+        "human_note": "Severe crush injury, fracture, amputation, permanent disability, or fatality.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000119",
+        "category": "consequences",
+        "description": "The employee reports that climbing the access ladder to the operating room of the Ustulation was surprised by the projection of sulfuric acid.",
+        "human_note": "Fatality or life-altering injury, including severe chemical burns, permanent blindness, respiratory injury, or systemic effects from significant exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000135",
+        "category": "consequences",
+        "description": "In circumstances that the collaborator Juveni performed the washing of the tabolas in the pot washing area, she suffers a feeling of dizziness and faintness causing the fall the same level and producing a slight concussion in the head.",
+        "human_note": "Minor head injury or concussion; more severe injury is not reasonably indicated by the described mechanism.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000136",
+        "category": "consequences",
+        "description": "During the transit of the fuel tanker of level 3530 at level 2925 by the north ramp; When passing through level 3140 the operator feels that the right rear tire skids and when the operator performs a defensive maneuver the truck hits the left gable causing the injury described. At the time of the accident, the pilot and co-pilot were wearing a safety belt, their safety glasses and helmet.",
+        "human_note": "Under a worse-case variation of this same event (higher speed, full loss of control leading to rollover or the tanker striking the gable more directly/head-on, structural cabin intrusion, or fuel tank rupture/fire), this could plausibly result in severe crush injuries, burns, or fatality for either occupant — a hazard category with an inherently high severity ceiling given the vehicle type (fuel tanker) and setting (confined underground ramp)",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000166",
+        "category": "consequences",
+        "description": "At approximately 5:45 pm, the operator Paulo (operator of the filters) informed the autoclave operator via radio of a leak on the side of the scruber. The autoclave III feed was stopped by the control and officials Georli and Renato initiated the procedures for closing the autoclave transfer valve for flash TQs. Soon after, there was a break in the chicken, projecting pulp hot and reaching three employees who were inside the room near the equipment.",
+        "human_note": "Fatality or life-altering injury, particularly severe thermal burns/scalding, potentially accompanied by impact injuries from the sudden process release.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000169",
+        "category": "consequences",
+        "description": "The operator of the Scissor 187 leaves his equipment parked at level -2995 Acc 7 due to electrical problems, when the maintenance personnel arrives, the electrician climbs on the control platform of the equipment and performs the verification of the hydraulic system confirming the problem; then in coordination with the mechanic decide to perform the test with the diesel system, moments in which accidentally activates with the body the arm movement lever causing the drill arm to move downwards generating the left hand's atricion against the support of the pivot tube generating the lesion described. At the time of the accident the electrician was alone on the control platform, while the mechanic was at ground level observing the pressure on the diesel system pressure gauge.",
+        "human_note": "Severe crush injury, fractures, amputation, permanent disability, or fatality.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000190",
+        "category": "consequences",
+        "description": "The employee reports that he was draining ammonia, used as a refrigerant, into a container of water when splashes of the solution drained onto his face.",
+        "human_note": "Under a worse-case variation (higher ammonia concentration, larger splash volume, direct eye contact, or prolonged inhalation), this could result in permanent eye injury/blindness, severe chemical burns to the face, or respiratory tract damage — clearly meeting SIF severity criteria",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000198",
+        "category": "consequences",
+        "description": "The mincing team was carrying out activities in the city of Juína and was coordinated by mining technician Felipe a time when the mining technician was last in line and more away from the team, was bitten by a blackjack on the left side of his face. There was no allergic manifestation and the team continued the work. In the afternoon, after lunch, the employee sought medical care, was medicated and released to continue activities the next day.",
+        "human_note": "Minor injury, such as localized pain, swelling, or irritation. A severe allergic reaction is theoretically possible, but it is not supported by the reported event.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000210",
+        "category": "consequences",
+        "description": "The servant would remove the dishes from the bowl of the sink and when picking up a set of plates, there was one of them with the broken / broken edge, causing injury to his 3rd chiropactyl from his right hand.",
+        "human_note": "Under a worse-case variation (deeper laceration, damage to tendon/nerve/blood vessel in the finger), this could result in a more serious hand injury requiring surgical repair; however, life-threatening or permanently disabling outcomes are not a realistic pathway from this specific low-energy mechanism",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000219",
+        "category": "consequences",
+        "description": "On the surface, in the dining room of employees of the unit, while the collaborator performed the chicken habilitation for lunch using a kitchen knife, it comes into contact with the distal part of the second finger of the left hand causing the injury described . During the accident the employee did not use his specific height gloves for this type of work.",
+        "human_note": "Localized cut/laceration or finger injury.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000222",
+        "category": "consequences",
+        "description": "the check list of the area of ​​the survey the operator slipped in the foliage of the leucenas and fell.",
+        "human_note": "Minor to moderate injury, such as bruises, sprains, or fractures. Based on the narrative, a SIF-level consequence is not reasonably evident.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000236",
+        "category": "consequences",
+        "description": "In circumstances in which the operator of bolter N ° 8 went down the ladder to the height of the resting platform - at 0.80 m. floor level - slips off balance by hitting your back against the handrail of the operator's door. At the time of the event the injured person used all his EPP's.",
+        "human_note": "Minor to moderate impact injury, such as bruising or musculoskeletal injury.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000239",
+        "category": "consequences",
+        "description": "Being 05:30 am. Approximately Marco and Isidro TORRES they were performing the pipe standardization of the CX 771 / CX-983 Nv. 1940; in moments that Marco lifts the air pipe over the spike, this seat and the pipe impacts on the worker's safety guard.",
+        "human_note": "Had the safety guard not been in place, in the correct position, or adequate for the impact force, this could have resulted in serious head, face, or facial fracture injury, eye injury, or other significant trauma from being struck by the pipe — this is a scenario where the absence or failure of the existing barrier would plausibly escalate the outcome to SIF-level severity",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000259",
+        "category": "consequences",
+        "description": "At a time when the heavy equipment operator got on the equipment to check the right front headlight (defective) of the scooptram # 181, position on the rim position # 2 his left leg which slides, causing the heavy equipment operator to fall from a height of 0.60 cm",
+        "human_note": "Under this specific low fall height, the realistic outcome range includes sprains, strains, bruising, or at most a minor fracture from an awkward landing; a genuinely severe or fatal outcome is not a plausible escalation from this height alone unless a secondary hazard were present (e.g., falling onto exposed machinery parts, into a pinch point, or striking the head on a hard/sharp surface) — none of which is indicated in the narrative",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000264",
+        "category": "consequences",
+        "description": "When igniting the furnace 07 of the battery I, there was reflux of hot gas, reaching the face of the employee.",
+        "human_note": "Fatality or life-altering injury, including severe facial/airway burns, thermal injury, or smoke/hot-gas inhalation.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000272",
+        "category": "consequences",
+        "description": "in Level 2900 dining room, the collaborator finished washing tabolas (food containers) of dimensions 52 cm x 30 cm x 20 cm, proceed to order them by pinking the thumb of the right hand in the corner of the aluminum tabola, generating the lesion. The employee at the time of the accident did not have safety gloves.",
+        "human_note": "Localized cut, puncture, or minor hand injury.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000284",
+        "category": "consequences",
+        "description": "When performing the Doosan RB-10 equipment hammer repair, the employee tries to remove the suspenders with the support of a 25-pound rope; At the moment of receiving the blow the brace or bolt causes a splinter to be released, expelling and impacting on the lower left limb causing metal embedding in it. The collaborator did not notice immediately.",
+        "human_note": "Fatality or life-altering injury, including penetrating trauma, severe laceration, eye injury, or potentially fatal injury if a metal fragment were projected toward a vital body area.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000289",
+        "category": "consequences",
+        "description": "The maid while walking in the electrolysis area, stumbled and fell next to the bathroom in room B.",
+        "human_note": "Minor to moderate injury, such as bruises, sprains, or fractures. Based on the information provided, SIF-level injury is not reasonably evident.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000297",
+        "category": "consequences",
+        "description": "At 13:40 hours, Mr. Hidalgo, wanting to climb on the starter board to remove the fans, stands on an unstable reel and, when driving, fell frontally at a height of 2.98m.",
+        "human_note": "Severe head injury, spinal injury, fractures, permanent disability, or fatality.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000298",
+        "category": "consequences",
+        "description": "Being approximately 8:10 p.m. Alpha operator Mr. Ronald was heading to mine when he decides to stop the equipment to accommodate the lights (left side), manipulating the support of the lighthouse, catching his fifth finger of the right hand with the protection grid and support.",
+        "human_note": "Finger bruise, laceration, sprain, or localized crush injury.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000314",
+        "category": "consequences",
+        "description": "At 15:05 hours, Mr. Cesar Tello-MOINSAC, was carrying out the work of assembling the water line, for that he climbs up the cat ladder and at an approximate height of 2.5 meters he vanishes and falls, hitting himself on the way, being transferred to the medical center for his attention.",
+        "human_note": "Severe head injury, spinal injury, fractures, permanent disability, or fatality.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000321",
+        "category": "consequences",
+        "description": "During the process of loading drills in the Carmen pit of level 3450, the operator positions the basket of the anfo loader 186 equipment at a height of 3m from the floor to carry out the loading of the production drills; At this moment, a stone slab of 1.4x0.7x0.2 m is detached from the front of the pit, which is tilted and lodged inside the basket, trapping the right leg of the collaborator.",
+        "human_note": "Fatality or life-altering injury from crushing, traumatic amputation, severe fractures, or a larger rockfall striking/engulfing the worker; a fall from the elevated basket could also result in serious injury.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000323",
+        "category": "consequences",
+        "description": "In circumstances that the tipper MV-01 of the EE Mceisa, moved of the Nv. 3120 to Nv. 3300, the operator sees a congestion of equipment in front of his unit in the Ramp 990 - at a distance of 80 meters. of access to the Nv. 3300, which is why he decides to get off the cab by turning off his vehicle, when suddenly he slides off the second rung that is 0.70 m from the ground, hitting the right forearm region against the fender and the same rung.",
+        "human_note": "Under this specific low fall height and impact point (forearm striking fender/rung), the realistic outcome range includes bruising, contusion, or a possible fracture of the forearm; a genuinely severe or fatal outcome is not a plausible escalation from this height and impact location alone, absent an unsupported assumption of head strike or fall onto a hazardous secondary surface",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000337",
+        "category": "consequences",
+        "description": "the Spillway circumstances where the worker was cleaning, with the use of an absorbent cloth, oil residues from the right edge of the Atlas AXS-186 compressor, with the bonnet open and in functioning; the rag falls inside the ompressor and in the attempt to remove it, it is hooked on the fan's propeller, pulling the worker's left hand toward the propeller causing the injury.",
+        "human_note": "Fatality or life-altering injury, including severe laceration, crushing, traumatic amputation, or entanglement.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000342",
+        "category": "consequences",
+        "description": "In the Nv. 3370, CX 212 - South, when the Mechanic loosens a through bolt of the intermediate cardan protector of the Dumper 01, the protector is released and imprisons the first finger of the left hand against the connector of the hydraulic steering cylinder (Position 2) .",
+        "human_note": "Fatality or life-altering injury is possible, particularly severe crushing, fracture, loss of tissue, or traumatic amputation of the finger/hand.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000346",
+        "category": "consequences",
+        "description": "Once the painting of the pumping pipe has been completed, the person involved involuntarily touches his face, with his hand (with gloves) full of paint, and to clean himself he makes use of a dry industrial cloth and begins to rub his face, for a period of time from 30 to 40 seconds continuously, until finally the paint on the face is cleaned, this friction generates the described injury.",
+        "human_note": ": Localized skin abrasion, irritation, or redness from friction; if paint contained irritating/toxic solvents and contact had involved the eyes or mucous membranes instead of general facial skin, the potential consequence could have been more serious (chemical eye injury) — but as described, the realistic escalation potential remains low to moderate, not SIF-level",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000364",
+        "category": "consequences",
+        "description": "At Level 3970 (Before -100) When the F6M 801 license plate went from level 3570 to surface, when the pilot trying to locate his radio to answer a call from the concrete plant is distracted and crashes his vehicle against the left gable and the vehicle turns to the right side. When this happens, the copilot hits his right hand against a fragment of broken glass in the window on the right side of the vehicle.",
+        "human_note": "Under a worse-case variation of this same event (higher speed, full rollover, ejection from vehicle, collision involving pedestrians/other equipment in the roadway, or greater structural intrusion into the cabin), this could result in serious crush injuries, head/spinal trauma, or fatality for either occupant — this is a hazard category with an inherently high severity ceiling, distinct from the low-energy chemical/cut cases reviewed previously",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000370",
+        "category": "consequences",
+        "description": "During the preparation for the solubilization activity of the sample in the chapel, the maid when moving the vial of nitric acid, the same detached from the doser, causing projection in the region of the face and upper limbs.",
+        "human_note": "Severe chemical burns, serious eye injury, respiratory injury, permanent impairment, or potentially fatal exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000371",
+        "category": "consequences",
+        "description": "During the activity of changing conveyor belt 11B feeding the primary mill No. 2; the mechanic entered the discharge chute (0.75 x 0.75 x 0.80 m.) to clean the material, at which time the automatic sampler (0.30 x 0.25 m) that was inside the chute was activated, trapping the mechanic at the height of the chest. At the time of the accident the mechanic was alone in the work area.",
+        "human_note": "Fatality or life-altering injury, including crushing of the chest, traumatic injury, restricted breathing/asphyxiation, or fatal entrapment.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000373",
+        "category": "consequences",
+        "description": "When the Mixer 01 of the E.C.M INCIMMET S.A, moved by the positive south ramp, with direction to surface (Unicon concrete plant), at the height of the 3630 (Before 440), the operator observes that untimely lights and the engine go off, the control controls do not respond and the equipment starts to reverse. At 3 meters the operator jumps out of the cabin and at 20 meters the team hits the right gable and turns to its side left. In the area, in the circumstances of the event there was no presence of personnel or equipment that could have been affected.",
+        "human_note": "Under a worse-case variation of this same event (operator jumping at higher speed or less favorable body position, landing on hard/uneven ground, being run over by the reversing vehicle, or personnel/other equipment being present in the runaway's path or at the point of collision/rollover), this could plausibly result in fatality or severe crush/impact trauma — this is a hazard category with an inherently high severity ceiling, and the described outcome (no injury, no personnel present) reflects a fortunate variation rather than an effective control",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000374",
+        "category": "consequences",
+        "description": "The technician was doing the magnetometric survey when he stepped on a thorn. His reaction was to immediately retreat, losing his balance and so the magnetometer's antenna broke.",
+        "human_note": "Minor puncture injury or same-level fall injury.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000382",
+        "category": "consequences",
+        "description": "Employee to perform painting of the floor of the fuel tank area, he needed cleaning, and by pouring water-thinner on the floor, the bucket slipped out of his hand and the mixture projected onto his left shoulder and lower lip, causing redness and burning.",
+        "human_note": "Minor chemical irritation or burns. Based on the narrative, a SIF-level consequence is not reasonably evident.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000401",
+        "category": "consequences",
+        "description": "The employees Márcio and Sérgio performed the pump pipe clearing activity FZ1.031.4 and during the removal of the suction spool flange bolts, there was projection of pulp over them causing injuries.",
+        "human_note": "Fatality or life-altering injury, including severe impact/penetration injuries, chemical or thermal burns if the pulp was hazardous, and eye/face injuries.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000410",
+        "category": "consequences",
+        "description": "In moments when the 02 collaborators carried out the inspection of the conveyor belt No. 3 from the tail pulley when they were at the height of the load polymer No. 372, the Maslucan collaborator heard a noise where note that the belt was moving towards the tail pulley, 4 \"fragmentos mineral fragments are projected towards the access of the ramp impacting the 2 collaborators, being evacuated to the medical post.",
+        "human_note": "Severe impact injury, penetrating injury, serious eye/head injury, permanent disability, or fatality.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000422",
+        "category": "consequences",
+        "description": "The convoy of the locomotive 15 operated by Mr. Tito is located in hopper OP2 positioning the 1st car under the hopper, the assistant does not observe anything out of the ordinary (dry load there is no presence of water) and initiates the chute, for this, the hydraulic module of the hopper is switched on and with the controls it slightly moves the hopper handle and an untimely flow of water and mud splashes the operator generating the described injury, in addition the collaborator was 7 meters from the line of fire",
+        "human_note": "Under a worse-case variation of this same event (larger volume of trapped water/mud, higher pressure/force behind the material, closer proximity to the discharge point, or the operator being positioned directly in the flow path rather than at the edge of it), this could plausibly result in being knocked down, struck with significant force, entrapment/burial in mud, or being swept/pulled toward the discharge opening — outcomes consistent with serious injury or fatality; the fact that a splash reached and injured someone 7 meters away indicates the release carried more force than a routine, controlled discharge",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000426",
+        "category": "consequences",
+        "description": "In circumstance, the AHK-903 license plate (Empresa which serves the supervision of CMA, carried out the field inspections in the upper bank 4288, when unexpectedly when climbing through the operational access (positive ramp), It slides in an excavated area of ​​approximately 3 meters high, remaining in position with the front part on the floor. The occupants of the vehicle made use of the safety belt and all the complete epps.",
+        "human_note": "Under a worse-case variation of this same event (occupants not restrained, vehicle rolling/overturning completely rather than settling front-down, greater excavation depth, or structural cabin failure on impact), this could plausibly have resulted in severe crush injuries, ejection trauma, or fatality — this is a hazard category with an inherently high severity ceiling",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      }
+    ]
+  },
+  "barriers": {
+    "missed_count": 55,
+    "records": [
+      {
+        "report_id": "industrial_safety_000013",
+        "category": "barriers",
+        "description": "In moments that the operator of the Jumbo 2, tried energize your equipment to proceed to the installation of 4 split set at intersection 544 of Nv 3300, remove the lock and opening the electric board of 440V and 400A, and when lifting the thermomagnetic key This makes phase to ground - phase contact with the panel shell - producing a flash which reaches the operator causing the injury described.",
+        "human_note": "Failed/inadequate electrical isolation and energization controls. The lock was removed and the panel was opened before energization, exposing the operator to hazardous electrical energy. Controls such as verified de-energization, lockout/tagout, absence-of-voltage testing, appropriate panel protection, and arc-flash PPE appear to have been ineffective or not followed.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000033",
+        "category": "barriers",
+        "description": "Approximately 1:40 p.m. in circumstances that shotcrete was launched in the Nv. 1680 BP 255 of the OB2B, after finishing the launch of the first mixkret 113, the assistant of the alpha, Mr. Albertico asks the operator of the mixkret 113, Mr. Jhony to move the mixkret 116, so that access, finding in the cockpit of the mixkret the operator of the Launcher team, Mr. Danon asks him to come down. When the team started, he noticed that Mr. Danon (injured) was imprisoned between the team (height of the left rear rim) and the Hastial de la Labor.",
+        "human_note": "Inadequate exclusion-zone and communication controls around mobile equipment movement allowed a person to remain in the line of fire/crush zone.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000034",
+        "category": "barriers",
+        "description": "The employee was clearing the pipe when he tapped his right thumb against the flange causing little trauma.",
+        "human_note": "Hand positioning and task technique controls could be improved to prevent contact with the flange during manual pipe clearing.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000072",
+        "category": "barriers",
+        "description": "The employee, when performing the adjustment / tightening operation of the cutter blade with which he worked, was neglected, the key to slip, causing the blade of the equipment to hit him, causing a blunt cut on his right forearm.",
+        "human_note": "Manual tool slipped during blade adjustment, indicating inadequate control of the tool/blade during the task.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000075",
+        "category": "barriers",
+        "description": "The employee checked for acid leakage in the shipping area when he was hit by splashes of solution in his right hemiface.",
+        "human_note": "Leak detection, containment, chemical isolation, and PPE controls were inadequate or ineffective. The employee was exposed to the leak while investigating it. Appropriate isolation/containment, remote leak assessment where feasible, exclusion from the splash zone, and chemical-resistant face/eye protection should prevent direct exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000076",
+        "category": "barriers",
+        "description": "The employee was clearing the liquid zinc pump from oven 04, when he stepped on the platform and became unbalanced with a twist in his left foot.",
+        "human_note": "Platform access/working surface allowed a loss of balance, but there is no evidence of a failed critical barrier associated with SIF exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000077",
+        "category": "barriers",
+        "description": "The employee was transiting toward the cadmium factory, near tank 1440 on copper sulphate, when acid solution spilled in his direction, reaching his legs causing minor burns.",
+        "human_note": "Containment, leak/spill prevention, and pedestrian segregation controls were inadequate or ineffective. The employee's normal travel route placed him within the potential release zone of the process equipment.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000082",
+        "category": "barriers",
+        "description": "After having carried out the mechanized support with the Scissor # 200, the heavy equipment operator picks up the water supply hose towards the drum of the equipment and, while He was heading towards the cabin of the Scissor on the way on a piece of rock - 10 cm high approx. - which displaces by sliding his right foot causing the injury described.",
+        "human_note": "Housekeeping and walking-route controls were inadequate or could be improved. Loose rocks should be removed and walking paths maintained clear of trip hazards.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000095",
+        "category": "barriers",
+        "description": "The worker carried out the disassembly of 03 scaffolding bodies in the pulpomatic of the thickener D2251. the dismantling of the base of the scaffold, located approximately one meter high from the floor of the sump, the rivets of the anchor support of the platform were broken, causing the fall of the worker and impacting the right knee with the support that I am anchored in one of the horizontals of the scaffolding structure.",
+        "human_note": "Scaffold anchoring/support failed during dismantling, indicating inadequate structural integrity verification or control of the dismantling process.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000103",
+        "category": "barriers",
+        "description": "Being 2:40 am. Approximately, Luna - master loader of the company Incimet was carrying out the loading activity of the front in the Cruiser 771 of the 1970 level; in moments that was tying the pentacord of the crown and trying to reach the fanel on the left side, loses balance by a movement of the ladder and falls to the floor resulting in the accident.",
+        "human_note": "Ladder stability/access control was inadequate, as movement of the ladder directly contributed to the loss of balance and fall.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000108",
+        "category": "barriers",
+        "description": "When performing cleaning with LHD in block F 9970 at level 420, the operator was surprised by a rock block displacement of the side of the gallery, reaching his right leg causing him superficial injury",
+        "human_note": "Ground support/ground-control measures were insufficient to prevent rock displacement into the operator's work area.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000112",
+        "category": "barriers",
+        "description": "The injured woman performed cleaning and when cleaning the sink of the collection room pierced the finger with a fragment of glass.",
+        "human_note": "Weak/absent — no indication of cut-resistant gloves being worn, no prior inspection/removal of glass hazards from the sink before cleaning, and no visual check of the work area for hidden sharps",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000115",
+        "category": "barriers",
+        "description": "The employee performed the return of the load at the entrance of the debarking machine, while trying to align a cathode was pressed in his right hand.",
+        "human_note": "Inadequate control of the load/machine pinch point during manual alignment; the worker's hand was able to enter the hazardous zone.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000119",
+        "category": "barriers",
+        "description": "The employee reports that climbing the access ladder to the operating room of the Ustulation was surprised by the projection of sulfuric acid.",
+        "human_note": "Chemical containment, process isolation, splash protection, and access-route controls were inadequate or ineffective. The employee could be exposed to acid while using the access ladder. Effective containment, shielding, leak control, safe access routing, and appropriate chemical-resistant PPE should prevent direct exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000135",
+        "category": "barriers",
+        "description": "In circumstances that the collaborator Juveni performed the washing of the tabolas in the pot washing area, she suffers a feeling of dizziness and faintness causing the fall the same level and producing a slight concussion in the head.",
+        "human_note": "No specific failed safety barrier is described; the fall resulted from sudden dizziness/faintness.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000140",
+        "category": "barriers",
+        "description": "When checking voltage at the power outlet of the the plug and socket to make sure the connection was correct, when there was a small electrical arc in the power cord, causing a slight burn in the right hand wrist. The protection system acted immediately.",
+        "human_note": "Protection system acted immediately, preventing escalation. However, the worker remained exposed to energized electrical equipment during the task.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000145",
+        "category": "barriers",
+        "description": "During the process of washing the material (Becker), the tip of the material was broken which caused a cut of the 5th finger of the right hand",
+        "human_note": "Weak/absent — no indication that cut-resistant gloves were worn during the glassware washing task, and no mention of an inspection process to identify weakened/cracked glassware before handling",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000166",
+        "category": "barriers",
+        "description": "At approximately 5:45 pm, the operator Paulo (operator of the filters) informed the autoclave operator via radio of a leak on the side of the scruber. The autoclave III feed was stopped by the control and officials Georli and Renato initiated the procedures for closing the autoclave transfer valve for flash TQs. Soon after, there was a break in the chicken, projecting pulp hot and reaching three employees who were inside the room near the equipment.",
+        "human_note": "Process isolation and containment barriers failed or were insufficient. Although the feed was stopped and personnel initiated transfer-valve closure, the system subsequently ruptured/released hot pulp while employees remained in the exposure area. Effective isolation, pressure control/depressurization, leak-response procedures, exclusion zones, and remote operation should prevent personnel exposure to the release.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000169",
+        "category": "barriers",
+        "description": "The operator of the Scissor 187 leaves his equipment parked at level -2995 Acc 7 due to electrical problems, when the maintenance personnel arrives, the electrician climbs on the control platform of the equipment and performs the verification of the hydraulic system confirming the problem; then in coordination with the mechanic decide to perform the test with the diesel system, moments in which accidentally activates with the body the arm movement lever causing the drill arm to move downwards generating the left hand's atricion against the support of the pivot tube generating the lesion described. At the time of the accident the electrician was alone on the control platform, while the mechanic was at ground level observing the pressure on the diesel system pressure gauge.",
+        "human_note": "Unexpected activation of the control lever and inadequate isolation/positioning controls allowed the drill arm to move while the worker's hand was in the hazardous zone.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000187",
+        "category": "barriers",
+        "description": "when handling a sample in the laboratory, the sleeve of the employee's coat had contact with nitric acid, absorbing a small amount that came to reach the left forearm, causing a 1st degree burn.",
+        "human_note": "Weak/failed barrier — the coat (likely standard lab coat, not chemical-resistant) did not prevent acid penetration to skin. No indication of an apron, acid-resistant sleeve guards, or immediate emergency shower/eyewash use is mentioned. This represents a failed or absent engineering/PPE control for the energy level involved",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000190",
+        "category": "barriers",
+        "description": "The employee reports that he was draining ammonia, used as a refrigerant, into a container of water when splashes of the solution drained onto his face.",
+        "human_note": "Weak/failed — no indication of face shield, chemical splash goggles, or respiratory protection being used during the draining task; also suggests inadequate procedure/engineering controls (e.g., no closed-system transfer, no fume extraction, no controlled-rate draining) for handling a hazardous refrigerant chemical",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000197",
+        "category": "barriers",
+        "description": "The employee of partner company GR reports that she was cutting watermelon when she injured her 2nd chirodactilo of the left hand with the knife.",
+        "human_note": "Weak/absent — no indication of a cut-resistant glove being worn, and no mention of a proper cutting technique/board stabilization method being used; standard practice for manual knife tasks (cut-resistant gloves, stable cutting surface, \"claw grip\" technique) does not appear to have been referenced or followed",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000198",
+        "category": "barriers",
+        "description": "The mincing team was carrying out activities in the city of Juína and was coordinated by mining technician Felipe a time when the mining technician was last in line and more away from the team, was bitten by a blackjack on the left side of his face. There was no allergic manifestation and the team continued the work. In the afternoon, after lunch, the employee sought medical care, was medicated and released to continue activities the next day.",
+        "human_note": "Environmental hazard identification and insect-control/awareness measures could be improved. However, the narrative does not indicate a significant barrier failure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000210",
+        "category": "barriers",
+        "description": "The servant would remove the dishes from the bowl of the sink and when picking up a set of plates, there was one of them with the broken / broken edge, causing injury to his 3rd chiropactyl from his right hand.",
+        "human_note": "Weak/absent — no indication of an inspection process to identify and remove damaged/chipped dishware before handling, and no cut-resistant gloves mentioned for dishwashing tasks",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000222",
+        "category": "barriers",
+        "description": "the check list of the area of ​​the survey the operator slipped in the foliage of the leucenas and fell.",
+        "human_note": "Walking-surface/vegetation management and housekeeping controls could be improved to maintain a clear and safe inspection route.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000250",
+        "category": "barriers",
+        "description": "Employee was doing cleaning near the area of ​​the pneumatic conveyor when he was hit by a drop of sulfuric acid on his upper lip.",
+        "human_note": "Weak/failed — no indication of face shield, goggles, or splash protection being worn during cleaning near the conveyor; also suggests inadequate containment or isolation of the acid source (e.g., no drip trays, sealed lines, or LOTO) during the cleaning task near an active/residual chemical line",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000259",
+        "category": "barriers",
+        "description": "At a time when the heavy equipment operator got on the equipment to check the right front headlight (defective) of the scooptram # 181, position on the rim position # 2 his left leg which slides, causing the heavy equipment operator to fall from a height of 0.60 cm",
+        "human_note": "no indication of proper access equipment (ladder, designated step/platform) being used for the inspection task; using the tire rim as a climbing point is an improvised, non-designed access method, indicating a gap in safe access procedures for equipment inspection/maintenance tasks",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000264",
+        "category": "barriers",
+        "description": "When igniting the furnace 07 of the battery I, there was reflux of hot gas, reaching the face of the employee.",
+        "human_note": "Ignition, gas-flow, and personnel-positioning controls were inadequate or ineffective. The employee was positioned where a hot-gas reflux could reach the face. Proper ignition procedures, gas-flow control, exclusion from the line of fire, and appropriate PPE should prevent direct exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000284",
+        "category": "barriers",
+        "description": "When performing the Doosan RB-10 equipment hammer repair, the employee tries to remove the suspenders with the support of a 25-pound rope; At the moment of receiving the blow the brace or bolt causes a splinter to be released, expelling and impacting on the lower left limb causing metal embedding in it. The collaborator did not notice immediately.",
+        "human_note": "Line-of-fire, restraint, and controlled disassembly barriers were inadequate or ineffective. The component was struck while the worker remained exposed to potential projectile release. Appropriate restraint, controlled removal methods, exclusion zones, and suitable PPE should prevent personnel exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000289",
+        "category": "barriers",
+        "description": "The maid while walking in the electrolysis area, stumbled and fell next to the bathroom in room B.",
+        "human_note": "Housekeeping, walking-surface, and pedestrian safety controls may have been inadequate, but there is insufficient evidence of a failed high-consequence barrier.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000297",
+        "category": "barriers",
+        "description": "At 13:40 hours, Mr. Hidalgo, wanting to climb on the starter board to remove the fans, stands on an unstable reel and, when driving, fell frontally at a height of 2.98m.",
+        "human_note": "Inadequate work-at-height controls and unstable access surface; the worker used an unstable reel instead of a safe access platform.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000298",
+        "category": "barriers",
+        "description": "Being approximately 8:10 p.m. Alpha operator Mr. Ronald was heading to mine when he decides to stop the equipment to accommodate the lights (left side), manipulating the support of the lighthouse, catching his fifth finger of the right hand with the protection grid and support.",
+        "human_note": "Pinch point remained accessible during manual adjustment of the light support.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000312",
+        "category": "barriers",
+        "description": "Upon approaching the furnace that was in the process of melting the Zn ingot, it was struck by liquid metal projection.",
+        "human_note": "Insufficient protection/separation from the molten-metal projection zone while approaching the operating furnace.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000314",
+        "category": "barriers",
+        "description": "At 15:05 hours, Mr. Cesar Tello-MOINSAC, was carrying out the work of assembling the water line, for that he climbs up the cat ladder and at an approximate height of 2.5 meters he vanishes and falls, hitting himself on the way, being transferred to the medical center for his attention.",
+        "human_note": "Fall-prevention controls were inadequate or failed to prevent the worker from falling from the ladder.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000321",
+        "category": "barriers",
+        "description": "During the process of loading drills in the Carmen pit of level 3450, the operator positions the basket of the anfo loader 186 equipment at a height of 3m from the floor to carry out the loading of the production drills; At this moment, a stone slab of 1.4x0.7x0.2 m is detached from the front of the pit, which is tilted and lodged inside the basket, trapping the right leg of the collaborator.",
+        "human_note": "Ground-control and exclusion controls were inadequate or ineffective. The worker and basket were positioned within the potential rockfall zone, and loose/unstable ground was not adequately identified, scaled, barricaded, or otherwise controlled before loading.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000323",
+        "category": "barriers",
+        "description": "In circumstances that the tipper MV-01 of the EE Mceisa, moved of the Nv. 3120 to Nv. 3300, the operator sees a congestion of equipment in front of his unit in the Ramp 990 - at a distance of 80 meters. of access to the Nv. 3300, which is why he decides to get off the cab by turning off his vehicle, when suddenly he slides off the second rung that is 0.70 m from the ground, hitting the right forearm region against the fender and the same rung.",
+        "human_note": "Weak/absent — no indication of the operator maintaining three-point contact while descending, or of anti-slip treads/adequate grip on the access rungs being confirmed; the operator's task context (rushed dismount due to observing equipment congestion ahead) may have contributed to a hurried, less careful descent",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000331",
+        "category": "barriers",
+        "description": "In Level 2900 - OP 5 the worker performed the chuteo ore from the hopper to the second car, perceived a slip of water and mud through the hopper, decided to leave the platform and when he was already down the second rung of the ladder of access, the water increases and a fragment of rock slides and hits the back of the worker causing it to fall and hit the right forearm and left knee.",
+        "human_note": "The worker recognized the water/mud hazard and attempted to leave the platform, but the control was insufficient to prevent the rock from striking him.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000332",
+        "category": "barriers",
+        "description": "Being 12:20 hours Approximately, in circumstances that the Administrative SSOMAC, was arranged to move the guillotine of the right side towards the center of the table to make cuts of enmicadas pages, when trying to raise the guillotine the middle finger of the right hand It rubs against the edge of the guillotine blade, causing the cut in the yolk of the third finger of the right hand.",
+        "human_note": "Inadequate hand clearance/guarding while manipulating the guillotine blade.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000337",
+        "category": "barriers",
+        "description": "the Spillway circumstances where the worker was cleaning, with the use of an absorbent cloth, oil residues from the right edge of the Atlas AXS-186 compressor, with the bonnet open and in functioning; the rag falls inside the ompressor and in the attempt to remove it, it is hooked on the fan's propeller, pulling the worker's left hand toward the propeller causing the injury.",
+        "human_note": "Machine guarding and energy-isolation controls were inadequate or bypassed. The compressor was operating with the bonnet open, allowing access to the rotating fan. The worker attempted intervention without first stopping and isolating the equipment.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000338",
+        "category": "barriers",
+        "description": "Performing carpentry work, the collaborator hit the second finger of the left hand with the hammer, which he held with his right hand, causing a bruise at the height of the nail. The evaluation was carried out at the medical center of the unit, the final diagnosis being contusion on the finger.",
+        "human_note": "Weak/absent — no indication of a tool/jig being used to hold the workpiece (to keep hands clear of the striking zone), and no mention of impact-resistant gloves; standard hand-tool safety practice (keeping the non-striking hand clear, using clamps/holders) does not appear to have been followed",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000361",
+        "category": "barriers",
+        "description": "The employee, who was hitchhiking, on the CEP 403 truck, equipment, he crossed the central canterio of the track to catch the key of the wheel loader with another operator who was stopped in the opposite direction. Upon returning to the truck, it was hit in the arm left by the loader tire that was traveling along the road and passed the CEP-403 on the right.",
+        "human_note": "Inadequate separation between pedestrians and mobile equipment; the worker crossed the roadway while the loader was traveling through the area.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000364",
+        "category": "barriers",
+        "description": "At Level 3970 (Before -100) When the F6M 801 license plate went from level 3570 to surface, when the pilot trying to locate his radio to answer a call from the concrete plant is distracted and crashes his vehicle against the left gable and the vehicle turns to the right side. When this happens, the copilot hits his right hand against a fragment of broken glass in the window on the right side of the vehicle.",
+        "human_note": "driver distraction (handling radio while driving) represents a failure of safe driving behavior/procedure; no indication of hands-free communication devices, distraction-management controls, or speed/engineering controls (e.g., barriers, road design at the gable) that prevented the vehicle from contacting the wall; vehicle window glass breaking on impact indicates the structural/cabin integrity control also did not fully contain the hazard",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000370",
+        "category": "barriers",
+        "description": "During the preparation for the solubilization activity of the sample in the chapel, the maid when moving the vial of nitric acid, the same detached from the doser, causing projection in the region of the face and upper limbs.",
+        "human_note": "Vial/doser connection failed or became detached, allowing uncontrolled chemical release toward the worker.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000371",
+        "category": "barriers",
+        "description": "During the activity of changing conveyor belt 11B feeding the primary mill No. 2; the mechanic entered the discharge chute (0.75 x 0.75 x 0.80 m.) to clean the material, at which time the automatic sampler (0.30 x 0.25 m) that was inside the chute was activated, trapping the mechanic at the height of the chest. At the time of the accident the mechanic was alone in the work area.",
+        "human_note": "Lockout/tagout and isolation controls were inadequate or ineffective. The automatic sampler was not adequately isolated and secured against unexpected activation before the mechanic entered the chute. The worker also entered a restricted space alone, increasing the severity potential.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000372",
+        "category": "barriers",
+        "description": "Being approximately 20:57 hours of 03/22/2017; during the change of cables between the Z-332 power cell (locked cabinet) and the Z014 transformer; there is a loud noise followed by an oscillation of the electrical system. At that moment the collaborator Queneche of the company EISSA is found on the floor with his head inside an adjoining cell Z-132 (cabinet Not blocked - where he was not assigned to do any work), after having received an electric shock .",
+        "human_note": "Electrical isolation, boundary control, and lockout/tagout barriers were inadequate or ineffective. The adjacent Z-132 cell was not blocked, allowing the worker to enter an electrical compartment where he was not assigned to work. The event also indicates inadequate control/verification of hazardous electrical energy before cable work.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000373",
+        "category": "barriers",
+        "description": "When the Mixer 01 of the E.C.M INCIMMET S.A, moved by the positive south ramp, with direction to surface (Unicon concrete plant), at the height of the 3630 (Before 440), the operator observes that untimely lights and the engine go off, the control controls do not respond and the equipment starts to reverse. At 3 meters the operator jumps out of the cabin and at 20 meters the team hits the right gable and turns to its side left. In the area, in the circumstances of the event there was no presence of personnel or equipment that could have been affected.",
+        "human_note": "Failed — the vehicle's engine/electrical/control system failed unexpectedly, and there is no indication of a functioning parking brake, runaway-vehicle arrestor, or fail-safe braking system that should have prevented an uncontrolled reverse roll on a ramp; the absence of personnel/equipment in the runaway path was circumstantial, not the result of an engineered exclusion zone or traffic control measure",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000374",
+        "category": "barriers",
+        "description": "The technician was doing the magnetometric survey when he stepped on a thorn. His reaction was to immediately retreat, losing his balance and so the magnetometer's antenna broke.",
+        "human_note": "No specific failed critical safety barrier is described. The worker's reaction to the thorn caused the subsequent loss of balance.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000382",
+        "category": "barriers",
+        "description": "Employee to perform painting of the floor of the fuel tank area, he needed cleaning, and by pouring water-thinner on the floor, the bucket slipped out of his hand and the mixture projected onto his left shoulder and lower lip, causing redness and burning.",
+        "human_note": "Chemical-handling controls were inadequate or could be improved. The bucket slipped during manual handling, resulting in direct exposure. A suitable container, controlled pouring method, and appropriate chemical-resistant PPE would reduce the likelihood of splashes.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000383",
+        "category": "barriers",
+        "description": "During the execution of the soil sampling task at the Potions area, around 1:15 pm, Luis - WCA, was opening with a machete and was bitten by a wasp on the back of his right hand, the same was using at the time of the incident all the EPIs needed for activity. The employee was evaluated by the technician who found it to be a mild and localized swelling wound. The employee reported that he did not feel any pain and that he could continue the activity.",
+        "human_note": "Required PPE was being used at the time of the incident. No specific failed critical barrier is described.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000393",
+        "category": "barriers",
+        "description": "ACTIVITY: front sanitation (slaughter of choco with scaller) LOCAL: underground mine, level 350 - front 45 Upper JKA The operator performed front sanitation when a rock block from the roof hit the equipment. The accident victim was promptly rescued by the unit's emergency brigade and transported to the outpatient clinic where he received the first care, and was then transferred to the Municipal of Paracatu.",
+        "human_note": "Ground-control and scaling controls were inadequate or ineffective. Unstable roof material remained capable of detaching and striking the work equipment. Adequate scaling, ground-support assessment, exclusion of personnel from unsupported ground, and appropriate ground-control measures are critical barriers.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000401",
+        "category": "barriers",
+        "description": "The employees Márcio and Sérgio performed the pump pipe clearing activity FZ1.031.4 and during the removal of the suction spool flange bolts, there was projection of pulp over them causing injuries.",
+        "human_note": "Isolation, depressurization, and line-of-fire controls were inadequate or ineffective. The flange was opened while hazardous stored energy/material remained capable of being released. Positive isolation, pressure verification, controlled draining/bleeding, and positioning personnel outside the line of fire should have prevented the exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000403",
+        "category": "barriers",
+        "description": "When performing shotcrete casting for resane on Cruise 791 Nv. 1940 at 02:50 p.m. approximately, the operator was placed on the left side of the equipment and started the release of 02 cubic meters, at that time decided to paralyze the task for a few minutes due to a leak of water in the roof box that did not allow the adhesion of the shotcrete to the rock (setting). When restarting the shotcrete launch the operator that was on the left side moved to the right side of the equipment, while the assistant and the operator mixkret to see that there was no pumping went to verify what happened and when they returned they realized that the operator was not, so they assume that he had fallen down the chimney, they left the job to ask for help immediately. The emergency response brigade and the medical service are activated, who verify the death of the collaborator. The accident investigation begins.",
+        "human_note": "Fall-prevention and access-control barriers were inadequate or ineffective. The vertical opening was apparently accessible to the operator without sufficient protection to prevent a fall. Guarding/barricading, physical covers, controlled access, fall protection where required, and verification of the work area should have prevented the exposure.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000410",
+        "category": "barriers",
+        "description": "In moments when the 02 collaborators carried out the inspection of the conveyor belt No. 3 from the tail pulley when they were at the height of the load polymer No. 372, the Maslucan collaborator heard a noise where note that the belt was moving towards the tail pulley, 4 \"fragmentos mineral fragments are projected towards the access of the ramp impacting the 2 collaborators, being evacuated to the medical post.",
+        "human_note": "Fragment containment and/or exclusion controls were insufficient, allowing projected material to reach the workers' access area.",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000420",
+        "category": "barriers",
+        "description": "In circumstances that the driver of the plate truck W5K-915 of the E.E. IMPROMEC, went from the garit plant chicrin to Nv.3420, after entering an internal mine in the area of ​​Santa where 200 m. approx. from the old dining room, stops the vehicle and informs the co-pilot that he can no longer drive, for which he turns off the vehicle and when trying to get off the van loses his balance and falls on his own seat, complaining intense pain in the lumbar area, citing pain due to overexertion due to routine activity (evacuation of residual oil and solid waste cylinders) that they previously performed. The collaborator at the time of the event used their corresponding EPPS.",
+        "human_note": "Weak/unclear — no indication of manual handling training, lifting aids, or task rotation controls for the cylinder evacuation task that preceded the incident; the operator continuing to drive after already feeling unwell/strained (before stopping) also suggests a gap in fatigue/fitness-for-duty self-reporting procedures",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      },
+      {
+        "report_id": "industrial_safety_000422",
+        "category": "barriers",
+        "description": "The convoy of the locomotive 15 operated by Mr. Tito is located in hopper OP2 positioning the 1st car under the hopper, the assistant does not observe anything out of the ordinary (dry load there is no presence of water) and initiates the chute, for this, the hydraulic module of the hopper is switched on and with the controls it slightly moves the hopper handle and an untimely flow of water and mud splashes the operator generating the described injury, in addition the collaborator was 7 meters from the line of fire",
+        "human_note": "Failed — the pre-task visual inspection (\"dry load, no presence of water\") did not detect the hazard, indicating this inspection method is inadequate for identifying trapped/hidden water or saturated material in this type of load; no indication of remote/controlled chute activation procedures, standoff barriers, or a validated line-of-fire exclusion zone that accounted for this failure mode",
+        "extracted": "",
+        "extracted_evidence": "",
+        "audit_hint": "MISSED_CATEGORY"
+      }
+    ]
+  }
+}

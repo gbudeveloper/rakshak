@@ -1,0 +1,19 @@
+{
+  "version": "resolved_annotations_v0.2",
+  "previous_resolved_records": 40,
+  "previous_yes": 25,
+  "previous_no": 15,
+  "active_learning_completed_records": 30,
+  "active_learning_yes": 15,
+  "active_learning_no": 15,
+  "final_resolved_records": 70,
+  "final_yes": 40,
+  "final_no": 30,
+  "duplicate_report_ids": 0,
+  "source_files": {
+    "previous": "data\\annotations\\resolved_annotations_v0.1.csv",
+    "active_learning": "data\\annotations\\active_learning_v0.1\\active_learning_batch_01_annotated.csv"
+  },
+  "eligible_for_binary_training": true,
+  "note": "v0.2 combines the original 40 resolved binary annotations with the 30 completed active-learning annotations. Existing labels are preserved."
+}

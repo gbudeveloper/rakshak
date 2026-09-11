@@ -1,0 +1,33 @@
+{
+  "experiment": "RAKSHAK Evidence-Aware Ranking Audit v0.5",
+  "ranking_metrics": {
+    "test_records": 20,
+    "test_yes": 13,
+    "test_no": 7,
+    "test_pr_auc": 0.8273778122462332,
+    "precision_at_5": 0.8,
+    "recall_at_5": 0.3076923076923077,
+    "precision_at_10": 0.8,
+    "recall_at_10": 0.6153846153846154,
+    "precision_at_15": 0.6666666666666666,
+    "recall_at_15": 0.7692307692307693,
+    "precision_at_20": 0.65,
+    "recall_at_20": 1.0
+  },
+  "evidence_quality": {
+    "test_with_precursor_evidence_rate": 0.85,
+    "test_with_barrier_evidence_rate": 0.0,
+    "test_with_lsr_evidence_rate": 0.6,
+    "high_score_no_precursor_count": 2,
+    "lsr_without_evidence_count": 0,
+    "barrier_without_evidence_count": 0,
+    "high_score_false_positive_count": 4,
+    "low_score_false_negative_count": 4
+  },
+  "files": {
+    "test_ranking_audit": "test_ranking_audit.csv",
+    "reviewer_top20": "reviewer_top20_audit.csv",
+    "flagged_cases": "flagged_cases.csv"
+  },
+  "interpretation": "This audit evaluates whether the ranking is operationally supported by narrative evidence. It does not establish safety-critical accuracy and does not validate heuristic LSR mappings as ground truth."
+}

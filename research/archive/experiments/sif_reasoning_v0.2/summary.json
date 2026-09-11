@@ -1,0 +1,25 @@
+{
+  "version": "0.2",
+  "records": 70,
+  "bands": {
+    "LOW": 44,
+    "MEDIUM": 15,
+    "HIGH": 11
+  },
+  "mean_score": 0.2926,
+  "high_score_count": 11,
+  "lsr_candidate_counts": {
+    "Work at Height": 25,
+    "Isolation": 17,
+    "Line of Fire": 13,
+    "Seat Belt": 12,
+    "Driving": 10,
+    "Safe Mechanical Lifting": 8,
+    "Hot Work": 2
+  },
+  "notes": [
+    "Heuristic operating score, not a probability.",
+    "Mechanism-specific gates reduce generic contact/fall/chemical false positives.",
+    "Human annotations and gold SIF labels are not inputs."
+  ]
+}

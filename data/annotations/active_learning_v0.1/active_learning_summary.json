@@ -1,0 +1,31 @@
+{
+  "experiment": "active_learning_v0.1",
+  "model": {
+    "transformer": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "tfidf": "word unigrams+bigrams",
+    "classifier": "LogisticRegression",
+    "device": "cuda"
+  },
+  "resolved_records": 40,
+  "resolved_yes": 25,
+  "resolved_no": 15,
+  "original_pool_records": 411,
+  "excluded_resolved_ids": 40,
+  "excluded_locked_split_ids": 40,
+  "candidate_records": 371,
+  "selected_records": 30,
+  "selection_weights": {
+    "disagreement": 0.45,
+    "uncertainty": 0.35,
+    "model_spread": 0.2
+  },
+  "risk_cap": 4,
+  "selection_reason_counts": {
+    "High combined uncertainty": 16,
+    "TF-IDF YES / Transformer NO disagreement": 9,
+    "Strong model disagreement": 2,
+    "TF-IDF NO / Transformer YES disagreement": 2,
+    "Near decision boundary": 1
+  },
+  "warning": "Scores are model-selection signals, not calibrated SIF probabilities. Human annotation remains the source of truth."
+}

@@ -1,0 +1,146 @@
+{
+  "experiment": "RAKSHAK Hybrid Structured + Transformer SIF Model v0.3",
+  "dataset_size": 70,
+  "yes_count": 40,
+  "no_count": 30,
+  "split_sizes": {
+    "train": 30,
+    "validation": 20,
+    "test": 20
+  },
+  "structured_feature_count": 65,
+  "embedding_dimension": 384,
+  "repeated_group_cv": {
+    "splits": 5,
+    "repeats": 10,
+    "folds_per_representation": 50,
+    "group_safe": true,
+    "threshold": 0.5
+  },
+  "comparison": [
+    {
+      "representation": "transformer_only",
+      "validation_threshold": 0.2,
+      "validation": {
+        "n": 20,
+        "accuracy": 0.65,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "f2": 0.8870967741935484,
+        "pr_auc": 0.6848972922502334,
+        "tn": 2,
+        "fp": 7,
+        "fn": 0,
+        "tp": 11
+      },
+      "locked_test_selected_threshold": {
+        "n": 20,
+        "accuracy": 0.65,
+        "precision": 0.6875,
+        "recall": 0.8461538461538461,
+        "f2": 0.8088235294117647,
+        "pr_auc": 0.7557293752131808,
+        "tn": 2,
+        "fp": 5,
+        "fn": 2,
+        "tp": 11
+      },
+      "locked_test_0.50": {
+        "n": 20,
+        "accuracy": 0.65,
+        "precision": 0.7142857142857143,
+        "recall": 0.7692307692307693,
+        "f2": 0.7575757575757576,
+        "pr_auc": 0.7557293752131808,
+        "tn": 3,
+        "fp": 4,
+        "fn": 3,
+        "tp": 10
+      },
+      "features_used": 384
+    },
+    {
+      "representation": "precursor_structured_only",
+      "validation_threshold": 0.2,
+      "validation": {
+        "n": 20,
+        "accuracy": 0.55,
+        "precision": 0.55,
+        "recall": 1.0,
+        "f2": 0.859375,
+        "pr_auc": 0.7294748579437574,
+        "tn": 0,
+        "fp": 9,
+        "fn": 0,
+        "tp": 11
+      },
+      "locked_test_selected_threshold": {
+        "n": 20,
+        "accuracy": 0.65,
+        "precision": 0.65,
+        "recall": 1.0,
+        "f2": 0.9027777777777778,
+        "pr_auc": 0.8351299959599554,
+        "tn": 0,
+        "fp": 7,
+        "fn": 0,
+        "tp": 13
+      },
+      "locked_test_0.50": {
+        "n": 20,
+        "accuracy": 0.6,
+        "precision": 0.8571428571428571,
+        "recall": 0.46153846153846156,
+        "f2": 0.5084745762711864,
+        "pr_auc": 0.8351299959599554,
+        "tn": 6,
+        "fp": 1,
+        "fn": 7,
+        "tp": 6
+      },
+      "features_used": 64
+    },
+    {
+      "representation": "transformer_plus_precursor",
+      "validation_threshold": 0.2,
+      "validation": {
+        "n": 20,
+        "accuracy": 0.65,
+        "precision": 0.6111111111111112,
+        "recall": 1.0,
+        "f2": 0.8870967741935484,
+        "pr_auc": 0.7320194882360659,
+        "tn": 2,
+        "fp": 7,
+        "fn": 0,
+        "tp": 11
+      },
+      "locked_test_selected_threshold": {
+        "n": 20,
+        "accuracy": 0.65,
+        "precision": 0.6875,
+        "recall": 0.8461538461538461,
+        "f2": 0.8088235294117647,
+        "pr_auc": 0.8273778122462332,
+        "tn": 2,
+        "fp": 5,
+        "fn": 2,
+        "tp": 11
+      },
+      "locked_test_0.50": {
+        "n": 20,
+        "accuracy": 0.6,
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f2": 0.6923076923076923,
+        "pr_auc": 0.8273778122462332,
+        "tn": 3,
+        "fp": 4,
+        "fn": 4,
+        "tp": 9
+      },
+      "features_used": 448
+    }
+  ],
+  "critical_note": "Do not interpret perfect v0.2 structured scores as model performance. v0.3 uses narrative-only precursor features and duplicate-group-safe CV."
+}

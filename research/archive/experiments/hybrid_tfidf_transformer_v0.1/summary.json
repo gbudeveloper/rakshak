@@ -1,0 +1,107 @@
+{
+  "experiment": "hybrid_tfidf_transformer_v0.1",
+  "transformer_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "device": "cuda",
+  "embedding_dimension": 384,
+  "max_seq_length": 256,
+  "cv": {
+    "n_splits": 5,
+    "n_repeats": 10,
+    "folds_per_model": 50,
+    "random_state": 42
+  },
+  "cv_summary": {
+    "model": "Hybrid TF-IDF + Transformer",
+    "folds": 50,
+    "metrics": {
+      "accuracy": {
+        "mean": 0.7025,
+        "std": 0.13095508655213647,
+        "min": 0.5,
+        "max": 0.875
+      },
+      "precision": {
+        "mean": 0.7334523809523809,
+        "std": 0.10579167718903669,
+        "min": 0.5714285714285714,
+        "max": 1.0
+      },
+      "recall": {
+        "mean": 0.8519999999999999,
+        "std": 0.150156381068239,
+        "min": 0.4,
+        "max": 1.0
+      },
+      "f2": {
+        "mean": 0.819197412893065,
+        "std": 0.12465380319818664,
+        "min": 0.43478260869565216,
+        "max": 0.9615384615384616
+      },
+      "pr_auc": {
+        "mean": 0.8623666666666666,
+        "std": 0.11890762818637367,
+        "min": 0.5592857142857143,
+        "max": 1.0
+      },
+      "false_positive_count": {
+        "mean": 1.64,
+        "std": 0.8270922757788645,
+        "min": 0.0,
+        "max": 3.0
+      },
+      "false_negative_count": {
+        "mean": 0.74,
+        "std": 0.750781905341195,
+        "min": 0.0,
+        "max": 3.0
+      }
+    }
+  },
+  "locked_split": {
+    "train_records": 28,
+    "validation_records": 6,
+    "test_records": 6,
+    "validation_best_f2": 0.9090909090909091,
+    "validation_selected_threshold": 0.05,
+    "test_at_0.50": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f2": 1.0,
+      "pr_auc": 1.0,
+      "false_positive_count": 0,
+      "false_negative_count": 0,
+      "confusion_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "test_at_validation_threshold": {
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f2": 0.9090909090909091,
+      "pr_auc": 1.0,
+      "false_positive_count": 2,
+      "false_negative_count": 0,
+      "confusion_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  "warning": "The adjudicated dataset is only 40 records and the locked test set is 6 records. These results are diagnostic research evidence, not production generalization estimates."
+}

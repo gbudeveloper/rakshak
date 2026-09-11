@@ -1,0 +1,127 @@
+[
+  {
+    "column": "report_id",
+    "status": "excluded",
+    "reason": "explicit_outcome_or_annotation_field"
+  },
+  {
+    "column": "description",
+    "status": "excluded",
+    "reason": "non_numeric"
+  },
+  {
+    "column": "actual_fatality",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_electrical_injury",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_crush_amputation",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_burn_thermal",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_chemical_injury",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_cut_laceration",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_impact",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_fall_injury",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_facial_injury",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_musculoskeletal",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_minor_irritation",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_electrical",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_caught_between",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_fall",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_vehicle",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_chemical",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_thermal",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_projectile",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_severe_entanglement",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "actual_consequence_count",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "potential_consequence_count",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "fatality_language",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  },
+  {
+    "column": "hospital_or_medical_escalation",
+    "status": "excluded",
+    "reason": "outcome_or_severity_proxy_name"
+  }
+]

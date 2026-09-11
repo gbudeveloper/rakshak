@@ -1,0 +1,21 @@
+﻿report_id,true_label,sif_precursor_probability,prediction_at_0.50,hazards,exposures,pathways,pathway_signal_strength,pathway_assessment
+industrial_safety_000422,1,0.9725580133955279,1,fire_explosion,line_of_fire,chemical_release_exposure,3,SUPPORTED
+industrial_safety_000384,1,0.9520937556849381,1,electrical | fall_height,electrical,electrical_contact | fall_from_height,3,SUPPORTED
+industrial_safety_000382,0,0.9307916765164259,1,,thermal,struck_by_projectile,2,PARTIAL
+industrial_safety_000166,1,0.8510041312655262,1,chemical | thermal,chemical | thermal,chemical_release_exposure | thermal_contact,3,SUPPORTED
+industrial_safety_000403,1,0.8324697388778702,1,chemical,chemical,chemical_release_exposure,3,SUPPORTED
+industrial_safety_000389,1,0.8153938939142629,1,fall_height,direct_contact,electrical_contact | fall_from_height,3,SUPPORTED
+industrial_safety_000190,0,0.792489143613524,1,chemical,,chemical_release_exposure,2,PARTIAL
+industrial_safety_000370,1,0.7672502177490946,1,chemical,,,1,WEAK
+industrial_safety_000426,1,0.7031499962985267,1,vehicle,vehicle,,2,PARTIAL
+industrial_safety_000140,1,0.6900129620654231,1,electrical,electrical | thermal,electrical_contact,3,SUPPORTED
+industrial_safety_000074,0,0.6638095497727738,1,,,,0,NONE
+industrial_safety_000420,0,0.6609792576917671,1,vehicle,vehicle,,2,PARTIAL
+industrial_safety_000314,1,0.6270934721793237,1,fall_height,,fall_from_height,2,PARTIAL
+industrial_safety_000364,1,0.49144147930998694,0,vehicle,direct_contact | vehicle,,2,PARTIAL
+industrial_safety_000075,1,0.48018439890973386,0,chemical,chemical,chemical_release_exposure,3,SUPPORTED
+industrial_safety_000115,0,0.4350048764877822,0,mechanical,,,1,WEAK
+industrial_safety_000289,0,0.2034092739367928,0,fall_height,fall,fall_from_height,3,SUPPORTED
+industrial_safety_000361,1,0.06983728315828261,0,vehicle,vehicle,,2,PARTIAL
+industrial_safety_000145,0,0.06737222232160907,0,,,,0,NONE
+industrial_safety_000077,1,0.0572697767844433,0,chemical,chemical | thermal,chemical_release_exposure,3,SUPPORTED

@@ -1,0 +1,21 @@
+{
+  "version": "1.4",
+  "principles": [
+    "Generic contact does not imply electrical contact.",
+    "Generic splash/projected/flow does not imply chemical release.",
+    "Vehicle pathway requires vehicle/person interaction evidence.",
+    "Hazard, exposure and pathway remain separate signals.",
+    "Evidence never overrides adjudicated SIF labels.",
+    "Missing severity or energy information is not invented.",
+    "De-energized/disabled wording is exposed as context only."
+  ],
+  "paths": [
+    "electrical_contact",
+    "chemical_release_exposure",
+    "thermal_contact",
+    "fall_from_height",
+    "struck_by_projectile",
+    "caught_crush",
+    "vehicle_person_collision"
+  ]
+}

@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.*
+
+# ML artifacts
+mlruns/
+artifacts/
+*.pt
+*.pth
+*.safetensors
+
+# Data
+data/oil/
+data/raw_private/
+data/private/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+# Runtime state
+data/reviews/*.db

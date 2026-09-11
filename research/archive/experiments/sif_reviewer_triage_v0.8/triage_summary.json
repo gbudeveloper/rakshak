@@ -1,0 +1,21 @@
+{
+  "experiment": "RAKSHAK Reviewer Triage Policy v0.8 FIXED",
+  "test_records": 20,
+  "tiers": {
+    "P1_high_model_with_evidence": 9,
+    "P2_high_model_no_evidence": 1,
+    "P3_moderate_with_evidence": 2,
+    "P4_other": 8
+  },
+  "flags": {
+    "model_label_conflict": 5,
+    "no_precursor_evidence": 3,
+    "no_control_language": 18,
+    "no_lsr_candidate": 8
+  },
+  "policy": {
+    "high_model_threshold": 0.8,
+    "moderate_model_threshold": 0.5,
+    "safety_behavior": "A high model score is never suppressed because evidence extraction is sparse; evidence sparsity instead increases mandatory human review."
+  }
+}

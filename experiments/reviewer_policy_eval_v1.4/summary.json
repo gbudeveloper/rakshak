@@ -1,0 +1,83 @@
+{
+  "labelled_records": 70,
+  "gold_yes": 40,
+  "gold_no": 30,
+  "priority_distribution": [
+    {
+      "priority": "P1",
+      "records": 36,
+      "gold_yes": 29,
+      "gold_no": 7,
+      "gold_yes_rate": 0.8055555555555556
+    },
+    {
+      "priority": "P2",
+      "records": 9,
+      "gold_yes": 7,
+      "gold_no": 2,
+      "gold_yes_rate": 0.7777777777777778
+    },
+    {
+      "priority": "P3",
+      "records": 2,
+      "gold_yes": 2,
+      "gold_no": 0,
+      "gold_yes_rate": 1.0
+    },
+    {
+      "priority": "P4",
+      "records": 9,
+      "gold_yes": 2,
+      "gold_no": 7,
+      "gold_yes_rate": 0.2222222222222222
+    },
+    {
+      "priority": "P5",
+      "records": 14,
+      "gold_yes": 0,
+      "gold_no": 14,
+      "gold_yes_rate": 0.0
+    }
+  ],
+  "queue_enrichment": [
+    {
+      "queue": "P1-P1",
+      "records": 36,
+      "gold_yes": 29,
+      "gold_yes_rate": 0.8055555555555556
+    },
+    {
+      "queue": "P1-P2",
+      "records": 45,
+      "gold_yes": 36,
+      "gold_yes_rate": 0.8
+    },
+    {
+      "queue": "P1-P3",
+      "records": 47,
+      "gold_yes": 38,
+      "gold_yes_rate": 0.8085106382978723
+    },
+    {
+      "queue": "P1-P4",
+      "records": 56,
+      "gold_yes": 40,
+      "gold_yes_rate": 0.7142857142857143
+    },
+    {
+      "queue": "P1-P5",
+      "records": 70,
+      "gold_yes": 40,
+      "gold_yes_rate": 0.5714285714285714
+    }
+  ],
+  "p1_positive_rate": 0.8055555555555556,
+  "p1_p2_positive_rate": 0.8,
+  "p1_p2_p3_positive_rate": 0.8085106382978723,
+  "p1_recall": 0.725,
+  "p1_p2_recall": 0.9,
+  "p1_p2_p3_recall": 0.95,
+  "high_score_gold_no_count": 3,
+  "gold_yes_in_p4_p5_count": 2,
+  "interpretation": "Descriptive reviewer-policy audit on the current 70 adjudicated binary labels; not model performance and not threshold optimization."
+}

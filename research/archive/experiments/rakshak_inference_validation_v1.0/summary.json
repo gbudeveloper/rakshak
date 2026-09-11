@@ -1,0 +1,9 @@
+{
+  "status": "FAIL_SCHEMA_OR_RUNTIME_MISMATCH",
+  "records": 20,
+  "max_absolute_difference": 0.4531686033736396,
+  "mean_absolute_difference": 0.1514032537532473,
+  "embedding_dimension": 384,
+  "pathway_dimension": 38,
+  "total_dimension": 422
+}

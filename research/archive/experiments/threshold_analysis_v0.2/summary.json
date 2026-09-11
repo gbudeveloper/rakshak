@@ -1,0 +1,118 @@
+{
+  "experiment": "threshold_analysis_v0.2",
+  "dataset_version": "resolved_annotations_v0.2",
+  "split_version": "sif_splits_v0.2",
+  "cv": {
+    "n_splits": 5,
+    "n_repeats": 10,
+    "total_folds": 50,
+    "oof_aggregation": "mean probability across held-out repeats"
+  },
+  "threshold_policy": "Selected from repeated-CV out-of-fold predictions using F2 within the 0.20\u20130.80 operating range. Locked test was not used for threshold selection.",
+  "oof_models": {
+    "TF-IDF + Logistic Regression": {
+      "oof_pr_auc": 0.8305772351110379,
+      "selected_threshold": 0.468563,
+      "selected_oof_f2": 0.874439461883408,
+      "selected_oof_metrics": {
+        "threshold": 0.468563,
+        "precision": 0.6190476190476191,
+        "recall": 0.975,
+        "f2": 0.874439461883408,
+        "false_positive_count": 24,
+        "false_negative_count": 1
+      }
+    },
+    "Transformer Embeddings + Logistic Regression": {
+      "oof_pr_auc": 0.7860289621835351,
+      "selected_threshold": 0.335938,
+      "selected_oof_f2": 0.8968609865470852,
+      "selected_oof_metrics": {
+        "threshold": 0.335938,
+        "precision": 0.6349206349206349,
+        "recall": 1.0,
+        "f2": 0.8968609865470852,
+        "false_positive_count": 23,
+        "false_negative_count": 0
+      }
+    },
+    "Hybrid TF-IDF + Transformer": {
+      "oof_pr_auc": 0.815056145224998,
+      "selected_threshold": 0.343158,
+      "selected_oof_f2": 0.8968609865470852,
+      "selected_oof_metrics": {
+        "threshold": 0.343158,
+        "precision": 0.6349206349206349,
+        "recall": 1.0,
+        "f2": 0.8968609865470852,
+        "false_positive_count": 23,
+        "false_negative_count": 0
+      }
+    }
+  },
+  "locked_test": {
+    "TF-IDF + Logistic Regression": {
+      "selected_threshold": 0.468563,
+      "at_0.50": {
+        "threshold": 0.5,
+        "precision": 0.7272727272727273,
+        "recall": 0.6153846153846154,
+        "f2": 0.6349206349206349,
+        "false_positive_count": 3,
+        "false_negative_count": 5
+      },
+      "at_oof_selected_threshold": {
+        "threshold": 0.468563,
+        "precision": 0.631578947368421,
+        "recall": 0.9230769230769231,
+        "f2": 0.8450704225352113,
+        "false_positive_count": 7,
+        "false_negative_count": 1
+      }
+    },
+    "Transformer Embeddings + Logistic Regression": {
+      "selected_threshold": 0.335938,
+      "at_0.50": {
+        "threshold": 0.5,
+        "precision": 0.6666666666666666,
+        "recall": 0.7692307692307693,
+        "f2": 0.746268656716418,
+        "false_positive_count": 5,
+        "false_negative_count": 3
+      },
+      "at_oof_selected_threshold": {
+        "threshold": 0.335938,
+        "precision": 0.65,
+        "recall": 1.0,
+        "f2": 0.9027777777777778,
+        "false_positive_count": 7,
+        "false_negative_count": 0
+      }
+    },
+    "Hybrid TF-IDF + Transformer": {
+      "selected_threshold": 0.343158,
+      "at_0.50": {
+        "threshold": 0.5,
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f2": 0.6923076923076923,
+        "false_positive_count": 4,
+        "false_negative_count": 4
+      },
+      "at_oof_selected_threshold": {
+        "threshold": 0.343158,
+        "precision": 0.65,
+        "recall": 1.0,
+        "f2": 0.9027777777777778,
+        "false_positive_count": 7,
+        "false_negative_count": 0
+      }
+    }
+  },
+  "files": {
+    "oof_predictions": "experiments\\threshold_analysis_v0.2\\oof_predictions.csv",
+    "threshold_table": "experiments\\threshold_analysis_v0.2\\threshold_table.csv",
+    "locked_test_predictions": "experiments\\threshold_analysis_v0.2\\locked_test_predictions.csv"
+  },
+  "warning": "The labeled dataset contains only 70 records. OOF threshold selection is more robust than using a 20-record validation set alone, but results remain diagnostic rather than production generalization evidence."
+}

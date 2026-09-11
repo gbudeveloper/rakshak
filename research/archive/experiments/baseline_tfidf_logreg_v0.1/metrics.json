@@ -1,0 +1,91 @@
+{
+  "model": "tfidf_logistic_regression",
+  "dataset": "sif_splits_v0.1",
+  "random_seed": 42,
+  "features": {
+    "input": "description",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 20000,
+    "sublinear_tf": true
+  },
+  "validation": {
+    "default_threshold": {
+      "threshold": 0.5,
+      "accuracy": 0.3333333333333333,
+      "precision": 0.5,
+      "recall": 0.5,
+      "f2": 0.5,
+      "pr_auc": 0.5666666666666667,
+      "confusion_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    "recall_optimized": {
+      "threshold": 0.49246989966111737,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f2": 0.9090909090909091,
+      "pr_auc": 0.5666666666666667,
+      "confusion_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "selected_threshold": 0.49246989966111737
+  },
+  "test": {
+    "default_threshold": {
+      "threshold": 0.5,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f2": 0.9090909090909091,
+      "pr_auc": 0.8041666666666667,
+      "confusion_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "recall_optimized": {
+      "threshold": 0.49246989966111737,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f2": 0.9090909090909091,
+      "pr_auc": 0.8041666666666667,
+      "confusion_matrix": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  }
+}

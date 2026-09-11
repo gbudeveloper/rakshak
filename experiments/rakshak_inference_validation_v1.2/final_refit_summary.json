@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXACT",
+  "records": 20,
+  "max_absolute_difference": 2.220446049250313e-16,
+  "mean_absolute_difference": 3.7816971776294396e-17,
+  "embedding_dimension": 384,
+  "pathway_dimension": 38,
+  "total_dimension_before_mask": 422,
+  "final_model_input_dimension": 422,
+  "encoder_loaded_once": true,
+  "cuda_used": true,
+  "comparison_basis": "same saved final train+validation refit model and exact training-time feature builder"
+}

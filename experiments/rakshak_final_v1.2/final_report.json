@@ -1,0 +1,73 @@
+{
+  "experiment": "RAKSHAK Final Research Pipeline v1.2",
+  "dataset": {
+    "records": 70,
+    "yes": 40,
+    "no": 30,
+    "train": 30,
+    "validation": 20,
+    "test": 20
+  },
+  "model": {
+    "encoder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "embedding_dimension": 384,
+    "pathway_feature_count": 38,
+    "selected_C": 0.1,
+    "reference_threshold": 0.5,
+    "final_training_records": 50
+  },
+  "validation": {
+    "n": 20,
+    "accuracy": 0.65,
+    "precision": 0.625,
+    "recall": 0.9090909090909091,
+    "f2": 0.8333333333333334,
+    "pr_auc": 0.7149613013249377,
+    "tn": 3,
+    "fp": 6,
+    "fn": 1,
+    "tp": 10
+  },
+  "locked_test": {
+    "n": 20,
+    "accuracy": 0.6,
+    "precision": 0.6923076923076923,
+    "recall": 0.6923076923076923,
+    "f2": 0.6923076923076923,
+    "pr_auc": 0.7821311167465013,
+    "tn": 3,
+    "fp": 4,
+    "fn": 4,
+    "tp": 9
+  },
+  "locked_test_after_trainval_refit": {
+    "n": 20,
+    "accuracy": 0.65,
+    "precision": 0.75,
+    "recall": 0.6923076923076923,
+    "f2": 0.703125,
+    "pr_auc": 0.8719478736447059,
+    "tn": 4,
+    "fp": 3,
+    "fn": 4,
+    "tp": 9
+  },
+  "repeated_group_safe_cv": {
+    "folds": 50,
+    "accuracy_mean": 0.6542857142857144,
+    "accuracy_std": 0.09280666939511896,
+    "precision_mean": 0.7077113997113998,
+    "precision_std": 0.09404215073180537,
+    "recall_mean": 0.695,
+    "recall_std": 0.1560023547702968,
+    "f2_mean": 0.6909450144462235,
+    "f2_std": 0.13040058588035786,
+    "pr_auc_mean": 0.8125659965034966,
+    "pr_auc_std": 0.08491140951159985,
+    "fp_mean": 2.4,
+    "fn_mean": 2.44
+  },
+  "bootstrap_ci_file": "locked_test_bootstrap_ci.csv",
+  "model_file": "rakshak_final_model.joblib",
+  "interpretation": "Research/triage model only. The locked test has 20 records, so performance estimates are uncertain. Evidence and pathway fields are heuristic narrative signals and require human review."
+}

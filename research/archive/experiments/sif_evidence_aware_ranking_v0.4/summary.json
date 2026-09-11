@@ -1,0 +1,14 @@
+{
+  "experiment": "RAKSHAK Evidence-Aware SIF Precursor Ranking v0.4 FIXED FIXED",
+  "records": 70,
+  "train_records": 30,
+  "validation_records": 20,
+  "test_records": 20,
+  "embedding_dimension": 384,
+  "structured_feature_count": 65,
+  "validation_pr_auc": 0.7320194882360659,
+  "locked_test_pr_auc": 0.8273778122462332,
+  "ranking_only": true,
+  "operating_threshold": 0.5,
+  "note": "This component ranks reports for human review. Evidence spans and LSR candidates are heuristic text matches, not adjudicated safety facts."
+}

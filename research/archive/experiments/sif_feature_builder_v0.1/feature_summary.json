@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "records": 70,
+  "features": 119,
+  "binary_features": 107,
+  "numeric_features": 12,
+  "feature_groups": {
+    "hazards": 15,
+    "exposures": 9,
+    "actual_consequences": 12,
+    "potential_consequences": 9,
+    "barriers": 17,
+    "interactions": 19,
+    "context": 38
+  }
+}

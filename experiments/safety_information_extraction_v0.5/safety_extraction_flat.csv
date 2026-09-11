@@ -1,0 +1,412 @@
+﻿report_id,activities,activity_evidence,activity_count
+industrial_safety_000321,,,0
+industrial_safety_000393,Working at height,roof,1
+industrial_safety_000033,,,0
+industrial_safety_000297,Driving / vehicle movement,driving,1
+industrial_safety_000166,,,0
+industrial_safety_000364,,,0
+industrial_safety_000180,,,0
+industrial_safety_000147,Drilling / cutting,cutting,1
+industrial_safety_000372,,,0
+industrial_safety_000371,Cleaning,clean,1
+industrial_safety_000086,Maintenance / repair,maintenance,1
+industrial_safety_000176,Assembly / installation; Working at height,installation; installing; roof,3
+industrial_safety_000395,Assembly / installation,installed,1
+industrial_safety_000088,,,0
+industrial_safety_000064,,,0
+industrial_safety_000063,,,0
+industrial_safety_000331,Working at height,ladder,1
+industrial_safety_000013,Assembly / installation; Lifting / handling,installation; lifting,2
+industrial_safety_000342,,,0
+industrial_safety_000361,,,0
+industrial_safety_000401,,,0
+industrial_safety_000337,Cleaning,cleaning,1
+industrial_safety_000140,Inspection,checking,1
+industrial_safety_000262,,,0
+industrial_safety_000108,Cleaning,cleaning,1
+industrial_safety_000403,Adjustment / tightening; Maintenance / repair; Working at height,setting; service; roof,3
+industrial_safety_000037,,,0
+industrial_safety_000373,,,0
+industrial_safety_000365,,,0
+industrial_safety_000130,Maintenance / repair,service,1
+industrial_safety_000041,,,0
+industrial_safety_000265,,,0
+industrial_safety_000004,Adjustment / tightening,loosen,1
+industrial_safety_000073,,,0
+industrial_safety_000177,,,0
+industrial_safety_000314,Assembly / installation; Lifting / handling; Working at height,assembling; carrying; ladder,3
+industrial_safety_000061,,,0
+industrial_safety_000259,Inspection,check,1
+industrial_safety_000154,,,0
+industrial_safety_000415,,,0
+industrial_safety_000194,Working at height,roof,1
+industrial_safety_000188,Working at height; Drilling / cutting,roof; drilling; drill,3
+industrial_safety_000381,Assembly / installation,installation,1
+industrial_safety_000016,Working at height; Drilling / cutting,scaffolding; drilling,2
+industrial_safety_000347,Lifting / handling,lifted,1
+industrial_safety_000132,Assembly / installation; Lifting / handling,assembling; lifting,2
+industrial_safety_000293,,,0
+industrial_safety_000245,Lifting / handling; Working at height,lifted; lifting; ladder,3
+industrial_safety_000278,Working at height,roof,1
+industrial_safety_000211,,,0
+industrial_safety_000193,Maintenance / repair,maintenance,1
+industrial_safety_000121,Drilling / cutting,drill; drilling,2
+industrial_safety_000408,Cleaning,cleaning,1
+industrial_safety_000182,,,0
+industrial_safety_000332,,,0
+industrial_safety_000318,Drilling / cutting,drill,1
+industrial_safety_000424,,,0
+industrial_safety_000249,,,0
+industrial_safety_000081,Adjustment / tightening; Drilling / cutting,adjustment; drilling,2
+industrial_safety_000298,,,0
+industrial_safety_000066,,,0
+industrial_safety_000183,Drilling / cutting,drilling,1
+industrial_safety_000137,,,0
+industrial_safety_000040,Maintenance / repair,maintenance,1
+industrial_safety_000203,,,0
+industrial_safety_000313,,,0
+industrial_safety_000001,,,0
+industrial_safety_000275,,,0
+industrial_safety_000159,Working at height,scaffold,1
+industrial_safety_000310,Adjustment / tightening,setting,1
+industrial_safety_000430,Assembly / installation,assembling,1
+industrial_safety_000098,Maintenance / repair,maintenance,1
+industrial_safety_000340,Maintenance / repair,maintenance,1
+industrial_safety_000341,Maintenance / repair,maintenance,1
+industrial_safety_000220,Maintenance / repair; Lifting / handling,maintenance; lifting,2
+industrial_safety_000350,Drilling / cutting,drilling,1
+industrial_safety_000370,,,0
+industrial_safety_000039,Inspection,inspection; check,2
+industrial_safety_000079,,,0
+industrial_safety_000136,,,0
+industrial_safety_000201,,,0
+industrial_safety_000036,Drilling / cutting,drill,1
+industrial_safety_000377,,,0
+industrial_safety_000305,Inspection,check,1
+industrial_safety_000375,Maintenance / repair,maintenance,1
+industrial_safety_000230,,,0
+industrial_safety_000106,,,0
+industrial_safety_000296,,,0
+industrial_safety_000414,,,0
+industrial_safety_000008,,,0
+industrial_safety_000288,Maintenance / repair; Drilling / cutting,maintenance; drilling,2
+industrial_safety_000426,,,0
+industrial_safety_000236,Working at height,ladder,1
+industrial_safety_000174,,,0
+industrial_safety_000080,,,0
+industrial_safety_000253,Working at height,roof,1
+industrial_safety_000420,,,0
+industrial_safety_000257,,,0
+industrial_safety_000400,,,0
+industrial_safety_000412,,,0
+industrial_safety_000204,Drilling / cutting,drilling,1
+industrial_safety_000129,Maintenance / repair; Inspection,maintenance; inspect,2
+industrial_safety_000410,Inspection,inspection,1
+industrial_safety_000252,,,0
+industrial_safety_000175,,,0
+industrial_safety_000221,Lifting / handling,lifting,1
+industrial_safety_000256,,,0
+industrial_safety_000261,,,0
+industrial_safety_000260,,,0
+industrial_safety_000248,Inspection,inspection,1
+industrial_safety_000355,,,0
+industrial_safety_000405,Drilling / cutting,drill; drilling,2
+industrial_safety_000226,,,0
+industrial_safety_000117,Drilling / cutting,drill; drilling,2
+industrial_safety_000367,,,0
+industrial_safety_000021,Drilling / cutting,drilling; drill,2
+industrial_safety_000384,Working at height,ladder,1
+industrial_safety_000300,Assembly / installation; Adjustment / tightening; Drilling / cutting,installation; adjustment; cutting,3
+industrial_safety_000385,Drilling / cutting,cutting,1
+industrial_safety_000254,Drilling / cutting,drilling; drill,2
+industrial_safety_000263,,,0
+industrial_safety_000114,,,0
+industrial_safety_000348,Drilling / cutting,drilling,1
+industrial_safety_000390,,,0
+industrial_safety_000202,Working at height,ladder,1
+industrial_safety_000158,,,0
+industrial_safety_000258,,,0
+industrial_safety_000099,Cleaning; Lifting / handling,cleaning; lifted,2
+industrial_safety_000394,Cleaning,cleaning,1
+industrial_safety_000185,Working at height; Drilling / cutting,scaffold; cutting,2
+industrial_safety_000308,,,0
+industrial_safety_000217,Drilling / cutting,cutting,1
+industrial_safety_000422,,,0
+industrial_safety_000075,,,0
+industrial_safety_000421,Adjustment / tightening,adjustment,1
+industrial_safety_000115,,,0
+industrial_safety_000119,Working at height,ladder,1
+industrial_safety_000111,,,0
+industrial_safety_000076,,,0
+industrial_safety_000354,Inspection; Working at height,inspection; ladder,2
+industrial_safety_000077,,,0
+industrial_safety_000015,,,0
+industrial_safety_000059,,,0
+industrial_safety_000065,Working at height,ladder,1
+industrial_safety_000184,Cleaning,clean,1
+industrial_safety_000169,Maintenance / repair; Drilling / cutting,maintenance; drill,2
+industrial_safety_000062,Lifting / handling,lifting,1
+industrial_safety_000269,Working at height,ladder,1
+industrial_safety_000431,,,0
+industrial_safety_000028,,,0
+industrial_safety_000032,,,0
+industrial_safety_000267,Assembly / installation; Lifting / handling,assembly; installation; carrying,3
+industrial_safety_000312,,,0
+industrial_safety_000326,,,0
+industrial_safety_000118,Lifting / handling; Drilling / cutting,carrying; drill,2
+industrial_safety_000094,,,0
+industrial_safety_000303,,,0
+industrial_safety_000356,Cleaning; Lifting / handling; Drilling / cutting,cleaning; handling; Grinding,3
+industrial_safety_000291,,,0
+industrial_safety_000091,,,0
+industrial_safety_000100,Maintenance / repair; Working at height,maintenance; roof,2
+industrial_safety_000423,,,0
+industrial_safety_000225,,,0
+industrial_safety_000022,,,0
+industrial_safety_000206,Maintenance / repair; Inspection,maintaining; check,2
+industrial_safety_000011,,,0
+industrial_safety_000000,Adjustment / tightening; Maintenance / repair; Drilling / cutting,loosen; maintenance; drill; drilling,4
+industrial_safety_000243,Lifting / handling,carrying,1
+industrial_safety_000113,,,0
+industrial_safety_000082,,,0
+industrial_safety_000085,Working at height,ladder,1
+industrial_safety_000433,Maintenance / repair,maintenance,1
+industrial_safety_000255,,,0
+industrial_safety_000304,,,0
+industrial_safety_000189,Maintenance / repair; Inspection,service; inspect,2
+industrial_safety_000057,Lifting / handling,carrying,1
+industrial_safety_000007,,,0
+industrial_safety_000149,,,0
+industrial_safety_000208,Drilling / cutting,drill,1
+industrial_safety_000307,Lifting / handling; Drilling / cutting,lifting; drilling; drill,3
+industrial_safety_000207,,,0
+industrial_safety_000311,Drilling / cutting,drilling,1
+industrial_safety_000294,Maintenance / repair; Drilling / cutting,repair; cutter; cutting,3
+industrial_safety_000027,,,0
+industrial_safety_000324,,,0
+industrial_safety_000151,,,0
+industrial_safety_000279,Assembly / installation,assembly,1
+industrial_safety_000199,Cleaning; Drilling / cutting,cleaning; drill,2
+industrial_safety_000322,,,0
+industrial_safety_000241,Maintenance / repair,maintenance,1
+industrial_safety_000138,Maintenance / repair; Drilling / cutting,maintenance; cutting,2
+industrial_safety_000122,Lifting / handling,lifting,1
+industrial_safety_000110,,,0
+industrial_safety_000103,Lifting / handling; Working at height,carrying; ladder,2
+industrial_safety_000362,,,0
+industrial_safety_000083,,,0
+industrial_safety_000434,Lifting / handling,lifting,1
+industrial_safety_000014,Cleaning,cleaning,1
+industrial_safety_000325,Assembly / installation,assembly,1
+industrial_safety_000173,Adjustment / tightening,loosening,1
+industrial_safety_000101,Cleaning,cleaning,1
+industrial_safety_000067,,,0
+industrial_safety_000273,,,0
+industrial_safety_000234,Maintenance / repair,maintenance,1
+industrial_safety_000134,Maintenance / repair,maintenance,1
+industrial_safety_000301,Lifting / handling,lifting,1
+industrial_safety_000074,,,0
+industrial_safety_000145,Cleaning,washing,1
+industrial_safety_000056,,,0
+industrial_safety_000139,,,0
+industrial_safety_000349,,,0
+industrial_safety_000005,,,0
+industrial_safety_000280,Adjustment / tightening,loosen,1
+industrial_safety_000378,,,0
+industrial_safety_000376,,,0
+industrial_safety_000096,Lifting / handling,handling,1
+industrial_safety_000287,,,0
+industrial_safety_000250,Cleaning,cleaning,1
+industrial_safety_000328,Drilling / cutting,drilling,1
+industrial_safety_000366,Maintenance / repair,maintenance,1
+industrial_safety_000235,,,0
+industrial_safety_000319,,,0
+industrial_safety_000068,Inspection,inspection,1
+industrial_safety_000290,Lifting / handling,lifting,1
+industrial_safety_000323,,,0
+industrial_safety_000306,Drilling / cutting,drill,1
+industrial_safety_000171,Working at height,roof,1
+industrial_safety_000389,Inspection,inspection,1
+industrial_safety_000104,Maintenance / repair; Drilling / cutting,maintenance; drill,2
+industrial_safety_000353,Maintenance / repair,service,1
+industrial_safety_000153,Maintenance / repair; Cleaning,maintenance; cleaning,2
+industrial_safety_000246,,,0
+industrial_safety_000002,Excavation / earthwork,excavation,1
+industrial_safety_000351,,,0
+industrial_safety_000127,,,0
+industrial_safety_000416,Lifting / handling,carrying,1
+industrial_safety_000060,Drilling / cutting,drilling; drill,2
+industrial_safety_000219,,,0
+industrial_safety_000346,Cleaning; Painting / coating,clean; painting; paint,3
+industrial_safety_000087,Maintenance / repair; Cleaning,maintenance; washing,2
+industrial_safety_000144,,,0
+industrial_safety_000006,,,0
+industrial_safety_000205,,,0
+industrial_safety_000197,Drilling / cutting,cutting,1
+industrial_safety_000084,,,0
+industrial_safety_000190,,,0
+industrial_safety_000157,,,0
+industrial_safety_000397,,,0
+industrial_safety_000133,,,0
+industrial_safety_000209,Drilling / cutting,cutting,1
+industrial_safety_000125,,,0
+industrial_safety_000425,,,0
+industrial_safety_000335,,,0
+industrial_safety_000404,Lifting / handling,handling,1
+industrial_safety_000345,,,0
+industrial_safety_000058,Cleaning,cleaning,1
+industrial_safety_000055,Maintenance / repair,maintenance,1
+industrial_safety_000237,Lifting / handling,lifting,1
+industrial_safety_000095,Working at height,scaffolding; scaffold,2
+industrial_safety_000019,,,0
+industrial_safety_000336,Cleaning,cleaning,1
+industrial_safety_000123,Inspection,inspection,1
+industrial_safety_000124,Inspection,inspection,1
+industrial_safety_000315,Drilling / cutting,drill,1
+industrial_safety_000107,,,0
+industrial_safety_000196,Lifting / handling; Working at height,carrying; ladder,2
+industrial_safety_000284,Maintenance / repair,repair,1
+industrial_safety_000035,,,0
+industrial_safety_000170,Maintenance / repair; Working at height,maintenance; roof,2
+industrial_safety_000029,,,0
+industrial_safety_000010,Assembly / installation,installing,1
+industrial_safety_000054,Working at height; Drilling / cutting,ladder; cutting,2
+industrial_safety_000339,,,0
+industrial_safety_000097,,,0
+industrial_safety_000274,,,0
+industrial_safety_000018,,,0
+industrial_safety_000024,Cleaning,cleaning,1
+industrial_safety_000391,Inspection; Working at height,inspection; scaffolding,2
+industrial_safety_000419,Maintenance / repair,maintenance; service,2
+industrial_safety_000409,Inspection,check,1
+industrial_safety_000438,,,0
+industrial_safety_000299,,,0
+industrial_safety_000238,Inspection; Cleaning,check; cleaning,2
+industrial_safety_000020,,,0
+industrial_safety_000281,,,0
+industrial_safety_000214,Maintenance / repair,service,1
+industrial_safety_000031,Inspection; Working at height,inspecting; roof,2
+industrial_safety_000186,Inspection,inspect,1
+industrial_safety_000178,Drilling / cutting,cutting,1
+industrial_safety_000386,,,0
+industrial_safety_000071,,,0
+industrial_safety_000191,,,0
+industrial_safety_000009,Cleaning; Working at height,cleaning; ladder,2
+industrial_safety_000247,Cleaning,cleaning,1
+industrial_safety_000239,,,0
+industrial_safety_000242,Cleaning,washing,1
+industrial_safety_000270,Working at height,ladder,1
+industrial_safety_000266,,,0
+industrial_safety_000344,,,0
+industrial_safety_000023,Adjustment / tightening,loosening,1
+industrial_safety_000223,,,0
+industrial_safety_000216,Cleaning,cleaning; clean,2
+industrial_safety_000017,,,0
+industrial_safety_000283,Assembly / installation,installation,1
+industrial_safety_000126,Drilling / cutting,cutting,1
+industrial_safety_000436,,,0
+industrial_safety_000215,Cleaning,cleaning,1
+industrial_safety_000148,,,0
+industrial_safety_000387,Inspection,inspection,1
+industrial_safety_000333,Cleaning,cleaning,1
+industrial_safety_000309,,,0
+industrial_safety_000244,,,0
+industrial_safety_000192,Drilling / cutting,cutting,1
+industrial_safety_000251,,,0
+industrial_safety_000429,,,0
+industrial_safety_000285,Maintenance / repair,Maintenance,1
+industrial_safety_000292,,,0
+industrial_safety_000195,Working at height,roof,1
+industrial_safety_000382,Cleaning; Painting / coating,cleaning; painting,2
+industrial_safety_000399,Adjustment / tightening,adjusting,1
+industrial_safety_000227,,,0
+industrial_safety_000102,Assembly / installation; Drilling / cutting,installing; cutting,2
+industrial_safety_000179,Working at height,ladder,1
+industrial_safety_000146,Cleaning,cleaning,1
+industrial_safety_000417,,,0
+industrial_safety_000418,,,0
+industrial_safety_000105,Lifting / handling; Drilling / cutting,lifted; cutting,2
+industrial_safety_000093,,,0
+industrial_safety_000295,,,0
+industrial_safety_000327,,,0
+industrial_safety_000329,,,0
+industrial_safety_000286,Cleaning; Lifting / handling,clean; carrying,2
+industrial_safety_000229,Assembly / installation; Maintenance / repair; Cleaning,assembly; maintenance; cleaning,3
+industrial_safety_000128,Maintenance / repair,maintenance,1
+industrial_safety_000428,,,0
+industrial_safety_000212,,,0
+industrial_safety_000222,Inspection,check,1
+industrial_safety_000330,,,0
+industrial_safety_000435,,,0
+industrial_safety_000437,,,0
+industrial_safety_000213,Lifting / handling,carrying,1
+industrial_safety_000398,,,0
+industrial_safety_000396,,,0
+industrial_safety_000271,,,0
+industrial_safety_000070,,,0
+industrial_safety_000224,Maintenance / repair,maintenance,1
+industrial_safety_000034,,,0
+industrial_safety_000232,Maintenance / repair,maintenance,1
+industrial_safety_000072,Adjustment / tightening; Drilling / cutting,adjustment; tightening; cutter,3
+industrial_safety_000380,Cleaning,cleaning,1
+industrial_safety_000112,Cleaning,cleaning,1
+industrial_safety_000116,,,0
+industrial_safety_000233,,,0
+industrial_safety_000289,,,0
+industrial_safety_000025,,,0
+industrial_safety_000210,,,0
+industrial_safety_000109,Cleaning,clean,1
+industrial_safety_000413,,,0
+industrial_safety_000090,,,0
+industrial_safety_000131,Cleaning,clean,1
+industrial_safety_000078,Lifting / handling; Drilling / cutting,carrying; cutting,2
+industrial_safety_000282,,,0
+industrial_safety_000172,Lifting / handling,handling,1
+industrial_safety_000187,Lifting / handling,handling,1
+industrial_safety_000264,,,0
+industrial_safety_000069,Assembly / installation,installing,1
+industrial_safety_000200,Drilling / cutting,cutting,1
+industrial_safety_000030,Lifting / handling,lifting,1
+industrial_safety_000407,Maintenance / repair,maintenance,1
+industrial_safety_000218,Adjustment / tightening,loosen,1
+industrial_safety_000026,,,0
+industrial_safety_000163,,,0
+industrial_safety_000003,,,0
+industrial_safety_000240,,,0
+industrial_safety_000231,Cleaning,cleaning,1
+industrial_safety_000334,,,0
+industrial_safety_000388,Maintenance / repair,service,1
+industrial_safety_000383,,,0
+industrial_safety_000392,,,0
+industrial_safety_000432,,,0
+industrial_safety_000302,Working at height,scaffolding,1
+industrial_safety_000092,,,0
+industrial_safety_000316,Excavation / earthwork,excavation,1
+industrial_safety_000161,,,0
+industrial_safety_000135,Cleaning,washing,1
+industrial_safety_000152,Cleaning,cleaning,1
+industrial_safety_000272,Cleaning,washing,1
+industrial_safety_000142,,,0
+industrial_safety_000268,,,0
+industrial_safety_000320,,,0
+industrial_safety_000358,,,0
+industrial_safety_000343,,,0
+industrial_safety_000352,,,0
+industrial_safety_000379,,,0
+industrial_safety_000363,,,0
+industrial_safety_000338,,,0
+industrial_safety_000155,,,0
+industrial_safety_000368,,,0
+industrial_safety_000012,,,0
+industrial_safety_000406,,,0
+industrial_safety_000150,Maintenance / repair; Working at height,service; ladder,2
+industrial_safety_000160,,,0
+industrial_safety_000141,,,0
+industrial_safety_000198,Lifting / handling,carrying,1
+industrial_safety_000162,Inspection,inspection,1
+industrial_safety_000374,,,0
+industrial_safety_000357,Lifting / handling,carrying,1
+industrial_safety_000228,Drilling / cutting,cutting,1
+industrial_safety_000165,,,0
+industrial_safety_000120,,,0
+industrial_safety_000164,,,0

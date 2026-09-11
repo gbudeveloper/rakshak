@@ -1,0 +1,130 @@
+{
+  "version": "sif_splits_v0.2",
+  "input": "data\\annotations\\resolved_annotations_v0.2.csv",
+  "random_state": 42,
+  "target_fractions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "split_method": "deterministic greedy duplicate-group-safe stratified split",
+  "group_id_source": {
+    "source": "duplicate_group_id + description fallback",
+    "derived_count": 0
+  },
+  "dataset": {
+    "records": 70,
+    "yes": 40,
+    "no": 30,
+    "yes_rate": 0.5714285714285714,
+    "duplicate_groups": 70
+  },
+  "splits": {
+    "train": {
+      "records": 30,
+      "yes": 16,
+      "no": 14,
+      "yes_rate": 0.5333333333333333,
+      "duplicate_groups": 30,
+      "report_ids": [
+        "industrial_safety_000033",
+        "industrial_safety_000076",
+        "industrial_safety_000082",
+        "industrial_safety_000108",
+        "industrial_safety_000119",
+        "industrial_safety_000187",
+        "industrial_safety_000197",
+        "industrial_safety_000198",
+        "industrial_safety_000210",
+        "industrial_safety_000219",
+        "industrial_safety_000222",
+        "industrial_safety_000232",
+        "industrial_safety_000259",
+        "industrial_safety_000272",
+        "industrial_safety_000284",
+        "industrial_safety_000297",
+        "industrial_safety_000298",
+        "industrial_safety_000321",
+        "industrial_safety_000323",
+        "industrial_safety_000331",
+        "industrial_safety_000337",
+        "industrial_safety_000338",
+        "industrial_safety_000342",
+        "industrial_safety_000371",
+        "industrial_safety_000373",
+        "industrial_safety_000374",
+        "industrial_safety_000383",
+        "industrial_safety_000385",
+        "industrial_safety_000401",
+        "industrial_safety_000410"
+      ],
+      "signature": "9cbe1e200f4aea986bb61f8cfa44e81d7249228f9f9d7845c6c54c8fb34502e1"
+    },
+    "validation": {
+      "records": 20,
+      "yes": 11,
+      "no": 9,
+      "yes_rate": 0.55,
+      "duplicate_groups": 20,
+      "report_ids": [
+        "industrial_safety_000013",
+        "industrial_safety_000025",
+        "industrial_safety_000034",
+        "industrial_safety_000072",
+        "industrial_safety_000095",
+        "industrial_safety_000100",
+        "industrial_safety_000103",
+        "industrial_safety_000112",
+        "industrial_safety_000135",
+        "industrial_safety_000136",
+        "industrial_safety_000169",
+        "industrial_safety_000236",
+        "industrial_safety_000239",
+        "industrial_safety_000250",
+        "industrial_safety_000264",
+        "industrial_safety_000312",
+        "industrial_safety_000332",
+        "industrial_safety_000346",
+        "industrial_safety_000372",
+        "industrial_safety_000393"
+      ],
+      "signature": "d4768861faf3a61e22b859e590264eabec403dcbb53cdb500252f4d809bd3145"
+    },
+    "test": {
+      "records": 20,
+      "yes": 13,
+      "no": 7,
+      "yes_rate": 0.65,
+      "duplicate_groups": 20,
+      "report_ids": [
+        "industrial_safety_000074",
+        "industrial_safety_000075",
+        "industrial_safety_000077",
+        "industrial_safety_000115",
+        "industrial_safety_000140",
+        "industrial_safety_000145",
+        "industrial_safety_000166",
+        "industrial_safety_000190",
+        "industrial_safety_000289",
+        "industrial_safety_000314",
+        "industrial_safety_000361",
+        "industrial_safety_000364",
+        "industrial_safety_000370",
+        "industrial_safety_000382",
+        "industrial_safety_000384",
+        "industrial_safety_000389",
+        "industrial_safety_000403",
+        "industrial_safety_000420",
+        "industrial_safety_000422",
+        "industrial_safety_000426"
+      ],
+      "signature": "dbb41f032fd80a973eb2930c41e545d57be145cdb500c6ef6c8fd265ee4498b6"
+    }
+  },
+  "leakage_checks": {
+    "report_id_overlap": false,
+    "duplicate_group_overlap": false,
+    "empty_split": false
+  },
+  "note": "Because duplicate groups are indivisible, exact 70/15/15 record counts may not be mathematically possible. The splitter prioritizes approximate record and class balance while keeping groups intact."
+}

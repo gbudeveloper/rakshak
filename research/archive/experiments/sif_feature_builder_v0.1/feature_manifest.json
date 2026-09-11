@@ -1,0 +1,730 @@
+{
+  "version": "0.1",
+  "id_column": "report_id",
+  "feature_count": 119,
+  "feature_columns": [
+    {
+      "name": "hazard_electrical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_mechanical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_pressure",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_chemical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_thermal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_fire_explosion",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_vehicle",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_dropped_object",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_fall_height",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_caught_between",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_sharp_object",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_biological",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_ground",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hazard_slip_trip",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_direct_contact",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_line_of_fire",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_caught_between",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_fall",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_chemical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_thermal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_electrical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exposure_vehicle",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_fatality",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_electrical_injury",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_crush_amputation",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_burn_thermal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_chemical_injury",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "actual_cut_laceration",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_impact",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_fall_injury",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_facial_injury",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_musculoskeletal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "actual_minor_irritation",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_electrical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_caught_between",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_fall",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_vehicle",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_chemical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_thermal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_projectile",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "potential_severe_entanglement",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_ppe_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_ppe_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_guard_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_guard_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "barrier_isolation_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_isolation_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "barrier_deenergization_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_deenergization_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "barrier_fall_protection_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_fall_protection_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_exclusion_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_exclusion_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "barrier_procedure_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "barrier_procedure_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "barrier_emergency_detection_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "barrier_emergency_detection_failed",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "narrative_chars",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 62
+    },
+    {
+      "name": "narrative_words",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 50
+    },
+    {
+      "name": "hazard_count",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 6
+    },
+    {
+      "name": "exposure_count",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 4
+    },
+    {
+      "name": "actual_consequence_count",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 3
+    },
+    {
+      "name": "potential_consequence_count",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 3
+    },
+    {
+      "name": "barrier_count",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 5
+    },
+    {
+      "name": "activity_count",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 4
+    },
+    {
+      "name": "human_actor_present",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "fatality_language",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "hospital_or_medical_escalation",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "loss_of_control",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "unexpected_activation",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "projectile_release",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "containment_release",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "restricted_area_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "line_of_fire_distance_m",
+      "dtype": "float64",
+      "missing": 69,
+      "unique": 1
+    },
+    {
+      "name": "max_height_m",
+      "dtype": "float64",
+      "missing": 64,
+      "unique": 6
+    },
+    {
+      "name": "low_height_event",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "significant_height_event",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "voltage_max_v",
+      "dtype": "float64",
+      "missing": 69,
+      "unique": 1
+    },
+    {
+      "name": "current_max_a",
+      "dtype": "float64",
+      "missing": 68,
+      "unique": 2
+    },
+    {
+      "name": "high_voltage_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "vehicle_collision_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "vehicle_rollover_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "vehicle_ejection_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "vehicle_occupant_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "seat_belt_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_hand_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_finger_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_arm_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_leg_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_foot_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_face_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_eye_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_head_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_chest_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_back_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "body_neck_in_narrative",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "ppe_absence_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "isolation_gap_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "guard_gap_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "exclusion_gap_signal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_electrical_exposure",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_mechanical_direct",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_mechanical_linefire",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_vehicle_exposure",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_vehicle_linefire",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_fall_exposure",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_caught_between",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_projectile_linefire",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_thermal_exposure",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_chemical_exposure",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_severe_electrical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_severe_vehicle",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_severe_fall",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_severe_caught_between",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_severe_chemical",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_severe_thermal",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_severe_projectile",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 2
+    },
+    {
+      "name": "ix_electrical_isolation_gap",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    },
+    {
+      "name": "ix_mechanical_guard_gap",
+      "dtype": "int64",
+      "missing": 0,
+      "unique": 1
+    }
+  ],
+  "forbidden_inputs": [
+    "sif_potential",
+    "potential_accident_level",
+    "annotation_confidence",
+    "hazard_notes",
+    "exposure_notes",
+    "consequence_notes",
+    "barrier_notes"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "version": "0.5",
+  "records_audited": 70,
+  "categories": {
+    "hazards": {
+      "human_present": 70,
+      "extracted_present": 54,
+      "evidence_present": 54,
+      "missed_when_human_present": 16,
+      "possible_false_positive": 0,
+      "partial_or_better": 51,
+      "evidence_missing_when_human_present": 16,
+      "miss_rate_when_human_present_pct": 22.86,
+      "mean_token_recall_when_human_present": 0.1948
+    },
+    "exposures": {
+      "human_present": 69,
+      "extracted_present": 43,
+      "evidence_present": 43,
+      "missed_when_human_present": 27,
+      "possible_false_positive": 1,
+      "partial_or_better": 21,
+      "evidence_missing_when_human_present": 27,
+      "miss_rate_when_human_present_pct": 39.13,
+      "mean_token_recall_when_human_present": 0.041
+    },
+    "consequences": {
+      "human_present": 70,
+      "extracted_present": 26,
+      "evidence_present": 26,
+      "missed_when_human_present": 44,
+      "possible_false_positive": 0,
+      "partial_or_better": 22,
+      "evidence_missing_when_human_present": 44,
+      "miss_rate_when_human_present_pct": 62.86,
+      "mean_token_recall_when_human_present": 0.0403
+    },
+    "barriers": {
+      "human_present": 70,
+      "extracted_present": 15,
+      "evidence_present": 15,
+      "missed_when_human_present": 55,
+      "possible_false_positive": 0,
+      "partial_or_better": 5,
+      "evidence_missing_when_human_present": 55,
+      "miss_rate_when_human_present_pct": 78.57,
+      "mean_token_recall_when_human_present": 0.0036
+    }
+  }
+}

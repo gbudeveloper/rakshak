@@ -1,0 +1,89 @@
+{
+  "dataset": "RAKSHAK SIF",
+  "source_file": "C:\\Projects\\SIH26165\\data\\annotations\\resolved_annotations_v0.1.csv",
+  "random_seed": 42,
+  "strategy": "stratified group split",
+  "group_column": "duplicate_group_id",
+  "label_column": "final_sif_potential",
+  "uncertain_policy": "Excluded from binary model splits; retained in resolved dataset.",
+  "target_fractions": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "splits": {
+    "train": {
+      "records": 28,
+      "groups": 28,
+      "distribution": {
+        "YES": 17,
+        "NO": 11,
+        "UNCERTAIN": 0
+      },
+      "report_ids": [
+        "industrial_safety_000034",
+        "industrial_safety_000074",
+        "industrial_safety_000075",
+        "industrial_safety_000076",
+        "industrial_safety_000077",
+        "industrial_safety_000082",
+        "industrial_safety_000095",
+        "industrial_safety_000108",
+        "industrial_safety_000112",
+        "industrial_safety_000119",
+        "industrial_safety_000140",
+        "industrial_safety_000166",
+        "industrial_safety_000187",
+        "industrial_safety_000198",
+        "industrial_safety_000222",
+        "industrial_safety_000250",
+        "industrial_safety_000284",
+        "industrial_safety_000289",
+        "industrial_safety_000297",
+        "industrial_safety_000312",
+        "industrial_safety_000331",
+        "industrial_safety_000337",
+        "industrial_safety_000342",
+        "industrial_safety_000361",
+        "industrial_safety_000371",
+        "industrial_safety_000372",
+        "industrial_safety_000382",
+        "industrial_safety_000401"
+      ]
+    },
+    "validation": {
+      "records": 6,
+      "groups": 6,
+      "distribution": {
+        "YES": 4,
+        "NO": 2,
+        "UNCERTAIN": 0
+      },
+      "report_ids": [
+        "industrial_safety_000013",
+        "industrial_safety_000190",
+        "industrial_safety_000232",
+        "industrial_safety_000332",
+        "industrial_safety_000370",
+        "industrial_safety_000393"
+      ]
+    },
+    "test": {
+      "records": 6,
+      "groups": 6,
+      "distribution": {
+        "YES": 4,
+        "NO": 2,
+        "UNCERTAIN": 0
+      },
+      "report_ids": [
+        "industrial_safety_000145",
+        "industrial_safety_000264",
+        "industrial_safety_000314",
+        "industrial_safety_000321",
+        "industrial_safety_000346",
+        "industrial_safety_000403"
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "records": 68,
+  "band_rule_evaluations": {
+    "HIGH": {
+      "train": {
+        "n": 29,
+        "accuracy": 0.5862,
+        "precision": 1.0,
+        "recall": 0.25,
+        "f2": 0.2941,
+        "tn": 13,
+        "fp": 0,
+        "fn": 12,
+        "tp": 4
+      },
+      "validation": {
+        "n": 20,
+        "accuracy": 0.55,
+        "precision": 0.8,
+        "recall": 0.3333,
+        "f2": 0.3774,
+        "tn": 7,
+        "fp": 1,
+        "fn": 8,
+        "tp": 4
+      },
+      "test": {
+        "n": 19,
+        "accuracy": 0.4211,
+        "precision": 1.0,
+        "recall": 0.1538,
+        "f2": 0.1852,
+        "tn": 6,
+        "fp": 0,
+        "fn": 11,
+        "tp": 2
+      }
+    },
+    "HIGH+MEDIUM": {
+      "train": {
+        "n": 29,
+        "accuracy": 0.7241,
+        "precision": 0.9,
+        "recall": 0.5625,
+        "f2": 0.6081,
+        "tn": 12,
+        "fp": 1,
+        "fn": 7,
+        "tp": 9
+      },
+      "validation": {
+        "n": 20,
+        "accuracy": 0.75,
+        "precision": 0.8889,
+        "recall": 0.6667,
+        "f2": 0.7018,
+        "tn": 7,
+        "fp": 1,
+        "fn": 4,
+        "tp": 8
+      },
+      "test": {
+        "n": 19,
+        "accuracy": 0.5789,
+        "precision": 0.8571,
+        "recall": 0.4615,
+        "f2": 0.5085,
+        "tn": 5,
+        "fp": 1,
+        "fn": 7,
+        "tp": 6
+      }
+    }
+  },
+  "validation_threshold_selection": {
+    "selected_threshold": 0.0,
+    "validation_metrics": {
+      "n": 20,
+      "accuracy": 0.6,
+      "precision": 0.6,
+      "recall": 1.0,
+      "f2": 0.8824,
+      "pr_auc": 0.8566,
+      "tn": 0,
+      "fp": 8,
+      "fn": 0,
+      "tp": 12
+    }
+  },
+  "locked_test": {
+    "threshold_from_validation_only": 0.0,
+    "test_metrics": {
+      "n": 19,
+      "accuracy": 0.6842,
+      "precision": 0.6842,
+      "recall": 1.0,
+      "f2": 0.9155,
+      "pr_auc": 0.8945,
+      "tn": 0,
+      "fp": 6,
+      "fn": 0,
+      "tp": 13
+    }
+  }
+}

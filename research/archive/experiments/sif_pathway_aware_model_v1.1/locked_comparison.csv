@@ -1,0 +1,4 @@
+representation,C,validation_f2,validation_pr_auc,validation_recall,locked_test,features_used
+precursor_structured,0.5,0.7272727272727273,0.7787353197042193,0.7272727272727273,"{'accuracy': 0.6, 'precision': 0.7777777777777778, 'recall': 0.5384615384615384, 'f2': 0.5737704918032787, 'pr_auc': 0.7904702753386963, 'tn': 5, 'fp': 2, 'fn': 6, 'tp': 7}",64
+pathway_aware_structured,1.0,0.7272727272727273,0.7957807742496739,0.7272727272727273,"{'accuracy': 0.65, 'precision': 0.8, 'recall': 0.6153846153846154, 'f2': 0.6451612903225806, 'pr_auc': 0.8689083917590703, 'tn': 5, 'fp': 2, 'fn': 5, 'tp': 8}",102
+transformer_plus_pathway,0.1,0.6896551724137931,0.7474288337924702,0.7272727272727273,"{'accuracy': 0.6, 'precision': 0.6923076923076923, 'recall': 0.6923076923076923, 'f2': 0.6923076923076923, 'pr_auc': 0.8130615729299939, 'tn': 3, 'fp': 4, 'fn': 4, 'tp': 9}",487

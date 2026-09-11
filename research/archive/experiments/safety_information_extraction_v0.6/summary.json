@@ -1,0 +1,22 @@
+{
+  "version": "0.6",
+  "records": 70,
+  "coverage_percent": {
+    "hazards": 78.57,
+    "exposures": 71.43,
+    "actual_consequences": 44.29,
+    "potential_consequences": 37.14,
+    "barriers": 40.0,
+    "activities": 64.29
+  },
+  "deduplication": {
+    "canonical_labels": true,
+    "duplicate_labels_per_record_allowed": false
+  },
+  "principles": [
+    "Actual consequence is narrative-observed only.",
+    "Potential consequence requires a mechanism plus human-exposure signal.",
+    "Barrier absence is emitted only when the narrative contains explicit gap language or a strong physical-state signal.",
+    "Human annotation notes are never used as extractor inputs."
+  ]
+}

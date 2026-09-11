@@ -1,0 +1,36 @@
+{
+  "records": 20,
+  "hazard_signal_rate": 0.85,
+  "exposure_signal_rate": 0.25,
+  "mechanism_pathway_signal_rate": 0.2,
+  "complete_pathway_rate": 0.2,
+  "context_status_counts": {
+    "UNKNOWN": 15,
+    "CONTEXT_LIMITED": 3,
+    "SUFFICIENT_CONTEXT": 2
+  },
+  "assessment_counts": {
+    "WEAK": 12,
+    "SUPPORTED": 4,
+    "NONE": 3,
+    "PARTIAL": 1
+  },
+  "priority_counts": {
+    "P1": 3,
+    "P2": 5,
+    "P3": 7,
+    "P4": 4,
+    "P5": 1
+  },
+  "conflict_counts": {
+    "NONE": 12,
+    "FALSE_NEGATIVE": 3,
+    "FALSE_POSITIVE": 2,
+    "HIGH_SCORE_FALSE_POSITIVE": 2,
+    "FALSE_NEGATIVE_WITH_EVIDENCE": 1
+  },
+  "false_positive_count": 4,
+  "false_negative_count": 4,
+  "high_score_no_count": 2,
+  "low_score_yes_with_explicit_pathway": 1
+}

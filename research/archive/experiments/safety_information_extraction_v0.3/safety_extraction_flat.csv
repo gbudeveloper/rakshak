@@ -1,0 +1,71 @@
+report_id,hazards,hazard_evidence,exposures,exposure_evidence,consequences,consequence_evidence,barriers,barrier_evidence,activities,activity_evidence,hazard_count,exposure_count,consequence_count,barrier_count,activity_count,has_fatality_evidence,has_caught_between_evidence,has_direct_exposure_evidence,has_severe_consequence_signal
+industrial_safety_000013,Electrical energy,"440V and 400A, and when lifting the thermomagnetic key This makes phase to ground - phase contact with the panel",Direct worker exposure,reaches the operator,Electrical injury,flash which reaches the operator,,,Assembly / installation,installation,1,1,1,0,1,False,False,True,True
+industrial_safety_000025,Mechanical / moving equipment energy,"blade was detached, the blade was released",Body part contact,grazing the collaborator's right hand,Cut / laceration; Struck-by injury,grazing the collaborator's right hand || small cuts,,,,,1,1,2,0,0,False,False,True,False
+industrial_safety_000033,,,Caught-between / pinch exposure,imprisoned between,Crushing / amputation; Serious / potentially serious injury,imprisoned between || imprisoned,,,Shotcrete,shotcrete,0,1,2,0,1,False,True,True,True
+industrial_safety_000034,,,,,Minor injury / irritation,little trauma,,,,,0,0,1,0,0,False,False,False,False
+industrial_safety_000072,Mechanical / moving equipment energy,cutter blade,,,Cut / laceration; Struck-by injury,hit him || blunt cut,,,Adjustment / tightening,adjustment,1,0,2,0,1,False,False,False,False
+industrial_safety_000074,,,Direct worker exposure,causing an injury,,,,,,,0,1,0,0,0,False,False,True,False
+industrial_safety_000075,,,,,Struck-by injury,was hit,,,,,0,0,1,0,0,False,False,False,False
+industrial_safety_000076,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000077,,,,,Burn / thermal injury,burns,,,,,0,0,1,0,0,False,False,False,True
+industrial_safety_000082,,,Direct worker exposure,causing the injury,,,,,,,0,1,0,0,0,False,False,True,False
+industrial_safety_000095,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000100,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000103,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000108,Ground / rockfall energy,rock block,Direct worker exposure,causing him superficial injury,,,,,Washing / cleaning,cleaning,1,1,0,0,1,False,False,True,False
+industrial_safety_000112,,,,,,,,,Washing / cleaning,cleaning,0,0,0,0,1,False,False,False,False
+industrial_safety_000115,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000119,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000135,,,,,,,,,Washing / cleaning,washing,0,0,0,0,1,False,False,False,False
+industrial_safety_000136,Mobile equipment / vehicle movement,tire skids and when the operator,Direct worker exposure,causing the injury,,,,,,,1,1,0,0,0,False,False,True,False
+industrial_safety_000140,Electrical energy,power cord,,,Burn / thermal injury,burn,,,,,1,0,1,0,0,False,False,False,True
+industrial_safety_000145,,,,,Cut / laceration,cut of the 5th finger of the right hand,,,Washing / cleaning,washing,0,0,1,0,1,False,False,False,False
+industrial_safety_000166,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000169,,,,,,,,,Drilling,drill,0,0,0,0,1,False,False,False,False
+industrial_safety_000187,,,,,Burn / thermal injury,burn,,,,,0,0,1,0,0,False,False,False,True
+industrial_safety_000190,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000197,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000198,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000210,,,Direct worker exposure,causing injury,,,,,,,0,1,0,0,0,False,False,True,False
+industrial_safety_000219,,,Direct worker exposure,causing the injury,,,,,,,0,1,0,0,0,False,False,True,False
+industrial_safety_000222,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000232,,,,,Minor injury / irritation,irritation,Personal protective equipment,PPE,,,0,0,1,1,0,False,False,False,False
+industrial_safety_000236,,,,,,,Fall prevention / protection,handrail,,,0,0,0,1,0,False,False,False,False
+industrial_safety_000239,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000250,,,,,Struck-by injury,was hit,,,Washing / cleaning,cleaning,0,0,1,0,1,False,False,False,False
+industrial_safety_000259,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000264,Fire / explosion energy; Thermal / hot material,igniting || hot gas,Material / substance contact,"hot gas, reaching the face",,,,,,,2,1,0,0,0,False,False,True,False
+industrial_safety_000272,,,,,,,Personal protective equipment,safety gloves,Washing / cleaning,washing,0,0,0,1,1,False,False,False,False
+industrial_safety_000284,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000289,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000297,,,Fall exposure,fell frontally at a height,,,,,,,0,1,0,0,0,False,False,True,False
+industrial_safety_000298,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000312,,,Line-of-fire exposure,struck by,Struck-by injury,struck by,,,,,0,1,1,0,0,False,False,True,False
+industrial_safety_000314,Gravity / fall-from-height energy,at an approximate height,,,,,,,Assembly / installation,assembling,1,0,0,0,1,False,False,False,False
+industrial_safety_000321,Gravity / fall-from-height energy; Ground / rockfall energy,height of 3m || stone slab,,,,,,,Drilling,loading drills,2,0,0,0,1,False,False,False,False
+industrial_safety_000323,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000331,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000332,Mechanical / moving equipment energy,"blade, causing the cut",Body part contact,"finger of the right hand It rubs against the edge of the guillotine blade, causing the cut",Cut / laceration,"cuts of enmicadas pages, when trying to raise the guillotine the middle finger of the right hand It rubs against the edge of the guillotine blade, causing the cut in the yolk of the third finger of the right hand",,,,,1,1,1,0,0,False,False,True,False
+industrial_safety_000337,,,Direct worker exposure,causing the injury,,,,,Washing / cleaning,cleaning,0,1,0,0,1,False,False,True,False
+industrial_safety_000338,,,Body part contact,"hit the second finger of the left hand with the hammer, which he held with his right hand",,,,,,,0,1,0,0,0,False,False,True,False
+industrial_safety_000342,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000346,Chemical substance / exposure,"paint, and to clean himself he makes use of a dry industrial cloth and begins to rub his face, for a period of time from 30 to 40 seconds continuously, until finally the paint on the face",Body part contact; Material / substance contact,"paint, and to clean himself he makes use of a dry industrial cloth and begins to rub his face, for a period of time from 30 to 40 seconds continuously, until finally the paint on the face || rub his face, for a period of time from 30 to 40 seconds continuously, until finally the paint on the face",,,,,Painting; Washing / cleaning,painting || clean,1,2,0,0,2,False,False,True,False
+industrial_safety_000361,Mobile equipment / vehicle movement,wheel loader,Body part contact,hit in the arm,Struck-by injury,was hit,,,,,1,1,1,0,0,False,False,True,False
+industrial_safety_000364,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000370,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000371,,,,,,,,,Washing / cleaning,clean,0,0,0,0,1,False,False,False,False
+industrial_safety_000372,Electrical energy,electric shock,,,Electrical injury,electric shock,,,,,1,0,1,0,0,False,False,False,True
+industrial_safety_000373,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000374,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000382,,,,,,,,,Painting; Washing / cleaning,painting || cleaning,0,0,0,0,2,False,False,False,False
+industrial_safety_000383,,,,,Minor injury / irritation,swelling,,,,,0,0,1,0,0,False,False,False,False
+industrial_safety_000384,Electrical energy,energized,,,,,Isolation / lockout-tagout,de-energized,,,1,0,0,1,0,False,False,False,False
+industrial_safety_000385,Electrical energy,energized,,,,,Isolation / lockout-tagout,de-energized,,,1,0,0,1,0,False,False,False,False
+industrial_safety_000389,,,,,,,,,Inspection,inspection,0,0,0,0,1,False,False,False,False
+industrial_safety_000393,Ground / rockfall energy,rock block,,,,,,,,,1,0,0,0,0,False,False,False,False
+industrial_safety_000401,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000403,Gravity / fall-from-height energy,chimney,,,Fatality,death,,,Shotcrete,shotcrete,1,0,1,0,1,True,False,False,True
+industrial_safety_000410,,,,,,,,,Inspection,inspection,0,0,0,0,1,False,False,False,False
+industrial_safety_000420,,,,,,,,,,,0,0,0,0,0,False,False,False,False
+industrial_safety_000422,,,Line-of-fire exposure,line of fire,,,,,,,0,1,0,0,0,False,False,True,False
+industrial_safety_000426,,,,,,,,,,,0,0,0,0,0,False,False,False,False

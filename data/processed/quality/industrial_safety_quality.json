@@ -1,0 +1,85 @@
+{
+  "dataset": "industrial_safety_canonical",
+  "records": 425,
+  "columns": 27,
+  "text": {
+    "empty_description_count": 0,
+    "unique_description_count": 411,
+    "duplicate_description_records": 26,
+    "min_characters": 94,
+    "max_characters": 1029,
+    "mean_characters": 368.28,
+    "median_characters": 335.0
+  },
+  "timestamps": {
+    "invalid_count": 0,
+    "minimum": "2016-01-01T00:00:00",
+    "maximum": "2017-07-09T00:00:00"
+  },
+  "identifiers": {
+    "duplicate_report_ids": 0
+  },
+  "distributions": {
+    "actual_outcome": {
+      "I": 316,
+      "II": 40,
+      "III": 31,
+      "IV": 30,
+      "V": 8
+    },
+    "potential_accident_level": {
+      "IV": 143,
+      "III": 106,
+      "II": 95,
+      "I": 49,
+      "V": 31,
+      "VI": 1
+    },
+    "site": {
+      "Country_01": 251,
+      "Country_02": 130,
+      "Country_03": 44
+    },
+    "location": {
+      "Local_03": 90,
+      "Local_05": 59,
+      "Local_01": 57,
+      "Local_04": 56,
+      "Local_06": 46,
+      "Local_10": 44,
+      "Local_08": 27,
+      "Local_02": 24,
+      "Local_07": 14,
+      "Local_12": 4,
+      "Local_09": 2,
+      "Local_11": 2
+    },
+    "department": {
+      "Mining": 241,
+      "Metals": 134,
+      "Others": 50
+    },
+    "hazards": {
+      "['Others']": 232,
+      "['Pressed']": 24,
+      "['Manual Tools']": 20,
+      "['Chemical substances']": 17,
+      "['Venomous Animals']": 16,
+      "['Cut']": 14,
+      "['Projection']": 13,
+      "['Bees']": 10,
+      "['Fall']": 9,
+      "['Vehicles and Mobile Equipment']": 8,
+      "['remains of choco']": 7,
+      "['Fall prevention (same level)']": 7,
+      "['Pressurized Systems']": 7,
+      "['Fall prevention']": 6,
+      "['Suspended Loads']": 6,
+      "['Liquid Metal']": 3,
+      "['Pressurized Systems / Chemical Substances']": 3,
+      "['Power lock']": 3,
+      "['Blocking and isolation of energies']": 3,
+      "['Machine Protection']": 2
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "experiment": "model_comparison_cv_v0.1",
+  "dataset": "data\\annotations\\resolved_annotations_v0.1.csv",
+  "records": 40,
+  "yes_records": 25,
+  "no_records": 15,
+  "cv": {
+    "n_splits": 5,
+    "n_repeats": 10,
+    "total_folds_per_model": 50,
+    "random_state": 42
+  },
+  "transformer": {
+    "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "device": "cuda",
+    "embedding_dimension": 384,
+    "max_seq_length": 256,
+    "batch_size": 8,
+    "fine_tuned": false
+  },
+  "models": {
+    "tfidf": {
+      "model": "TF-IDF + Logistic Regression",
+      "folds": 50,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6125,
+          "std": 0.12436060961771535,
+          "min": 0.25,
+          "max": 0.875
+        },
+        "precision": {
+          "mean": 0.6491428571428571,
+          "std": 0.08597541478163388,
+          "min": 0.4,
+          "max": 0.8333333333333334
+        },
+        "recall": {
+          "mean": 0.84,
+          "std": 0.14568627181693672,
+          "min": 0.4,
+          "max": 1.0
+        },
+        "f2": {
+          "mean": 0.7898001628001627,
+          "std": 0.11937123833468444,
+          "min": 0.4,
+          "max": 0.9615384615384616
+        },
+        "pr_auc": {
+          "mean": 0.8132952380952381,
+          "std": 0.10021217899126637,
+          "min": 0.5783333333333334,
+          "max": 1.0
+        },
+        "false_positive_count": {
+          "mean": 2.3,
+          "std": 0.6776309271789385,
+          "min": 1.0,
+          "max": 3.0
+        },
+        "false_negative_count": {
+          "mean": 0.8,
+          "std": 0.7284313590846836,
+          "min": 0.0,
+          "max": 3.0
+        }
+      }
+    },
+    "transformer_embeddings": {
+      "model": "Transformer Embeddings + Logistic Regression",
+      "folds": 50,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6925,
+          "std": 0.1498511165886232,
+          "min": 0.375,
+          "max": 1.0
+        },
+        "precision": {
+          "mean": 0.7635714285714286,
+          "std": 0.13409235746806536,
+          "min": 0.5,
+          "max": 1.0
+        },
+        "recall": {
+          "mean": 0.7639999999999999,
+          "std": 0.16507264943604905,
+          "min": 0.4,
+          "max": 1.0
+        },
+        "f2": {
+          "mean": 0.757225121899035,
+          "std": 0.14531296974474367,
+          "min": 0.43478260869565216,
+          "max": 1.0
+        },
+        "pr_auc": {
+          "mean": 0.8515952380952381,
+          "std": 0.12378302259918024,
+          "min": 0.5783333333333334,
+          "max": 1.0
+        },
+        "false_positive_count": {
+          "mean": 1.28,
+          "std": 0.8580947095817831,
+          "min": 0.0,
+          "max": 3.0
+        },
+        "false_negative_count": {
+          "mean": 1.18,
+          "std": 0.8253632471802452,
+          "min": 0.0,
+          "max": 3.0
+        }
+      }
+    }
+  },
+  "delta_transformer_minus_tfidf": {
+    "accuracy": {
+      "transformer_minus_tfidf": 0.07999999999999996
+    },
+    "precision": {
+      "transformer_minus_tfidf": 0.11442857142857144
+    },
+    "recall": {
+      "transformer_minus_tfidf": -0.07600000000000007
+    },
+    "f2": {
+      "transformer_minus_tfidf": -0.03257504090112773
+    },
+    "pr_auc": {
+      "transformer_minus_tfidf": 0.0383
+    }
+  },
+  "interpretation": "Repeated cross-validation on the 40 resolved binary annotations. These results are more informative than the 6-record locked test comparison, but the dataset remains small and should not be treated as production generalization evidence."
+}

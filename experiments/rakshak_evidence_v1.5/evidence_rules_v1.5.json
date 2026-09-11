@@ -1,0 +1,14 @@
+{
+  "version": "1.5",
+  "principles": [
+    "Hazard is not equivalent to SIF potential.",
+    "Exposure is not equivalent to SIF potential.",
+    "Mechanism/pathway evidence is separated from consequence context.",
+    "Localized/minor wording limits SIF sufficiency unless stronger evidence exists.",
+    "Explicit no-personnel-affected wording is surfaced as contextual evidence.",
+    "De-energized/disabled and protective-equipment wording is preserved as context, not automatic NO.",
+    "High-score conflicts and low-score incidents with explicit pathways are separately flagged.",
+    "Annotation labels are not model features.",
+    "This engine supports HSSE review and does not make autonomous safety decisions."
+  ]
+}

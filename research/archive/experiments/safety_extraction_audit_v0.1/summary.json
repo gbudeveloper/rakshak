@@ -1,0 +1,125 @@
+{
+  "version": "safety_extraction_audit_v0.1",
+  "records": 70,
+  "category_summary": {
+    "hazards": {
+      "human_present": 70,
+      "extracted_present": 0,
+      "missed_category": 70,
+      "possible_false_positive": 0,
+      "partial_or_reasonable": 0,
+      "human_present_rate": 1.0,
+      "extracted_present_rate": 0.0,
+      "missed_when_human_present_rate": 1.0
+    },
+    "exposures": {
+      "human_present": 69,
+      "extracted_present": 18,
+      "missed_category": 52,
+      "possible_false_positive": 1,
+      "partial_or_reasonable": 9,
+      "human_present_rate": 0.9857142857142858,
+      "extracted_present_rate": 0.2571428571428571,
+      "missed_when_human_present_rate": 0.7536231884057971
+    },
+    "consequences": {
+      "human_present": 70,
+      "extracted_present": 18,
+      "missed_category": 52,
+      "possible_false_positive": 0,
+      "partial_or_reasonable": 9,
+      "human_present_rate": 1.0,
+      "extracted_present_rate": 0.2571428571428571,
+      "missed_when_human_present_rate": 0.7428571428571429
+    },
+    "barriers": {
+      "human_present": 70,
+      "extracted_present": 0,
+      "missed_category": 70,
+      "possible_false_positive": 0,
+      "partial_or_reasonable": 0,
+      "human_present_rate": 1.0,
+      "extracted_present_rate": 0.0,
+      "missed_when_human_present_rate": 1.0
+    }
+  },
+  "most_missed_records": [
+    {
+      "report_id": "industrial_safety_000076",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000095",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000100",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000103",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000112",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000115",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000119",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000135",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000166",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000169",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000190",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000197",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000198",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000222",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    },
+    {
+      "report_id": "industrial_safety_000236",
+      "missed_category_count": 4,
+      "possible_false_positive_count": 0
+    }
+  ],
+  "interpretation": "This audit compares rule-based extraction against human annotation notes. It is a diagnostic coverage proxy, not a formal span-level precision/recall evaluation because the human notes are not annotated with exact spans.",
+  "recommendation": "Do not connect the extractor directly to SIF or LSR decisions until the missed-category and false-positive patterns have been reviewed."
+}

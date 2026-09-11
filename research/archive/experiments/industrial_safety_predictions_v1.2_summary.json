@@ -1,0 +1,17 @@
+{
+  "system": "RAKSHAK / SIF-Insight",
+  "pipeline": "v1.2-final-refit-batch-inference",
+  "model_file": "C:\\Projects\\SIH26165\\experiments\\rakshak_final_v1.2\\rakshak_final_model.joblib",
+  "input_file": "data\\annotations\\industrial_safety_annotation_pool.csv",
+  "output_file": "experiments\\industrial_safety_predictions_v1.2.csv",
+  "records": 411,
+  "embedding_dimension": 384,
+  "pathway_dimension": 38,
+  "raw_dimension": 422,
+  "model_input_dimension": 422,
+  "reference_threshold": 0.5,
+  "device": "cuda",
+  "human_in_loop": true,
+  "autonomous_sif_decision": false,
+  "note": "Probability is a ranking/triage signal. Evidence and LSR signals are reviewer support and do not override the model."
+}

@@ -1,0 +1,33 @@
+{
+  "version": "0.4",
+  "records": 70,
+  "input": "C:\\Projects\\SIH26165\\data\\annotations\\resolved_annotations_v0.2.csv",
+  "output_dir": "C:\\Projects\\SIH26165\\experiments\\safety_information_extraction_v0.4",
+  "coverage_percent": {
+    "hazards": 77.14,
+    "exposures": 61.43,
+    "consequences": 37.14,
+    "barriers": 21.43,
+    "activities": 50.0
+  },
+  "mean_counts": {
+    "hazards": 1.643,
+    "exposures": 0.986,
+    "consequences": 0.471,
+    "barriers": 0.271,
+    "activities": 0.7
+  },
+  "derived_signal_counts": {
+    "has_fatality_evidence": 1,
+    "has_caught_between_evidence": 1,
+    "has_direct_exposure_evidence": 43,
+    "has_severe_consequence_signal": 3,
+    "has_high_energy_signal": 41,
+    "has_barrier_failure_signal": 2
+  },
+  "notes": [
+    "Rule-based diagnostic extractor only.",
+    "Does not consume human annotation fields.",
+    "SIF precursor signal score is a derived feature, not the final SIF classifier."
+  ]
+}

@@ -1,0 +1,21 @@
+﻿report_id,true_label,probability,control_categories_mentioned,barrier_gap_categories_mentioned,control_category_count,barrier_gap_category_count,has_control,has_gap,has_both,has_neither
+industrial_safety_000422,YES,0.99293809666487,,,0,0,False,False,False,True
+industrial_safety_000314,YES,0.991116678881494,,,0,0,False,False,False,True
+industrial_safety_000384,YES,0.9867825907616966,Guarding | Isolation,,2,0,True,False,False,False
+industrial_safety_000382,NO,0.9863461091910516,,,0,0,False,False,False,True
+industrial_safety_000426,YES,0.8828214864661822,,,0,0,False,False,False,True
+industrial_safety_000370,YES,0.8714489612642562,,,0,0,False,False,False,True
+industrial_safety_000389,YES,0.8664508900505058,,,0,0,False,False,False,True
+industrial_safety_000166,YES,0.8641740868801234,,,0,0,False,False,False,True
+industrial_safety_000403,YES,0.8639438692414778,,,0,0,False,False,False,True
+industrial_safety_000190,NO,0.8211097984937358,,control_present,0,1,False,True,False,False
+industrial_safety_000140,YES,0.7670891387019364,,,0,0,False,False,False,True
+industrial_safety_000074,NO,0.7449511607213508,PPE,,1,0,True,False,False,False
+industrial_safety_000420,NO,0.6764513689808687,,control_present,0,1,False,True,False,False
+industrial_safety_000364,YES,0.4556808364092439,,,0,0,False,False,False,True
+industrial_safety_000115,NO,0.3458173707783626,,,0,0,False,False,False,True
+industrial_safety_000075,YES,0.2725186889269764,,,0,0,False,False,False,True
+industrial_safety_000289,NO,0.0822024315526296,,,0,0,False,False,False,True
+industrial_safety_000145,NO,0.0320125634874343,,,0,0,False,False,False,True
+industrial_safety_000361,YES,0.0151505494585361,,,0,0,False,False,False,True
+industrial_safety_000077,YES,0.0113804484899385,,,0,0,False,False,False,True

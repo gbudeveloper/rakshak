@@ -1,0 +1,8 @@
+{
+  "experiment": "RAKSHAK SIF Conflict Review v0.9",
+  "test_records": 20,
+  "high_score_false_positives": 1,
+  "evidence_sparse_high_score": 1,
+  "low_score_false_negatives": 4,
+  "note": "These are review candidates against the current adjudicated labels. They are not automatic corrections to labels or proof of model error."
+}

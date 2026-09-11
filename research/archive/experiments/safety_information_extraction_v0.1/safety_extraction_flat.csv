@@ -1,0 +1,6 @@
+report_id,hazards,hazard_evidence,exposures,exposure_evidence,consequences,consequence_evidence,barriers,barrier_evidence,activities,activity_evidence,hazard_count,exposure_count,consequence_count,barrier_count,activity_count,high_risk_hazard_count,direct_exposure_count,severe_consequence_signal_count,has_fatality_wording,has_direct_exposure_signal,has_barrier_signal
+industrial_safety_000013,Electrical energy; Suspended / falling load,electric || lifting,,,,,,,Assembly / installation,installation,2,0,0,0,1,2,0,0,False,False,False
+industrial_safety_000025,,,,,,,,,,,0,0,0,0,0,0,0,0,False,False,False
+industrial_safety_000033,Gravity / fall-from-height energy,height,Fall exposure,height of,,,,,Shotcrete,shotcrete,1,1,0,0,1,1,1,0,False,True,False
+industrial_safety_000034,Pressure / process energy,flange,,,,,,,,,1,0,0,0,0,1,0,0,False,False,False
+industrial_safety_000072,,,,,Minor injury; Struck-by injury,hit || cut,,,,,0,0,2,0,0,0,0,1,False,False,False

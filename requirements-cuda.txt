@@ -1,0 +1,4 @@
+# Tested NVIDIA setup for the SIH 2026 demo
+# Python 3.11.x
+torch==2.13.0
+--index-url https://download.pytorch.org/whl/cu126

@@ -1,0 +1,303 @@
+{
+  "config": {
+    "experiment": "model_comparison_v0.2",
+    "data_version": "resolved_annotations_v0.2",
+    "split_version": "sif_splits_v0.2",
+    "transformer_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "device": "cuda",
+    "max_seq_length": 256,
+    "batch_size": 8,
+    "embedding_dimension": 384,
+    "cv": {
+      "n_splits": 5,
+      "n_repeats": 10,
+      "folds_per_model": 50,
+      "random_state": 42
+    },
+    "models": [
+      "TF-IDF + Logistic Regression",
+      "Transformer Embeddings + Logistic Regression",
+      "Hybrid TF-IDF + Transformer"
+    ],
+    "threshold_policy": "0.50 is the current fixed diagnostic threshold. Validation-selected thresholds are reported only as sensitivity analysis because the validation set is small."
+  },
+  "cv_summary": {
+    "TF-IDF + Logistic Regression": {
+      "model": "TF-IDF + Logistic Regression",
+      "folds": 50,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.6528571428571428,
+          "std": 0.11454962240590803,
+          "min": 0.35714285714285715,
+          "max": 0.8571428571428571
+        },
+        "precision": {
+          "mean": 0.6790896880896881,
+          "std": 0.0972216635055315,
+          "min": 0.4444444444444444,
+          "max": 0.875
+        },
+        "recall": {
+          "mean": 0.765,
+          "std": 0.14863322890489153,
+          "min": 0.375,
+          "max": 1.0
+        },
+        "f2": {
+          "mean": 0.7412260653173272,
+          "std": 0.12607298422049446,
+          "min": 0.4166666666666667,
+          "max": 0.9302325581395349
+        },
+        "pr_auc": {
+          "mean": 0.8407412379287379,
+          "std": 0.07853695853251555,
+          "min": 0.5668470418470419,
+          "max": 0.975
+        },
+        "false_positive_count": {
+          "mean": 2.98,
+          "std": 1.2204047505242024,
+          "min": 1.0,
+          "max": 6.0
+        },
+        "false_negative_count": {
+          "mean": 1.88,
+          "std": 1.1890658312391322,
+          "min": 0.0,
+          "max": 5.0
+        }
+      }
+    },
+    "Transformer Embeddings + Logistic Regression": {
+      "model": "Transformer Embeddings + Logistic Regression",
+      "folds": 50,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7,
+          "std": 0.09462876015811941,
+          "min": 0.5,
+          "max": 0.9285714285714286
+        },
+        "precision": {
+          "mean": 0.7706580086580085,
+          "std": 0.12685156774029507,
+          "min": 0.5714285714285714,
+          "max": 1.0
+        },
+        "recall": {
+          "mean": 0.7225,
+          "std": 0.16806597951217778,
+          "min": 0.125,
+          "max": 1.0
+        },
+        "f2": {
+          "mean": 0.7205992799732538,
+          "std": 0.14352095800349018,
+          "min": 0.15151515151515152,
+          "max": 0.975609756097561
+        },
+        "pr_auc": {
+          "mean": 0.8255479381729383,
+          "std": 0.09604151484145838,
+          "min": 0.5904626623376624,
+          "max": 1.0
+        },
+        "false_positive_count": {
+          "mean": 1.98,
+          "std": 1.2534035296596486,
+          "min": 0.0,
+          "max": 4.0
+        },
+        "false_negative_count": {
+          "mean": 2.22,
+          "std": 1.344527836097422,
+          "min": 0.0,
+          "max": 7.0
+        }
+      }
+    },
+    "Hybrid TF-IDF + Transformer": {
+      "model": "Hybrid TF-IDF + Transformer",
+      "folds": 50,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.73,
+          "std": 0.09711584258228145,
+          "min": 0.5,
+          "max": 1.0
+        },
+        "precision": {
+          "mean": 0.7802049062049062,
+          "std": 0.11768127996928528,
+          "min": 0.6,
+          "max": 1.0
+        },
+        "recall": {
+          "mean": 0.7725,
+          "std": 0.1650023190931644,
+          "min": 0.125,
+          "max": 1.0
+        },
+        "f2": {
+          "mean": 0.7641239129888859,
+          "std": 0.14186233415055474,
+          "min": 0.15151515151515152,
+          "max": 1.0
+        },
+        "pr_auc": {
+          "mean": 0.847230887168387,
+          "std": 0.09134643305138086,
+          "min": 0.6135281385281385,
+          "max": 1.0
+        },
+        "false_positive_count": {
+          "mean": 1.96,
+          "std": 1.2115094312636678,
+          "min": 0.0,
+          "max": 4.0
+        },
+        "false_negative_count": {
+          "mean": 1.82,
+          "std": 1.3200185527453152,
+          "min": 0.0,
+          "max": 7.0
+        }
+      }
+    }
+  },
+  "locked_split": {
+    "TF-IDF + Logistic Regression": {
+      "validation_selected_threshold": 0.49,
+      "validation_f2_at_selected_threshold": 0.9166666666666666,
+      "test_at_0.50": {
+        "accuracy": 0.6,
+        "precision": 0.7272727272727273,
+        "recall": 0.6153846153846154,
+        "f2": 0.6349206349206349,
+        "pr_auc": 0.8703296703296701,
+        "false_positive_count": 3,
+        "false_negative_count": 5,
+        "confusion_matrix": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            8
+          ]
+        ]
+      },
+      "test_at_validation_selected_threshold": {
+        "accuracy": 0.65,
+        "precision": 0.7142857142857143,
+        "recall": 0.7692307692307693,
+        "f2": 0.7575757575757576,
+        "pr_auc": 0.8703296703296701,
+        "false_positive_count": 4,
+        "false_negative_count": 3,
+        "confusion_matrix": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            10
+          ]
+        ]
+      }
+    },
+    "Transformer Embeddings + Logistic Regression": {
+      "validation_selected_threshold": 0.5,
+      "validation_f2_at_selected_threshold": 0.9482758620689655,
+      "test_at_0.50": {
+        "accuracy": 0.6,
+        "precision": 0.6666666666666666,
+        "recall": 0.7692307692307693,
+        "f2": 0.746268656716418,
+        "pr_auc": 0.770827328647643,
+        "false_positive_count": 5,
+        "false_negative_count": 3,
+        "confusion_matrix": [
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            10
+          ]
+        ]
+      },
+      "test_at_validation_selected_threshold": {
+        "accuracy": 0.6,
+        "precision": 0.6666666666666666,
+        "recall": 0.7692307692307693,
+        "f2": 0.746268656716418,
+        "pr_auc": 0.770827328647643,
+        "false_positive_count": 5,
+        "false_negative_count": 3,
+        "confusion_matrix": [
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            10
+          ]
+        ]
+      }
+    },
+    "Hybrid TF-IDF + Transformer": {
+      "validation_selected_threshold": 0.51,
+      "validation_f2_at_selected_threshold": 0.9821428571428571,
+      "test_at_0.50": {
+        "accuracy": 0.6,
+        "precision": 0.6923076923076923,
+        "recall": 0.6923076923076923,
+        "f2": 0.6923076923076923,
+        "pr_auc": 0.8273630691765961,
+        "false_positive_count": 4,
+        "false_negative_count": 4,
+        "confusion_matrix": [
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            9
+          ]
+        ]
+      },
+      "test_at_validation_selected_threshold": {
+        "accuracy": 0.55,
+        "precision": 0.7,
+        "recall": 0.5384615384615384,
+        "f2": 0.5645161290322581,
+        "pr_auc": 0.8273630691765961,
+        "false_positive_count": 3,
+        "false_negative_count": 6,
+        "confusion_matrix": [
+          [
+            4,
+            3
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      }
+    }
+  },
+  "files": {
+    "cv_results": "experiments\\model_comparison_v0.2\\repeated_cv_results.csv",
+    "test_predictions": "experiments\\model_comparison_v0.2\\locked_test_predictions.csv"
+  },
+  "warning": "The 70-label dataset remains small. Repeated CV and the locked test are diagnostic research evidence, not production generalization estimates."
+}

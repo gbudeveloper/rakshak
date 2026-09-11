@@ -1,0 +1,11 @@
+{
+  "test_records": 20,
+  "control_mentioned_rate": 0.1,
+  "gap_mentioned_rate": 0.1,
+  "both_control_and_gap_rate": 0.0,
+  "neither_rate": 0.8,
+  "control_only_count": 2,
+  "gap_only_count": 2,
+  "both_count": 0,
+  "neither_count": 16
+}

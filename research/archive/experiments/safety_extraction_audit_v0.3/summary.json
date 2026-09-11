@@ -1,0 +1,188 @@
+{
+  "version": "safety_extraction_audit_v0.3",
+  "records": 70,
+  "annotation_path": "C:\\Projects\\SIH26165\\data\\annotations\\resolved_annotations_v0.2.csv",
+  "extraction_path": "C:\\Projects\\SIH26165\\experiments\\safety_information_extraction_v0.3\\safety_extraction_flat.csv",
+  "category_summary": {
+    "hazards": {
+      "human_present": 70,
+      "extracted_present": 17,
+      "missed_category": 53,
+      "possible_false_positive": 0,
+      "partial_or_reasonable": 17,
+      "evidence_present": 17,
+      "human_present_but_no_evidence": 53,
+      "human_present_rate": 1.0,
+      "extracted_present_rate": 0.24285714285714285,
+      "evidence_present_rate": 0.24285714285714285,
+      "missed_when_human_present_rate": 0.7571428571428571,
+      "evidence_missing_when_human_present_rate": 0.7571428571428571
+    },
+    "exposures": {
+      "human_present": 69,
+      "extracted_present": 18,
+      "missed_category": 52,
+      "possible_false_positive": 1,
+      "partial_or_reasonable": 9,
+      "evidence_present": 18,
+      "human_present_but_no_evidence": 52,
+      "human_present_rate": 0.9857142857142858,
+      "extracted_present_rate": 0.2571428571428571,
+      "evidence_present_rate": 0.2571428571428571,
+      "missed_when_human_present_rate": 0.7536231884057971,
+      "evidence_missing_when_human_present_rate": 0.7536231884057971
+    },
+    "consequences": {
+      "human_present": 70,
+      "extracted_present": 18,
+      "missed_category": 52,
+      "possible_false_positive": 0,
+      "partial_or_reasonable": 9,
+      "evidence_present": 18,
+      "human_present_but_no_evidence": 52,
+      "human_present_rate": 1.0,
+      "extracted_present_rate": 0.2571428571428571,
+      "evidence_present_rate": 0.2571428571428571,
+      "missed_when_human_present_rate": 0.7428571428571429,
+      "evidence_missing_when_human_present_rate": 0.7428571428571429
+    },
+    "barriers": {
+      "human_present": 70,
+      "extracted_present": 5,
+      "missed_category": 65,
+      "possible_false_positive": 0,
+      "partial_or_reasonable": 1,
+      "evidence_present": 5,
+      "human_present_but_no_evidence": 65,
+      "human_present_rate": 1.0,
+      "extracted_present_rate": 0.07142857142857142,
+      "evidence_present_rate": 0.07142857142857142,
+      "missed_when_human_present_rate": 0.9285714285714286,
+      "evidence_missing_when_human_present_rate": 0.9285714285714286
+    }
+  },
+  "most_difficult_records": [
+    {
+      "report_id": "industrial_safety_000076",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000095",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000100",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000103",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000112",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000115",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000119",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000135",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000166",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000169",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000190",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000197",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000198",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000222",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000239",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000259",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000284",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000289",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000298",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    },
+    {
+      "report_id": "industrial_safety_000323",
+      "missed_category_count": 4,
+      "weak_or_partial_category_count": 0,
+      "human_present_without_evidence_count": 4
+    }
+  ],
+  "interpretation": "Diagnostic coverage audit. Human notes are category-level notes, not exact span annotations, so lexical overlap is only a proxy. Extraction columns are read from the post-merge *_extracted fields created by pandas suffixing, while evidence is audited separately.",
+  "next_step": "Use this audit to identify true extraction gaps. Do not use category-level lexical recall as a production precision/recall metric."
+}

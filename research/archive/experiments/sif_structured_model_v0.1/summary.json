@@ -1,0 +1,36 @@
+{
+  "version": "0.1",
+  "gold_binary_records": 68,
+  "split_sizes": {
+    "train": 29,
+    "validation": 20,
+    "test": 19
+  },
+  "feature_counts": {
+    "full_structured": 119,
+    "mechanism_only": 98
+  },
+  "best_model_by_validation_f2": {
+    "variant": "full_structured",
+    "model": "l1_logistic_C_0.50",
+    "validation_threshold": 0.32,
+    "locked_test_metrics": {
+      "n": 19,
+      "accuracy": 0.6842,
+      "precision": 0.7692,
+      "recall": 0.7692,
+      "f2": 0.7692,
+      "pr_auc": 0.7528,
+      "tn": 3,
+      "fp": 3,
+      "fn": 3,
+      "tp": 10
+    }
+  },
+  "notes": [
+    "Threshold selected on validation only.",
+    "Test set remains locked.",
+    "Mechanism-only variant excludes actual_ and potential_ features.",
+    "Probabilities are model scores and should not be interpreted as calibrated safety probabilities without calibration validation."
+  ]
+}

@@ -1,0 +1,21 @@
+﻿report_id,probability,sif_label,precursor_evidence_count,barrier_evidence_count,lsr_candidate_count,precursor,barrier,lsr,top_precursor_mechanisms,barrier_signals,lsr_candidates,flag_high_score_no_precursor,flag_lsr_without_lsr_evidence,flag_barrier_without_barrier_evidence,flag_high_score_label_no,flag_low_score_label_yes
+industrial_safety_000384,0.9867825907616966,YES,3,0,2,3,0,2,Electrical energy | Fall from height,,Isolation | Work at Height,False,False,False,False,False
+industrial_safety_000422,0.99293809666487,YES,2,0,2,2,0,2,Fire / explosion energy | Line-of-fire exposure,,Line of Fire | Safe Mechanical Lifting,False,False,False,False,False
+industrial_safety_000314,0.991116678881494,YES,1,0,1,1,0,1,Fall from height,,Work at Height,False,False,False,False,False
+industrial_safety_000382,0.9863461091910516,NO,0,0,1,0,0,1,,,Confined Space,True,False,False,True,False
+industrial_safety_000426,0.8828214864661822,YES,2,0,1,2,0,1,Vehicle interaction,,Driving,False,False,False,False,False
+industrial_safety_000166,0.8641740868801234,YES,2,0,0,2,0,0,Chemical / hazardous release | Thermal energy,,,False,False,False,False,False
+industrial_safety_000389,0.8664508900505058,YES,1,0,1,1,0,1,Fall from height,,Work at Height,False,False,False,False,False
+industrial_safety_000370,0.8714489612642562,YES,1,0,0,1,0,0,Chemical / hazardous release,,,False,False,False,False,False
+industrial_safety_000403,0.8639438692414778,YES,1,0,0,1,0,0,Chemical / hazardous release,,,False,False,False,False,False
+industrial_safety_000190,0.8211097984937358,NO,1,0,1,1,0,1,Chemical / hazardous release,,Chemical Exposure,False,False,False,True,False
+industrial_safety_000140,0.7670891387019364,YES,1,0,0,1,0,0,Electrical energy,,,False,False,False,False,False
+industrial_safety_000074,0.7449511607213508,NO,0,0,0,0,0,0,,,,True,False,False,True,False
+industrial_safety_000420,0.6764513689808687,NO,2,0,1,2,0,2,Vehicle interaction,,Driving,False,False,False,True,False
+industrial_safety_000364,0.4556808364092439,YES,2,0,1,2,0,2,Vehicle interaction,,Driving,False,False,False,False,True
+industrial_safety_000115,0.3458173707783626,NO,1,0,1,1,0,1,Moving equipment / mechanical energy,,Safe Mechanical Lifting,False,False,False,False,False
+industrial_safety_000075,0.2725186889269764,YES,1,0,0,1,0,0,Chemical / hazardous release,,,False,False,False,False,True
+industrial_safety_000289,0.0822024315526296,NO,1,0,0,1,0,0,Fall from height,,,False,False,False,False,False
+industrial_safety_000361,0.0151505494585361,YES,2,0,1,2,0,2,Vehicle interaction,,Driving,False,False,False,False,True
+industrial_safety_000077,0.0113804484899385,YES,1,0,1,1,0,1,Chemical / hazardous release,,Confined Space,False,False,False,False,True
+industrial_safety_000145,0.0320125634874343,NO,0,0,0,0,0,0,,,,False,False,False,False,False

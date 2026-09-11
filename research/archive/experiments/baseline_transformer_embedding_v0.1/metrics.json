@@ -1,0 +1,70 @@
+{
+  "experiment": "baseline_transformer_embedding_v0.1",
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "train_records": 28,
+  "validation_records": 6,
+  "test_records": 6,
+  "validation_threshold": 0.4149999999999999,
+  "validation": {
+    "threshold": 0.4149999999999999,
+    "accuracy": 0.8333333333333334,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f2": 0.9523809523809523,
+    "confusion_matrix": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "pr_auc": 0.8041666666666667,
+    "false_negative_count": 0,
+    "false_positive_count": 1,
+    "best_f2_from_threshold_search": 0.9523809523809523
+  },
+  "test_at_0.50": {
+    "threshold": 0.5,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f2": 1.0,
+    "confusion_matrix": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "pr_auc": 1.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0
+  },
+  "test_at_validation_threshold": {
+    "threshold": 0.4149999999999999,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f2": 1.0,
+    "confusion_matrix": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "pr_auc": 1.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0
+  },
+  "interpretation": "Diagnostic embedding baseline on a very small adjudicated dataset. Results are not a reliable estimate of production generalization."
+}

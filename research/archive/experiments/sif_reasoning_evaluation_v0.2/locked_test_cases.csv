@@ -1,0 +1,20 @@
+﻿report_id,y,sif_potential,sif_precursor_score,sif_precursor_band,primary_trigger,reason_codes,lsr_candidates,prediction,error
+industrial_safety_000370,1,YES,0.65,HIGH,Potential severe chemical injury,high-energy mechanism; specific exposure pathway; credible severe potential pathway,Line of Fire; Safe Mechanical Lifting,1,CORRECT
+industrial_safety_000403,1,YES,0.61,HIGH,Fatality,high-energy mechanism; generic exposure signal; severe actual consequence,Work at Height,1,CORRECT
+industrial_safety_000422,1,YES,0.5,MEDIUM,Pressure / stored energy,high-energy mechanism; specific exposure pathway; explicit barrier failure/absence,Line of Fire; Isolation; Seat Belt,1,CORRECT
+industrial_safety_000140,1,YES,0.4,MEDIUM,Burn / thermal injury,high-energy mechanism; specific exposure pathway,Isolation,1,CORRECT
+industrial_safety_000364,1,YES,0.4,MEDIUM,Vehicle / mobile equipment energy,high-energy mechanism; specific exposure pathway,Seat Belt; Driving; Safe Mechanical Lifting,1,CORRECT
+industrial_safety_000426,1,YES,0.37,MEDIUM,Mechanical / moving equipment energy,high-energy mechanism; specific exposure pathway; potential severity signal not sufficiently grounded; protective control explicitly present,Seat Belt; Isolation; Driving,1,CORRECT
+industrial_safety_000361,1,YES,0.3,LOW,Struck-by / impact injury,high-energy mechanism; specific exposure pathway; observed outcome is low severity without credible escalation gate,Seat Belt; Driving,1,CORRECT
+industrial_safety_000384,1,YES,0.3,LOW,Cut / laceration,high-energy mechanism; specific exposure pathway; protective control explicitly present; observed outcome is low severity without credible escalation gate,Work at Height; Isolation,1,CORRECT
+industrial_safety_000314,1,YES,0.26,LOW,Fall-from-height energy,high-energy mechanism; generic exposure signal,Work at Height,1,CORRECT
+industrial_safety_000389,1,YES,0.23,LOW,Cut / laceration,high-energy mechanism; generic exposure signal; protective control explicitly present; observed outcome is low severity without credible escalation gate,Work at Height,1,CORRECT
+industrial_safety_000075,1,YES,0.06,LOW,Struck-by / impact injury,generic exposure signal; potential severity signal not sufficiently grounded; observed outcome is low severity without credible escalation gate,,1,CORRECT
+industrial_safety_000077,1,YES,0.06,LOW,Minor irritation / swelling,generic exposure signal; observed outcome is low severity without credible escalation gate,,1,CORRECT
+industrial_safety_000166,1,YES,0.0,LOW,No strong SIF precursor signal,,,1,CORRECT
+industrial_safety_000420,0,NO,0.37,MEDIUM,Fall injury,high-energy mechanism; specific exposure pathway; protective control explicitly present,Seat Belt; Driving,1,FALSE_POSITIVE
+industrial_safety_000382,0,NO,0.2,LOW,Burn / thermal injury,specific exposure pathway,Line of Fire,1,FALSE_POSITIVE
+industrial_safety_000190,0,NO,0.06,LOW,Chemical energy / hazardous substance,generic exposure signal; potential severity signal not sufficiently grounded,,1,FALSE_POSITIVE
+industrial_safety_000289,0,NO,0.06,LOW,Slip / trip surface hazard,generic exposure signal,Work at Height,1,FALSE_POSITIVE
+industrial_safety_000074,0,NO,0.03,LOW,No strong SIF precursor signal,generic exposure signal; protective control explicitly present,,1,FALSE_POSITIVE
+industrial_safety_000115,0,NO,0.0,LOW,No strong SIF precursor signal,potential severity signal not sufficiently grounded,,1,FALSE_POSITIVE

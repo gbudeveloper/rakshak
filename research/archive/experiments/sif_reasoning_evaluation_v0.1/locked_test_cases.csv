@@ -1,0 +1,20 @@
+﻿report_id,y,sif_potential,sif_precursor_score,sif_precursor_band,primary_trigger,reason_codes,lsr_candidates,prediction,error
+industrial_safety_000403,1,YES,0.8,HIGH,High-energy hazard with exposure,high-energy hazard; human exposure signal; severe/critical actual consequence,Work at Height,1,CORRECT
+industrial_safety_000370,1,YES,0.7,HIGH,Potential severe chemical injury,high-energy hazard; human exposure signal; credible severe potential pathway,Line of Fire; Safe Mechanical Lifting,1,CORRECT
+industrial_safety_000422,1,YES,0.6,MEDIUM,High-energy hazard with exposure,high-energy hazard; human exposure signal; barrier gap/failure signal,Line of Fire; Hot Work; Isolation,1,CORRECT
+industrial_safety_000426,1,YES,0.5,MEDIUM,Potential severe vehicle injury,high-energy hazard; credible severe potential pathway,Seat Belt; Isolation; Line of Fire,1,CORRECT
+industrial_safety_000075,1,YES,0.45,MEDIUM,Potential severe chemical injury,human exposure signal; credible severe potential pathway,Line of Fire,1,CORRECT
+industrial_safety_000140,1,YES,0.45,MEDIUM,High-energy hazard with exposure,high-energy hazard; human exposure signal,Isolation,1,CORRECT
+industrial_safety_000314,1,YES,0.45,MEDIUM,High-energy hazard with exposure,high-energy hazard; human exposure signal,Work at Height,1,CORRECT
+industrial_safety_000361,1,YES,0.45,MEDIUM,High-energy hazard with exposure,high-energy hazard; human exposure signal,Line of Fire; Seat Belt; Driving,1,CORRECT
+industrial_safety_000364,1,YES,0.45,MEDIUM,High-energy hazard with exposure,high-energy hazard; human exposure signal,Line of Fire; Seat Belt; Driving,1,CORRECT
+industrial_safety_000384,1,YES,0.45,MEDIUM,High-energy hazard with exposure,high-energy hazard; human exposure signal,Work at Height; Isolation,1,CORRECT
+industrial_safety_000389,1,YES,0.45,MEDIUM,High-energy hazard with exposure,high-energy hazard; human exposure signal,Work at Height; Line of Fire,1,CORRECT
+industrial_safety_000077,1,YES,0.0,LOW,Minor irritation / swelling,human exposure signal; low-energy-only observed event,Line of Fire,1,CORRECT
+industrial_safety_000166,1,YES,0.0,LOW,No strong SIF precursor signal,,,1,CORRECT
+industrial_safety_000190,0,NO,0.45,MEDIUM,Potential severe chemical injury,human exposure signal; credible severe potential pathway,Line of Fire,1,FALSE_POSITIVE
+industrial_safety_000115,0,NO,0.25,LOW,Potential severe entanglement / machine injury,credible severe potential pathway,,1,FALSE_POSITIVE
+industrial_safety_000420,0,NO,0.25,LOW,High-energy hazard with exposure,high-energy hazard,Line of Fire; Seat Belt; Driving,1,FALSE_POSITIVE
+industrial_safety_000074,0,NO,0.2,LOW,No strong SIF precursor signal,human exposure signal,Line of Fire,1,FALSE_POSITIVE
+industrial_safety_000289,0,NO,0.2,LOW,No strong SIF precursor signal,human exposure signal,Work at Height,1,FALSE_POSITIVE
+industrial_safety_000382,0,NO,0.2,LOW,Burn / thermal injury,human exposure signal,Line of Fire,1,FALSE_POSITIVE

@@ -1,0 +1,17 @@
+{
+  "version": "safety_information_extraction_v0.2",
+  "records_processed": 5,
+  "total_evidence": {
+    "hazards": 7,
+    "exposures": 3,
+    "consequences": 8,
+    "barriers": 1,
+    "activities": 3
+  },
+  "limitations": [
+    "Rule-based evidence extraction can still miss paraphrases.",
+    "Evidence does not establish SIF potential by itself.",
+    "A detected term can still be contextually irrelevant and must be reviewed.",
+    "This version is intended as a structured-information baseline before a learned extraction model."
+  ]
+}

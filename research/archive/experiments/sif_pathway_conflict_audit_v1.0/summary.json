@@ -1,0 +1,20 @@
+{
+  "cases": 20,
+  "by_review_type": {
+    "NORMAL": 14,
+    "LOW_SCORE_FALSE_NEGATIVE": 4,
+    "HIGH_SCORE_NO_PRECURSOR_EVIDENCE": 1,
+    "HIGH_SCORE_FALSE_POSITIVE": 1
+  },
+  "pathway_assessment_counts": {
+    "SUPPORTED_BY_NARRATIVE_SIGNALS": 9,
+    "PARTIALLY_SUPPORTED": 8,
+    "WEAK_SIGNAL": 2,
+    "NO_CLEAR_PATHWAY_SIGNAL": 1
+  },
+  "hazard_signal_rate": 0.85,
+  "exposure_signal_rate": 0.8,
+  "pathway_signal_rate": 0.6,
+  "fully_supported_pathway_rate": 0.45,
+  "note": "Narrative signals are heuristic diagnostics. They do not establish SIF status, barrier effectiveness, or correctness of existing labels."
+}
