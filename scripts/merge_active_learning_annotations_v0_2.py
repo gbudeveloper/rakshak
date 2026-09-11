@@ -5,15 +5,9 @@ from pathlib import Path
 
 import pandas as pd
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-RESOLVED_PATH = (
-    PROJECT_ROOT
-    / "data"
-    / "annotations"
-    / "resolved_annotations_v0.1.csv"
-)
+RESOLVED_PATH = PROJECT_ROOT / "data" / "annotations" / "resolved_annotations_v0.1.csv"
 
 ACTIVE_PATH = (
     PROJECT_ROOT
@@ -23,21 +17,11 @@ ACTIVE_PATH = (
     / "active_learning_batch_01_annotated.csv"
 )
 
-OUTPUT_DIR = (
-    PROJECT_ROOT
-    / "data"
-    / "annotations"
-)
+OUTPUT_DIR = PROJECT_ROOT / "data" / "annotations"
 
-OUTPUT_PATH = (
-    OUTPUT_DIR
-    / "resolved_annotations_v0.2.csv"
-)
+OUTPUT_PATH = OUTPUT_DIR / "resolved_annotations_v0.2.csv"
 
-REPORT_PATH = (
-    OUTPUT_DIR
-    / "resolved_annotations_v0.2_report.json"
-)
+REPORT_PATH = OUTPUT_DIR / "resolved_annotations_v0.2_report.json"
 
 
 def find_label_column(df: pd.DataFrame, candidates: list[str]) -> str:
@@ -45,16 +29,14 @@ def find_label_column(df: pd.DataFrame, candidates: list[str]) -> str:
         if column in df.columns:
             return column
     raise ValueError(
-        f"No label column found. Tried {candidates}. "
-        f"Available: {list(df.columns)}"
+        f"No label column found. Tried {candidates}. " f"Available: {list(df.columns)}"
     )
 
 
 def find_required(df: pd.DataFrame, name: str) -> str:
     if name not in df.columns:
         raise ValueError(
-            f"Required column '{name}' is missing. "
-            f"Available: {list(df.columns)}"
+            f"Required column '{name}' is missing. " f"Available: {list(df.columns)}"
         )
     return name
 
@@ -85,12 +67,8 @@ def main() -> None:
     old["report_id"] = old["report_id"].astype(str).str.strip()
     new["report_id"] = new["report_id"].astype(str).str.strip()
 
-    old[old_label] = (
-        old[old_label].astype(str).str.strip().str.upper()
-    )
-    new[new_label] = (
-        new[new_label].astype(str).str.strip().str.upper()
-    )
+    old[old_label] = old[old_label].astype(str).str.strip().str.upper()
+    new[new_label] = new[new_label].astype(str).str.strip().str.upper()
 
     # Only binary, completed labels are eligible for this v0.2
     # resolved training set.
@@ -139,20 +117,13 @@ def main() -> None:
         )
 
     combined["final_sif_potential"] = (
-        combined["final_sif_potential"]
-        .astype(str)
-        .str.strip()
-        .str.upper()
+        combined["final_sif_potential"].astype(str).str.strip().str.upper()
     )
 
-    combined = combined[
-        combined["final_sif_potential"].isin(["YES", "NO"])
-    ].copy()
+    combined = combined[combined["final_sif_potential"].isin(["YES", "NO"])].copy()
 
     # Deterministic ordering by report ID.
-    combined = combined.sort_values(
-        "report_id"
-    ).reset_index(drop=True)
+    combined = combined.sort_values("report_id").reset_index(drop=True)
 
     # Duplicate integrity.
     if combined["report_id"].duplicated().any():
@@ -165,31 +136,16 @@ def main() -> None:
             .unique()
             .tolist()
         )
-        raise ValueError(
-            "Duplicate report IDs after merge: "
-            + ", ".join(dupes)
-        )
+        raise ValueError("Duplicate report IDs after merge: " + ", ".join(dupes))
 
-    yes_count = int(
-        combined["final_sif_potential"].eq("YES").sum()
-    )
-    no_count = int(
-        combined["final_sif_potential"].eq("NO").sum()
-    )
+    yes_count = int(combined["final_sif_potential"].eq("YES").sum())
+    no_count = int(combined["final_sif_potential"].eq("NO").sum())
 
-    old_yes = int(
-        old[old_label].isin(["YES"]).sum()
-    )
-    old_no = int(
-        old[old_label].isin(["NO"]).sum()
-    )
+    old_yes = int(old[old_label].isin(["YES"]).sum())
+    old_no = int(old[old_label].isin(["NO"]).sum())
 
-    new_yes = int(
-        new_completed[new_label].eq("YES").sum()
-    )
-    new_no = int(
-        new_completed[new_label].eq("NO").sum()
-    )
+    new_yes = int(new_completed[new_label].eq("YES").sum())
+    new_no = int(new_completed[new_label].eq("NO").sum())
 
     OUTPUT_DIR.mkdir(
         parents=True,
@@ -215,12 +171,8 @@ def main() -> None:
         "final_no": no_count,
         "duplicate_report_ids": 0,
         "source_files": {
-            "previous": str(
-                RESOLVED_PATH.relative_to(PROJECT_ROOT)
-            ),
-            "active_learning": str(
-                ACTIVE_PATH.relative_to(PROJECT_ROOT)
-            ),
+            "previous": str(RESOLVED_PATH.relative_to(PROJECT_ROOT)),
+            "active_learning": str(ACTIVE_PATH.relative_to(PROJECT_ROOT)),
         },
         "eligible_for_binary_training": True,
         "note": (

@@ -2,9 +2,7 @@ from scripts.evidence_engine_v1_5 import analyze
 
 
 def test_evidence_schema_and_electrical_pathway():
-    text = (
-        "Worker contacted an energized electrical conductor and received an electric shock."
-    )
+    text = "Worker contacted an energized electrical conductor and received an electric shock."
     result = analyze(text)
 
     required = {

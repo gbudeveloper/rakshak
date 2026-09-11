@@ -5,15 +5,9 @@ from pathlib import Path
 
 import pandas as pd
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-INPUT_PATH = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "industrial_safety_canonical.parquet"
-)
+INPUT_PATH = PROJECT_ROOT / "data" / "processed" / "industrial_safety_canonical.parquet"
 
 
 def normalize_for_matching(text: str) -> str:
@@ -56,8 +50,7 @@ def main() -> None:
     )
 
     groups = (
-        duplicate_groups
-        .groupby("normalized_description")
+        duplicate_groups.groupby("normalized_description")
         .agg(
             record_count=("report_id", "count"),
             report_ids=("report_id", list),
@@ -75,22 +68,10 @@ def main() -> None:
     print("=" * 70)
 
     print(f"Total records             : {len(df)}")
-    print(
-        f"Unique raw descriptions   : "
-        f"{text.nunique()}"
-    )
-    print(
-        f"Unique normalized texts   : "
-        f"{normalized.nunique()}"
-    )
-    print(
-        f"Records in duplicate groups: "
-        f"{duplicate_mask.sum()}"
-    )
-    print(
-        f"Duplicate groups          : "
-        f"{len(groups)}"
-    )
+    print(f"Unique raw descriptions   : " f"{text.nunique()}")
+    print(f"Unique normalized texts   : " f"{normalized.nunique()}")
+    print(f"Records in duplicate groups: " f"{duplicate_mask.sum()}")
+    print(f"Duplicate groups          : " f"{len(groups)}")
 
     print()
     print("DUPLICATE GROUPS")
@@ -101,14 +82,9 @@ def main() -> None:
 
     else:
         for _, row in groups.head(20).iterrows():
-            print(
-                f"\nRecords: {row['record_count']}"
-            )
+            print(f"\nRecords: {row['record_count']}")
 
-            print(
-                "Report IDs: "
-                + ", ".join(row["report_ids"])
-            )
+            print("Report IDs: " + ", ".join(row["report_ids"]))
 
             for description in row["descriptions"]:
                 print(f"  {description}")
@@ -133,13 +109,7 @@ def main() -> None:
 
     risk_counts = (
         df["hazards"]
-        .apply(
-            lambda x: (
-                ", ".join(x)
-                if isinstance(x, list)
-                else str(x)
-            )
-        )
+        .apply(lambda x: (", ".join(x) if isinstance(x, list) else str(x)))
         .value_counts()
         .head(20)
     )
@@ -163,23 +133,16 @@ def main() -> None:
         }
     )
 
-    comparison["actual_num"] = (
-        comparison["actual"].map(level_order)
-    )
+    comparison["actual_num"] = comparison["actual"].map(level_order)
 
-    comparison["potential_num"] = (
-        comparison["potential"].map(level_order)
-    )
+    comparison["potential_num"] = comparison["potential"].map(level_order)
 
     higher_potential = comparison[
-        comparison["potential_num"]
-        > comparison["actual_num"]
+        comparison["potential_num"] > comparison["actual_num"]
     ]
 
     print()
-    print(
-        "Potential level > actual level"
-    )
+    print("Potential level > actual level")
     print("-" * 70)
     print(
         f"Records: {len(higher_potential)} "

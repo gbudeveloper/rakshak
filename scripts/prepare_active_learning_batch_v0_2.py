@@ -4,7 +4,6 @@ from pathlib import Path
 
 import pandas as pd
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 SELECTED_PATH = (
@@ -16,10 +15,7 @@ SELECTED_PATH = (
 )
 
 POOL_PATH = (
-    PROJECT_ROOT
-    / "data"
-    / "annotations"
-    / "industrial_safety_annotation_pool.csv"
+    PROJECT_ROOT / "data" / "annotations" / "industrial_safety_annotation_pool.csv"
 )
 
 OUTPUT_PATH = (
@@ -77,9 +73,7 @@ def main() -> None:
         )
 
     if not POOL_PATH.exists():
-        raise FileNotFoundError(
-            f"Annotation pool not found:\n{POOL_PATH}"
-        )
+        raise FileNotFoundError(f"Annotation pool not found:\n{POOL_PATH}")
 
     selected = pd.read_csv(SELECTED_PATH)
     pool = pd.read_csv(POOL_PATH)
@@ -141,11 +135,7 @@ def main() -> None:
         "source_actor_type",
     ]
 
-    pool_columns = [
-        column
-        for column in pool_columns
-        if column in pool.columns
-    ]
+    pool_columns = [column for column in pool_columns if column in pool.columns]
 
     canonical = pool[pool_columns].drop_duplicates(
         subset=["report_id"],
@@ -190,10 +180,7 @@ def main() -> None:
             output[column] = default
 
     output["annotation_status"] = (
-        output["annotation_status"]
-        .fillna("")
-        .astype(str)
-        .str.strip()
+        output["annotation_status"].fillna("").astype(str).str.strip()
     )
     output.loc[
         output["annotation_status"].eq(""),
@@ -212,9 +199,7 @@ def main() -> None:
 
     if output[REQUIRED_APP_COLUMNS].isnull().all().any():
         bad = [
-            column
-            for column in REQUIRED_APP_COLUMNS
-            if output[column].isnull().all()
+            column for column in REQUIRED_APP_COLUMNS if output[column].isnull().all()
         ]
         raise ValueError(
             f"Prepared batch contains completely empty required columns: {bad}"

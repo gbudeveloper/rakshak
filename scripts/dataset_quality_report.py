@@ -5,15 +5,9 @@ from pathlib import Path
 
 import pandas as pd
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-INPUT_PATH = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "industrial_safety_canonical.parquet"
-)
+INPUT_PATH = PROJECT_ROOT / "data" / "processed" / "industrial_safety_canonical.parquet"
 
 OUTPUT_DIR = PROJECT_ROOT / "data" / "processed" / "quality"
 
@@ -24,17 +18,12 @@ def safe_value_counts(
 ) -> dict[str, int]:
     counts = series.fillna("<NULL>").astype(str).value_counts().head(top_n)
 
-    return {
-        str(key): int(value)
-        for key, value in counts.items()
-    }
+    return {str(key): int(value) for key, value in counts.items()}
 
 
 def main() -> None:
     if not INPUT_PATH.exists():
-        raise FileNotFoundError(
-            f"Canonical dataset not found: {INPUT_PATH}"
-        )
+        raise FileNotFoundError(f"Canonical dataset not found: {INPUT_PATH}")
 
     df = pd.read_parquet(INPUT_PATH)
 
@@ -52,13 +41,9 @@ def main() -> None:
 
     empty_description_count = int((text == "").sum())
 
-    duplicate_description_count = int(
-        text.duplicated(keep=False).sum()
-    )
+    duplicate_description_count = int(text.duplicated(keep=False).sum())
 
-    unique_description_count = int(
-        text.nunique()
-    )
+    unique_description_count = int(text.nunique())
 
     # -----------------------------
     # Timestamp quality
@@ -69,17 +54,13 @@ def main() -> None:
         errors="coerce",
     )
 
-    invalid_timestamp_count = int(
-        timestamps.isna().sum()
-    )
+    invalid_timestamp_count = int(timestamps.isna().sum())
 
     # -----------------------------
     # Identifier quality
     # -----------------------------
 
-    duplicate_report_ids = int(
-        df["report_id"].duplicated().sum()
-    )
+    duplicate_report_ids = int(df["report_id"].duplicated().sum())
 
     # -----------------------------
     # Report
@@ -89,7 +70,6 @@ def main() -> None:
         "dataset": "industrial_safety_canonical",
         "records": int(len(df)),
         "columns": int(len(df.columns)),
-
         "text": {
             "empty_description_count": empty_description_count,
             "unique_description_count": unique_description_count,
@@ -102,48 +82,29 @@ def main() -> None:
                 2,
             ),
         },
-
         "timestamps": {
             "invalid_count": invalid_timestamp_count,
             "minimum": (
-                timestamps.min().isoformat()
-                if not timestamps.isna().all()
-                else None
+                timestamps.min().isoformat() if not timestamps.isna().all() else None
             ),
             "maximum": (
-                timestamps.max().isoformat()
-                if not timestamps.isna().all()
-                else None
+                timestamps.max().isoformat() if not timestamps.isna().all() else None
             ),
         },
-
         "identifiers": {
             "duplicate_report_ids": duplicate_report_ids,
         },
-
         "distributions": {
-            "actual_outcome": safe_value_counts(
-                df["actual_outcome"]
-            ),
+            "actual_outcome": safe_value_counts(df["actual_outcome"]),
             "potential_accident_level": safe_value_counts(
                 df["potential_accident_level"]
             ),
-            "site": safe_value_counts(
-                df["site"]
-            ),
-            "location": safe_value_counts(
-                df["location"]
-            ),
-            "department": safe_value_counts(
-                df["department"]
-            ),
+            "site": safe_value_counts(df["site"]),
+            "location": safe_value_counts(df["location"]),
+            "department": safe_value_counts(df["department"]),
             "hazards": safe_value_counts(
                 df["hazards"].apply(
-                    lambda x: (
-                        ", ".join(x)
-                        if isinstance(x, list)
-                        else str(x)
-                    )
+                    lambda x: (", ".join(x) if isinstance(x, list) else str(x))
                 )
             ),
         },
@@ -197,11 +158,7 @@ def main() -> None:
     print()
 
     print("POTENTIAL ACCIDENT LEVEL")
-    print(
-        df["potential_accident_level"]
-        .value_counts(dropna=False)
-        .to_string()
-    )
+    print(df["potential_accident_level"].value_counts(dropna=False).to_string())
     print()
 
     print("INDUSTRY / DEPARTMENT")
@@ -215,13 +172,7 @@ def main() -> None:
     print("CRITICAL RISK")
     print(
         df["hazards"]
-        .apply(
-            lambda x: (
-                ", ".join(x)
-                if isinstance(x, list)
-                else str(x)
-            )
-        )
+        .apply(lambda x: (", ".join(x) if isinstance(x, list) else str(x)))
         .value_counts(dropna=False)
         .to_string()
     )

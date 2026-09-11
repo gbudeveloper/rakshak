@@ -16,9 +16,9 @@ def test_analytics_runtime_v2_uses_real_visual_sections():
         'id="lsrChart"',
         'id="activitiesChart"',
         'id="locationsChart"',
-        'function safeNode',
-        'Promise.allSettled',
-        'model_yes_ge_0_50',
+        "function safeNode",
+        "Promise.allSettled",
+        "model_yes_ge_0_50",
     ]:
         assert token in html + js
     assert ".horizontal-chart" in css

@@ -10,16 +10,20 @@ def test_queue_handles_nullable_metadata(monkeypatch):
     original_reviews = api.latest_review_map
     import pandas as pd
 
-    frame = pd.DataFrame([{
-        "report_id": "industrial_safety_000422",
-        "description": "test description",
-        "sif_precursor_probability": 0.9,
-        "review_priority": "P1",
-        "activity": pd.NA,
-        "site": pd.NA,
-        "location": pd.NA,
-        "department": pd.NA,
-    }])
+    frame = pd.DataFrame(
+        [
+            {
+                "report_id": "industrial_safety_000422",
+                "description": "test description",
+                "sif_precursor_probability": 0.9,
+                "review_priority": "P1",
+                "activity": pd.NA,
+                "site": pd.NA,
+                "location": pd.NA,
+                "department": pd.NA,
+            }
+        ]
+    )
     api.meta_df = lambda: frame.copy()
     api.latest_review_map = lambda: {}
     try:

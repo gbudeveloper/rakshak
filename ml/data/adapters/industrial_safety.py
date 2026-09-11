@@ -5,7 +5,6 @@ from typing import Any
 
 import pandas as pd
 
-
 REQUIRED_COLUMNS = {
     "Unnamed: 0",
     "Data",
@@ -91,52 +90,34 @@ def convert_to_canonical(df: pd.DataFrame) -> pd.DataFrame:
                 "report_id": report_id,
                 "source": "industrial_safety_analytics_database",
                 "report_type": "incident",
-
                 "timestamp": (
-                    timestamp.isoformat()
-                    if not pd.isna(timestamp)
-                    else None
+                    timestamp.isoformat() if not pd.isna(timestamp) else None
                 ),
-
                 "site": _clean(row["Countries"]),
                 "location": _clean(row["Local"]),
                 "department": _clean(row["Industry Sector"]),
                 "activity": None,
                 "asset": None,
-
                 "description": _clean(row["Description"]),
-
                 "unsafe_act": None,
                 "unsafe_condition": None,
                 "near_miss": None,
                 "hi_po": None,
-
                 "hazards": _split_semicolon(row["Critical Risk"]),
                 "exposure": [],
                 "potential_consequences": [],
-
                 "barriers": [],
                 "barrier_status": [],
-
                 "life_saving_rules": [],
-
                 "actual_outcome": _clean(row["Accident Level"]),
-
-                "potential_accident_level": _clean(
-                    row["Potential Accident Level"]
-                ),
-
+                "potential_accident_level": _clean(row["Potential Accident Level"]),
                 # Deliberately unlabelled.
                 "sif_potential": None,
-
                 "annotation_confidence": None,
                 "annotation_version": None,
-
                 # Preserve useful source metadata.
                 "source_gender": _clean(row["Genre"]),
-                "source_actor_type": _clean(
-                    row["Employee or Third Party"]
-                ),
+                "source_actor_type": _clean(row["Employee or Third Party"]),
             }
         )
 

@@ -124,7 +124,9 @@ def main():
                 "exposures",
                 "pathways",
             ]
-        ].head(20).to_string(index=False)
+        ]
+        .head(20)
+        .to_string(index=False)
     )
 
     print("\nSaved:")

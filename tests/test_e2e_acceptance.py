@@ -46,7 +46,11 @@ def test_full_hsse_review_workflow(tmp_path, monkeypatch):
         report_json = report.json()
         assert report_json["report_id"] == report_id
         assert 0.0 <= report_json["sif_precursor_probability"] <= 1.0
-        assert report_json["human_review_required"] if "human_review_required" in report_json else True
+        assert (
+            report_json["human_review_required"]
+            if "human_review_required" in report_json
+            else True
+        )
         assert report_json["governance"]["requires_hsse_review"] is True
         assert report_json["governance"]["autonomous_sif_decision"] is False
 
@@ -85,5 +89,7 @@ def test_full_hsse_review_workflow(tmp_path, monkeypatch):
             "/analytics/locations",
         ]
         for path in analytics_paths:
-            response = client.get(path, params={"limit": 5} if path != "/analytics/overview" else None)
+            response = client.get(
+                path, params={"limit": 5} if path != "/analytics/overview" else None
+            )
             assert response.status_code == 200, path

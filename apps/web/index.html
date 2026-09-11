@@ -1,171 +1,461 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0f172a">
-  <meta name="description" content="RAKSHAK SIF-Insight AI-assisted safety intelligence dashboard">
-  <title>SIF-Insight — RAKSHAK</title>
-  <link rel="icon" href="/favicon.ico">
-  <link rel="stylesheet" href="/dashboard/styles.css">
-</head>
-<body>
-<header class="topbar">
-  <a class="brand" href="/dashboard/" aria-label="RAKSHAK dashboard home">
-    <span class="logo-mark" aria-hidden="true">R</span>
-    <span><strong>RAKSHAK</strong><small>SIF-Insight</small></span>
-  </a>
-  <div class="topbar-right">
-    <span class="version-badge">AI safety intelligence</span>
-    <span class="status" role="status" aria-live="polite"><span class="dot" id="statusDot"></span><span id="statusText">Connecting…</span></span>
-  </div>
-</header>
-
-<main class="shell">
-  <section class="hero">
-    <div class="hero-copy">
-      <p class="eyebrow">AI-ASSISTED SAFETY INTELLIGENCE</p>
-      <h1>Find serious-injury and fatality precursors earlier.</h1>
-      <p>RAKSHAK prioritizes safety narratives for HSSE review using a frozen ML model, evidence signals, Life-Saving Rule candidates and recurring-pattern analytics.</p>
-      <div class="hero-note"><span>Human decision required</span><span>AI output is a triage signal, not a SIF verdict</span></div>
-    </div>
-    <div class="hero-actions">
-      <button class="primary" data-tab="queue">Open review queue</button>
-      <button data-tab="analyze" id="startNewAnalysis">Fresh analysis</button>
-    </div>
-  </section>
-
-  <nav class="tabs" aria-label="Dashboard sections">
-    <button class="tab active" data-tab="overview">Overview</button>
-    <button class="tab" data-tab="queue">Review Queue</button>
-    <button class="tab" data-tab="analytics">Analytics</button>
-    <button class="tab" data-tab="analyze">Analyze</button>
-  </nav>
-
-  <section id="overview" class="panel active">
-    <div class="section-title"><div><p class="eyebrow">SYSTEM SNAPSHOT</p><h2>Current safety-intelligence posture</h2></div><button class="ghost" id="refreshOverview">Refresh</button></div>
-    <div class="cards" id="overviewCards"></div>
-    <div class="grid two">
-      <article class="card"><div class="card-head"><div><h3>Review priority distribution</h3><p class="muted">Frozen reviewer policy v1.4</p></div></div><div id="priorityBars" class="bars"></div></article>
-      <article class="card"><div class="card-head"><div><h3>System posture</h3><p class="muted">Runtime and governance</p></div></div><div class="facts" id="posture"></div></article>
-    </div>
-    <div class="callout"><strong>Interpretation:</strong> model flag rate, probability and priority are triage statistics. They are not ground-truth SIF prevalence.</div>
-  </section>
-
-  <section id="queue" class="panel">
-    <div class="section-title"><div><p class="eyebrow">HSSE REVIEW</p><h2>Prioritized review queue</h2><p class="muted">Highest-priority narratives appear first. Human review remains mandatory.</p></div><button class="ghost" id="refreshQueue">Refresh</button></div>
-    <div class="queue-toolbar queue-tools" role="search" aria-label="Review queue search and filters">
-      <div class="search-control search-wrap">
-        <span class="search-icon" aria-hidden="true">⌕</span>
-        <label class="sr-only" for="queueSearch">Search reports</label>
-        <input id="queueSearch" type="search" placeholder="Search report, site, activity, location…" autocomplete="off">
-        <button class="icon-btn" id="clearQueueSearch" type="button" title="Clear search" aria-label="Clear queue search">×</button>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta
+      name="description"
+      content="RAKSHAK SIF-Insight AI-assisted safety intelligence dashboard"
+    />
+    <title>SIF-Insight — RAKSHAK</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/dashboard/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/dashboard/" aria-label="RAKSHAK dashboard home">
+        <span class="logo-mark" aria-hidden="true">R</span>
+        <span><strong>RAKSHAK</strong><small>SIF-Insight</small></span>
+      </a>
+      <div class="topbar-right">
+        <span class="version-badge">AI safety intelligence</span>
+        <span class="status" role="status" aria-live="polite"
+          ><span class="dot" id="statusDot"></span
+          ><span id="statusText">Connecting…</span></span
+        >
       </div>
-      <label class="filter-control">Priority<select id="priorityFilter" aria-label="Filter by priority"><option value="">All priorities</option><option>P1</option><option>P2</option><option>P3</option><option>P4</option><option>P5</option></select></label>
-      <label class="filter-control">Review status<select id="statusFilter" aria-label="Filter by review status"><option value="">All review status</option><option>UNREVIEWED</option><option>CONFIRMED</option><option>REJECTED</option><option>NEEDS_MORE_INFO</option></select></label>
-      <button class="ghost compact" id="clearQueueFilters" type="button">Clear filters</button>
-    </div>
-    <div class="queue-meta"><span id="queueCount">Loading…</span><span id="queueFilterHint" class="muted">Search and filters are local to the loaded queue.</span></div>
-    <div class="table-wrap"><table><thead><tr><th>Report</th><th>Priority</th><th>Score</th><th>Activity</th><th>Site</th><th>Review</th><th></th></tr></thead><tbody id="queueBody"></tbody></table></div>
-    <div id="queueEmpty" class="empty hidden">No reports match the current filters. <button class="ghost compact" id="clearQueueFiltersInline">Clear filters</button></div>
-    <div id="queueError" class="error-panel hidden"></div>
-  </section>
+    </header>
 
-  <section id="analytics" class="panel">
-    <div class="section-title analytics-title">
-      <div>
-        <p class="eyebrow">PATTERN INTELLIGENCE</p>
-        <h2>Where precursor signals concentrate</h2>
-        <p class="muted">Visual analytics across the current prediction set. Use the patterns to focus HSSE attention; they are not ground-truth SIF prevalence.</p>
-      </div>
-      <div class="inline-actions analytics-actions">
-        <span class="analytics-live" id="analyticsStatus">Loading analytics…</span>
-        <button class="ghost compact" id="refreshAnalytics" type="button">Refresh</button>
-        <button class="ghost compact analytics-compat" id="expandAnalytics" type="button" aria-hidden="true" tabindex="-1">Refresh all</button>
-      </div>
-    </div>
-
-    <div id="analyticsSummary" class="analytics-summary kpi-summary"></div>
-
-    <div class="analytics-grid-main">
-      <article class="card analytics-overview-card">
-        <div class="card-head">
-          <div><p class="eyebrow">RISK TRIAGE MIX</p><h3>Priority distribution</h3><p class="muted">How the current reviewer policy distributes the queue.</p></div>
-          <span class="analytics-note">Model triage · not ground truth</span>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI-ASSISTED SAFETY INTELLIGENCE</p>
+          <h1>Find serious-injury and fatality precursors earlier.</h1>
+          <p>
+            RAKSHAK prioritizes safety narratives for HSSE review using a frozen
+            ML model, evidence signals, Life-Saving Rule candidates and
+            recurring-pattern analytics.
+          </p>
+          <div class="hero-note">
+            <span>Human decision required</span
+            ><span>AI output is a triage signal, not a SIF verdict</span>
+          </div>
         </div>
-        <div id="priorityChart" class="priority-chart" role="img" aria-label="Priority distribution chart"></div>
-      </article>
-
-      <article class="card analytics-overview-card">
-        <div class="card-head">
-          <div><p class="eyebrow">SIGNAL COVERAGE</p><h3>Evidence pathway</h3><p class="muted">How often the narrative contains the evidence needed to form a complete precursor pathway.</p></div>
+        <div class="hero-actions">
+          <button class="primary" data-tab="queue">Open review queue</button>
+          <button data-tab="analyze" id="startNewAnalysis">
+            Fresh analysis
+          </button>
         </div>
-        <div id="signalFunnel" class="signal-funnel" role="img" aria-label="Evidence pathway chart"></div>
-      </article>
-    </div>
+      </section>
 
-    <div class="analytics-section-heading">
-      <div><p class="eyebrow">RECURRING SIGNALS</p><h3>What is repeating?</h3></div>
-      <span class="muted">Bars show relative frequency inside each category family.</span>
-    </div>
+      <nav class="tabs" aria-label="Dashboard sections">
+        <button class="tab active" data-tab="overview">Overview</button>
+        <button class="tab" data-tab="queue">Review Queue</button>
+        <button class="tab" data-tab="analytics">Analytics</button>
+        <button class="tab" data-tab="analyze">Analyze</button>
+      </nav>
 
-    <div class="analytics-chart-grid">
-      <article class="card chart-card">
-        <div class="chart-head"><div><h3>Hazards</h3><p class="muted">Most frequent hazard signals</p></div><span class="chart-badge">count</span></div>
-        <div id="hazardsChart" class="horizontal-chart"></div>
-        <div id="hazardsDetails" class="analytics-details hidden" aria-hidden="true"></div>
-      </article>
-      <article class="card chart-card">
-        <div class="chart-head"><div><h3>Exposure types</h3><p class="muted">How people are exposed to the hazard</p></div><span class="chart-badge">count</span></div>
-        <div id="exposuresChart" class="horizontal-chart"></div>
-        <div id="exposuresDetails" class="analytics-details hidden" aria-hidden="true"></div>
-      </article>
-      <article class="card chart-card chart-wide">
-        <div class="chart-head"><div><h3>Injury pathways</h3><p class="muted">Mechanisms connecting hazard and human exposure</p></div><span class="chart-badge">count</span></div>
-        <div id="pathwaysChart" class="horizontal-chart"></div>
-        <div id="pathwaysDetails" class="analytics-details hidden" aria-hidden="true"></div>
-      </article>
-      <article class="card chart-card">
-        <div class="chart-head"><div><h3>Life-Saving Rules</h3><p class="muted">Candidate mapping from narrative signals</p></div><span class="chart-badge neutral">heuristic</span></div>
-        <div id="lsrChart" class="horizontal-chart"></div>
-        <div id="lsrDetails" class="analytics-details hidden" aria-hidden="true"></div>
-      </article>
-      <article class="card chart-card">
-        <div class="chart-head"><div><h3>Activities</h3><p class="muted">Narrative-derived operational activity signals</p></div><span class="chart-badge neutral">heuristic</span></div>
-        <div id="activitiesChart" class="horizontal-chart"></div>
-        <div id="activitiesDetails" class="analytics-details hidden" aria-hidden="true"></div>
-      </article>
-    </div>
+      <section id="overview" class="panel active">
+        <div class="section-title">
+          <div>
+            <p class="eyebrow">SYSTEM SNAPSHOT</p>
+            <h2>Current safety-intelligence posture</h2>
+          </div>
+          <button class="ghost" id="refreshOverview">Refresh</button>
+        </div>
+        <div class="cards" id="overviewCards"></div>
+        <div class="grid two">
+          <article class="card">
+            <div class="card-head">
+              <div>
+                <h3>Review priority distribution</h3>
+                <p class="muted">Frozen reviewer policy v1.4</p>
+              </div>
+            </div>
+            <div id="priorityBars" class="bars"></div>
+          </article>
+          <article class="card">
+            <div class="card-head">
+              <div>
+                <h3>System posture</h3>
+                <p class="muted">Runtime and governance</p>
+              </div>
+            </div>
+            <div class="facts" id="posture"></div>
+          </article>
+        </div>
+        <div class="callout">
+          <strong>Interpretation:</strong> model flag rate, probability and
+          priority are triage statistics. They are not ground-truth SIF
+          prevalence.
+        </div>
+      </section>
 
-    <div class="analytics-section-heading">
-      <div><p class="eyebrow">OPERATIONAL HOTSPOTS</p><h3>Where should attention go?</h3></div>
-      <span class="muted">Location ranking balances flag rate with record volume.</span>
-    </div>
-    <article class="card hotspot-card">
-      <div class="chart-head"><div><h3>Locations with the highest model flag rate</h3><p class="muted">A high rate on a very small sample should be interpreted cautiously.</p></div><span class="chart-badge">flag rate</span></div>
-      <div id="locationsChart" class="hotspot-chart"></div>
-      <div id="locationsDetails" class="analytics-details hidden" aria-hidden="true"></div>
-    </article>
+      <section id="queue" class="panel">
+        <div class="section-title">
+          <div>
+            <p class="eyebrow">HSSE REVIEW</p>
+            <h2>Prioritized review queue</h2>
+            <p class="muted">
+              Highest-priority narratives appear first. Human review remains
+              mandatory.
+            </p>
+          </div>
+          <button class="ghost" id="refreshQueue">Refresh</button>
+        </div>
+        <div
+          class="queue-toolbar queue-tools"
+          role="search"
+          aria-label="Review queue search and filters"
+        >
+          <div class="search-control search-wrap">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <label class="sr-only" for="queueSearch">Search reports</label>
+            <input
+              id="queueSearch"
+              type="search"
+              placeholder="Search report, site, activity, location…"
+              autocomplete="off"
+            />
+            <button
+              class="icon-btn"
+              id="clearQueueSearch"
+              type="button"
+              title="Clear search"
+              aria-label="Clear queue search"
+            >
+              ×
+            </button>
+          </div>
+          <label class="filter-control"
+            >Priority<select
+              id="priorityFilter"
+              aria-label="Filter by priority"
+            >
+              <option value="">All priorities</option>
+              <option>P1</option>
+              <option>P2</option>
+              <option>P3</option>
+              <option>P4</option>
+              <option>P5</option>
+            </select></label
+          >
+          <label class="filter-control"
+            >Review status<select
+              id="statusFilter"
+              aria-label="Filter by review status"
+            >
+              <option value="">All review status</option>
+              <option>UNREVIEWED</option>
+              <option>CONFIRMED</option>
+              <option>REJECTED</option>
+              <option>NEEDS_MORE_INFO</option>
+            </select></label
+          >
+          <button class="ghost compact" id="clearQueueFilters" type="button">
+            Clear filters
+          </button>
+        </div>
+        <div class="queue-meta">
+          <span id="queueCount">Loading…</span
+          ><span id="queueFilterHint" class="muted"
+            >Search and filters are local to the loaded queue.</span
+          >
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Report</th>
+                <th>Priority</th>
+                <th>Score</th>
+                <th>Activity</th>
+                <th>Site</th>
+                <th>Review</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="queueBody"></tbody>
+          </table>
+        </div>
+        <div id="queueEmpty" class="empty hidden">
+          No reports match the current filters.
+          <button class="ghost compact" id="clearQueueFiltersInline">
+            Clear filters
+          </button>
+        </div>
+        <div id="queueError" class="error-panel hidden"></div>
+      </section>
 
-    <div class="analytics-footnote"><strong>Interpretation:</strong> Model flags and extracted signals support triage and pattern discovery. They do not establish SIF prevalence or replace HSSE review.</div>
-  </section>
+      <section id="analytics" class="panel">
+        <div class="section-title analytics-title">
+          <div>
+            <p class="eyebrow">PATTERN INTELLIGENCE</p>
+            <h2>Where precursor signals concentrate</h2>
+            <p class="muted">
+              Visual analytics across the current prediction set. Use the
+              patterns to focus HSSE attention; they are not ground-truth SIF
+              prevalence.
+            </p>
+          </div>
+          <div class="inline-actions analytics-actions">
+            <span class="analytics-live" id="analyticsStatus"
+              >Loading analytics…</span
+            >
+            <button class="ghost compact" id="refreshAnalytics" type="button">
+              Refresh
+            </button>
+            <button
+              class="ghost compact analytics-compat"
+              id="expandAnalytics"
+              type="button"
+              aria-hidden="true"
+              tabindex="-1"
+            >
+              Refresh all
+            </button>
+          </div>
+        </div>
 
-  <section id="analyze" class="panel">
-    <div class="section-title"><div><p class="eyebrow">ANALYSIS WORKBENCH</p><h2>Analyze report</h2><p class="muted">Run a fresh narrative analysis or inspect an existing queue report.</p></div><button class="ghost" id="startNewAnalysisInline">New analysis</button></div>
-    <div id="analysisContext" class="context-banner" role="status" aria-live="polite"><div><strong id="analysisMode">NEW NARRATIVE</strong><span id="analysisContextText">Previous report data is cleared. Enter a new narrative to begin.</span></div><button class="ghost compact" id="clearAnalysis">Reset</button></div>
-    <div class="card form-card">
-      <div class="form-grid">
-        <label for="reportId">Report ID <span class="optional">Optional</span><input id="reportId" autocomplete="off" placeholder="e.g. industrial_safety_000124"></label>
-      </div>
-      <label for="description">Safety narrative<textarea id="description" rows="10" maxlength="20000" placeholder="Paste an unsafe-act, unsafe-condition, near-miss or incident narrative…"></textarea><span id="descriptionCount" class="field-help">0 / 20,000 characters</span></label>
-      <div class="form-actions"><button class="primary" id="analyzeBtn">Run analysis</button><button class="ghost" id="clearAnalysisSecondary">Clear narrative</button></div>
-      <p class="muted form-footnote">Narrative text is processed locally by the current runtime configuration. No autonomous SIF determination is made.</p>
-    </div>
-    <div id="prediction" class="hidden"></div>
-  </section>
+        <div id="analyticsSummary" class="analytics-summary kpi-summary"></div>
 
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-</main>
-<script src="/dashboard/app.js"></script>
-</body>
+        <div class="analytics-grid-main">
+          <article class="card analytics-overview-card">
+            <div class="card-head">
+              <div>
+                <p class="eyebrow">RISK TRIAGE MIX</p>
+                <h3>Priority distribution</h3>
+                <p class="muted">
+                  How the current reviewer policy distributes the queue.
+                </p>
+              </div>
+              <span class="analytics-note"
+                >Model triage · not ground truth</span
+              >
+            </div>
+            <div
+              id="priorityChart"
+              class="priority-chart"
+              role="img"
+              aria-label="Priority distribution chart"
+            ></div>
+          </article>
+
+          <article class="card analytics-overview-card">
+            <div class="card-head">
+              <div>
+                <p class="eyebrow">SIGNAL COVERAGE</p>
+                <h3>Evidence pathway</h3>
+                <p class="muted">
+                  How often the narrative contains the evidence needed to form a
+                  complete precursor pathway.
+                </p>
+              </div>
+            </div>
+            <div
+              id="signalFunnel"
+              class="signal-funnel"
+              role="img"
+              aria-label="Evidence pathway chart"
+            ></div>
+          </article>
+        </div>
+
+        <div class="analytics-section-heading">
+          <div>
+            <p class="eyebrow">RECURRING SIGNALS</p>
+            <h3>What is repeating?</h3>
+          </div>
+          <span class="muted"
+            >Bars show relative frequency inside each category family.</span
+          >
+        </div>
+
+        <div class="analytics-chart-grid">
+          <article class="card chart-card">
+            <div class="chart-head">
+              <div>
+                <h3>Hazards</h3>
+                <p class="muted">Most frequent hazard signals</p>
+              </div>
+              <span class="chart-badge">count</span>
+            </div>
+            <div id="hazardsChart" class="horizontal-chart"></div>
+            <div
+              id="hazardsDetails"
+              class="analytics-details hidden"
+              aria-hidden="true"
+            ></div>
+          </article>
+          <article class="card chart-card">
+            <div class="chart-head">
+              <div>
+                <h3>Exposure types</h3>
+                <p class="muted">How people are exposed to the hazard</p>
+              </div>
+              <span class="chart-badge">count</span>
+            </div>
+            <div id="exposuresChart" class="horizontal-chart"></div>
+            <div
+              id="exposuresDetails"
+              class="analytics-details hidden"
+              aria-hidden="true"
+            ></div>
+          </article>
+          <article class="card chart-card chart-wide">
+            <div class="chart-head">
+              <div>
+                <h3>Injury pathways</h3>
+                <p class="muted">
+                  Mechanisms connecting hazard and human exposure
+                </p>
+              </div>
+              <span class="chart-badge">count</span>
+            </div>
+            <div id="pathwaysChart" class="horizontal-chart"></div>
+            <div
+              id="pathwaysDetails"
+              class="analytics-details hidden"
+              aria-hidden="true"
+            ></div>
+          </article>
+          <article class="card chart-card">
+            <div class="chart-head">
+              <div>
+                <h3>Life-Saving Rules</h3>
+                <p class="muted">Candidate mapping from narrative signals</p>
+              </div>
+              <span class="chart-badge neutral">heuristic</span>
+            </div>
+            <div id="lsrChart" class="horizontal-chart"></div>
+            <div
+              id="lsrDetails"
+              class="analytics-details hidden"
+              aria-hidden="true"
+            ></div>
+          </article>
+          <article class="card chart-card">
+            <div class="chart-head">
+              <div>
+                <h3>Activities</h3>
+                <p class="muted">
+                  Narrative-derived operational activity signals
+                </p>
+              </div>
+              <span class="chart-badge neutral">heuristic</span>
+            </div>
+            <div id="activitiesChart" class="horizontal-chart"></div>
+            <div
+              id="activitiesDetails"
+              class="analytics-details hidden"
+              aria-hidden="true"
+            ></div>
+          </article>
+        </div>
+
+        <div class="analytics-section-heading">
+          <div>
+            <p class="eyebrow">OPERATIONAL HOTSPOTS</p>
+            <h3>Where should attention go?</h3>
+          </div>
+          <span class="muted"
+            >Location ranking balances flag rate with record volume.</span
+          >
+        </div>
+        <article class="card hotspot-card">
+          <div class="chart-head">
+            <div>
+              <h3>Locations with the highest model flag rate</h3>
+              <p class="muted">
+                A high rate on a very small sample should be interpreted
+                cautiously.
+              </p>
+            </div>
+            <span class="chart-badge">flag rate</span>
+          </div>
+          <div id="locationsChart" class="hotspot-chart"></div>
+          <div
+            id="locationsDetails"
+            class="analytics-details hidden"
+            aria-hidden="true"
+          ></div>
+        </article>
+
+        <div class="analytics-footnote">
+          <strong>Interpretation:</strong> Model flags and extracted signals
+          support triage and pattern discovery. They do not establish SIF
+          prevalence or replace HSSE review.
+        </div>
+      </section>
+
+      <section id="analyze" class="panel">
+        <div class="section-title">
+          <div>
+            <p class="eyebrow">ANALYSIS WORKBENCH</p>
+            <h2>Analyze report</h2>
+            <p class="muted">
+              Run a fresh narrative analysis or inspect an existing queue
+              report.
+            </p>
+          </div>
+          <button class="ghost" id="startNewAnalysisInline">
+            New analysis
+          </button>
+        </div>
+        <div
+          id="analysisContext"
+          class="context-banner"
+          role="status"
+          aria-live="polite"
+        >
+          <div>
+            <strong id="analysisMode">NEW NARRATIVE</strong
+            ><span id="analysisContextText"
+              >Previous report data is cleared. Enter a new narrative to
+              begin.</span
+            >
+          </div>
+          <button class="ghost compact" id="clearAnalysis">Reset</button>
+        </div>
+        <div class="card form-card">
+          <div class="form-grid">
+            <label for="reportId"
+              >Report ID <span class="optional">Optional</span
+              ><input
+                id="reportId"
+                autocomplete="off"
+                placeholder="e.g. industrial_safety_000124"
+            /></label>
+          </div>
+          <label for="description"
+            >Safety narrative<textarea
+              id="description"
+              rows="10"
+              maxlength="20000"
+              placeholder="Paste an unsafe-act, unsafe-condition, near-miss or incident narrative…"
+            ></textarea
+            ><span id="descriptionCount" class="field-help"
+              >0 / 20,000 characters</span
+            ></label
+          >
+          <div class="form-actions">
+            <button class="primary" id="analyzeBtn">Run analysis</button
+            ><button class="ghost" id="clearAnalysisSecondary">
+              Clear narrative
+            </button>
+          </div>
+          <p class="muted form-footnote">
+            Narrative text is processed locally by the current runtime
+            configuration. No autonomous SIF determination is made.
+          </p>
+        </div>
+        <div id="prediction" class="hidden"></div>
+      </section>
+
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </main>
+    <script src="/dashboard/app.js"></script>
+  </body>
 </html>

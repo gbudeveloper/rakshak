@@ -37,9 +37,7 @@ def test_api_feature_builder_matches_frozen_prediction_artifact():
     pool = pd.read_csv(
         root / "data" / "annotations" / "industrial_safety_annotation_pool.csv"
     )
-    pred = pd.read_csv(
-        root / "experiments" / "industrial_safety_predictions_v1.4.csv"
-    )
+    pred = pd.read_csv(root / "experiments" / "industrial_safety_predictions_v1.4.csv")
 
     pool["_report_id"] = pool["report_id"].map(normalize_report_id)
     pred["_report_id"] = pred["report_id"].map(normalize_report_id)
@@ -50,11 +48,12 @@ def test_api_feature_builder_matches_frozen_prediction_artifact():
     assert not missing_pool, f"Missing report IDs in annotation pool: {missing_pool}"
 
     missing_pred = [rid for rid in ids if rid not in set(pred["_report_id"])]
-    assert not missing_pred, f"Missing report IDs in prediction artifact: {missing_pred}"
+    assert (
+        not missing_pred
+    ), f"Missing report IDs in prediction artifact: {missing_pred}"
 
     descriptions = {
-        rid: pool.loc[pool["_report_id"] == rid, "description"].iloc[0]
-        for rid in ids
+        rid: pool.loc[pool["_report_id"] == rid, "description"].iloc[0] for rid in ids
     }
 
     expected = {

@@ -28,15 +28,11 @@ import joblib
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
 MODEL_FILE = (
-    PROJECT_ROOT
-    / "experiments"
-    / "rakshak_final_v1.2"
-    / "rakshak_final_model.joblib"
+    PROJECT_ROOT / "experiments" / "rakshak_final_v1.2" / "rakshak_final_model.joblib"
 )
 
 TRAINING_PIPELINE = SCRIPT_DIR / "train_rakshak_final_pipeline_v1_2.py"
@@ -58,16 +54,12 @@ except Exception as exc:
 try:
     from evidence_engine_v1_5 import analyze
 except Exception as exc:
-    raise RuntimeError(
-        f"Could not import evidence engine v1.5: {exc}"
-    ) from exc
+    raise RuntimeError(f"Could not import evidence engine v1.5: {exc}") from exc
 
 
 def load_package() -> dict[str, Any]:
     if not MODEL_FILE.exists():
-        raise FileNotFoundError(
-            f"Frozen model package not found:\n{MODEL_FILE}"
-        )
+        raise FileNotFoundError(f"Frozen model package not found:\n{MODEL_FILE}")
     return joblib.load(MODEL_FILE)
 
 
@@ -117,9 +109,7 @@ def build_exact_feature_vector(
     embedding = encode_text(text)
 
     if embedding.shape[0] != embedding_dim:
-        raise ValueError(
-            f"Embedding mismatch: {embedding.shape[0]} != {embedding_dim}"
-        )
+        raise ValueError(f"Embedding mismatch: {embedding.shape[0]} != {embedding_dim}")
 
     if pathway_vector.shape[0] != 38:
         raise ValueError(
@@ -127,14 +117,10 @@ def build_exact_feature_vector(
             "features; frozen v1.2 expects 38."
         )
 
-    full = np.concatenate(
-        [embedding, pathway_vector]
-    )
+    full = np.concatenate([embedding, pathway_vector])
 
     if full.shape[0] != 422:
-        raise ValueError(
-            f"Full feature vector is {full.shape[0]}, expected 422."
-        )
+        raise ValueError(f"Full feature vector is {full.shape[0]}, expected 422.")
 
     if keep_mask.size != 422:
         raise ValueError(
@@ -162,47 +148,72 @@ def lsr_candidates(
 
     rules = {
         "Bypassing Safety Controls": [
-            "bypass", "override", "disable", "safety control", "barrier"
+            "bypass",
+            "override",
+            "disable",
+            "safety control",
+            "barrier",
         ],
         "Confined Space": [
-            "confined space", "tank", "vessel", "inside tank", "inside vessel"
+            "confined space",
+            "tank",
+            "vessel",
+            "inside tank",
+            "inside vessel",
         ],
-        "Driving": [
-            "vehicle", "truck", "driver", "driving",
-            "collision", "run over"
-        ],
+        "Driving": ["vehicle", "truck", "driver", "driving", "collision", "run over"],
         "Energy Isolation": [
-            "energized", "electric", "voltage", "isolation",
-            "lockout", "tagout", "de-energized", "stored energy"
+            "energized",
+            "electric",
+            "voltage",
+            "isolation",
+            "lockout",
+            "tagout",
+            "de-energized",
+            "stored energy",
         ],
         "Hot Work": [
-            "welding", "cutting", "grinding", "hot work",
-            "ignition", "flammable", "oxyfuel"
+            "welding",
+            "cutting",
+            "grinding",
+            "hot work",
+            "ignition",
+            "flammable",
+            "oxyfuel",
         ],
         "Line of Fire": [
-            "line of fire", "struck", "projectile",
-            "dropped object", "moving object",
-            "pressure release", "vehicle", "flow"
+            "line of fire",
+            "struck",
+            "projectile",
+            "dropped object",
+            "moving object",
+            "pressure release",
+            "vehicle",
+            "flow",
         ],
         "Safe Mechanical Lifting": [
-            "lifting", "lifted", "suspended load",
-            "crane", "rigging"
+            "lifting",
+            "lifted",
+            "suspended load",
+            "crane",
+            "rigging",
         ],
-        "Work Authorisation": [
-            "permit", "authorization", "authorisation"
-        ],
+        "Work Authorisation": ["permit", "authorization", "authorisation"],
         "Working at Height": [
-            "height", "fall", "scaffold", "ladder",
-            "tower", "platform", "elevated"
+            "height",
+            "fall",
+            "scaffold",
+            "ladder",
+            "tower",
+            "platform",
+            "elevated",
         ],
     }
 
     candidates = []
 
     for rule, terms in rules.items():
-        matched = sorted({
-            term for term in terms if term in t
-        })
+        matched = sorted({term for term in terms if term in t})
 
         score = min(0.60, 0.20 * len(matched))
 
@@ -235,54 +246,42 @@ def lsr_candidates(
             score += 0.40
 
         elif rule == "Hot Work" and (
-            "fire_explosion" in hazards
-            or "oxyfuel" in t
-            or "hot work" in t
+            "fire_explosion" in hazards or "oxyfuel" in t or "hot work" in t
         ):
             score += 0.40
 
         elif rule == "Confined Space" and (
-            "confined space" in t
-            or "tank" in t
-            or "vessel" in t
+            "confined space" in t or "tank" in t or "vessel" in t
         ):
             score += 0.40
 
         elif rule == "Safe Mechanical Lifting" and (
-            "lifting" in t
-            or "crane" in t
-            or "suspended load" in t
+            "lifting" in t or "crane" in t or "suspended load" in t
         ):
             score += 0.40
 
         elif rule == "Bypassing Safety Controls" and (
-            "bypass" in t
-            or "override" in t
-            or "disable" in t
-            or "barrier" in t
+            "bypass" in t or "override" in t or "disable" in t or "barrier" in t
         ):
             score += 0.40
 
         elif rule == "Work Authorisation" and (
-            "permit" in t
-            or "authorization" in t
-            or "authorisation" in t
+            "permit" in t or "authorization" in t or "authorisation" in t
         ):
             score += 0.40
 
         score = min(1.0, score)
 
         if score > 0:
-            candidates.append({
-                "rule": rule,
-                "candidate_score": round(score, 4),
-                "matched_terms": matched[:8],
-            })
+            candidates.append(
+                {
+                    "rule": rule,
+                    "candidate_score": round(score, 4),
+                    "matched_terms": matched[:8],
+                }
+            )
 
-    return sorted(
-        candidates,
-        key=lambda x: (-x["candidate_score"], x["rule"])
-    )[:3]
+    return sorted(candidates, key=lambda x: (-x["candidate_score"], x["rule"]))[:3]
 
 
 def infer(text: str) -> dict[str, Any]:
@@ -308,13 +307,10 @@ def infer(text: str) -> dict[str, Any]:
 
     if expected_features is not None and X.shape[1] != expected_features:
         raise ValueError(
-            f"Model input mismatch: X={X.shape[1]}, "
-            f"model={expected_features}"
+            f"Model input mismatch: X={X.shape[1]}, " f"model={expected_features}"
         )
 
-    probability = float(
-        model.predict_proba(X)[0, 1]
-    )
+    probability = float(model.predict_proba(X)[0, 1])
 
     # Evidence is deliberately computed independently of model scoring.
     evidence = analyze(text)
@@ -322,11 +318,10 @@ def infer(text: str) -> dict[str, Any]:
 
     conflicts = []
 
-    if (
-        probability >= 0.75
-        and evidence.get("sif_context_status")
-        in {"UNKNOWN", "CONTEXT_LIMITED"}
-    ):
+    if probability >= 0.75 and evidence.get("sif_context_status") in {
+        "UNKNOWN",
+        "CONTEXT_LIMITED",
+    }:
         conflicts.append("HIGH_SCORE_MODEL_CONFLICT")
 
     if (
@@ -336,10 +331,7 @@ def infer(text: str) -> dict[str, Any]:
     ):
         conflicts.append("MODEL_MISS_WITH_EXPLICIT_EVIDENCE")
 
-    if (
-        probability < 0.50
-        and evidence.get("complete_pathway") == 1
-    ):
+    if probability < 0.50 and evidence.get("complete_pathway") == 1:
         conflicts.append("LOW_SCORE_MODEL_MISS_WITH_EXPLICIT_PATHWAY")
 
     if conflicts:
@@ -371,9 +363,7 @@ def infer(text: str) -> dict[str, Any]:
             "total_features_before_mask": 422,
             "sif_precursor_probability": round(probability, 6),
             "reference_threshold": 0.50,
-            "interpretation": (
-                "Ranking/triage score; not an autonomous SIF verdict."
-            ),
+            "interpretation": ("Ranking/triage score; not an autonomous SIF verdict."),
         },
         "evidence": evidence,
         "lsr_candidates": lsr,
@@ -408,9 +398,7 @@ def main() -> None:
     elif args.file is not None:
         text = Path(args.file).read_text(encoding="utf-8")
     else:
-        payload = json.loads(
-            Path(args.json_file).read_text(encoding="utf-8")
-        )
+        payload = json.loads(Path(args.json_file).read_text(encoding="utf-8"))
         text = payload["description"]
 
     result = infer(text)
